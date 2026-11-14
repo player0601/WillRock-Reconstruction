@@ -1,5 +1,9 @@
 # Will Rock unofficial modding SDK and porting map
 
+> **Note:** paths starting with `re/` (or `../re/`) point to the private research folder: dumps and
+> decompiles of the original executable used to verify each fact. It is not part of this repository and is not
+> needed to read or build the code.
+
 Will Rock (Saber Interactive, 2003) was never released with source code or a modding SDK. This folder is a
 reconstruction made 23 years later by **static analysis only** (the executables were never run). It contains:
 
