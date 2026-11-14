@@ -7,7 +7,7 @@ data**, so you need your own copy of the game to be able to run it.
 ## What works
 
 - Engine: scenes, models, animation, collision, particles, shaders (fog), sound, HUD and menus.
-- The player, movement, weapons (colt, shotgun, minigun, bazooka, bomb, acid gun) and some of their effects.
+- The player, movement, weapons (colt, shotgun, minigun, bazooka, bomb) and some of their effects.
 - Enemies: rats, skeletons (sword, spear, kamik), satyr, minotaur (and the atrium one), cyclops, gladiators,
   crocodile, birds, amur, centaur and skeleton centaur, tiger and lion, cerberus, gefest and zevs.
 - Doors, buttons, traps, water and lava, destructible objects, spawn domains, teleports, level scripts.
