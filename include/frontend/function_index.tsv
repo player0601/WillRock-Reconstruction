@@ -1,0 +1,596 @@
+obj	feb	v12	how	name
+wr_ui.obj	0x004804B0	0x0048B2A0	vtable-aligned	?Init@wrUI_ANIMTEX@@UAEXPAVobjOBJ@@@Z
+wr_ui.obj	0x00480600	0x0048B3F0	vtable-aligned	?ProcessUpdate@wrUI_ANIMTEX@@UAEHPAX@Z
+wr_ui.obj	0x00480710	0x0048B500	vtable-aligned	?Init@wrUI_BUTTON@@UAEXPAVobjOBJ@@@Z
+wr_ui.obj	0x00480800	0x0048B5F0	vtable-aligned	?ProcessCommand@wrUI_BUTTON@@UAEXXZ
+wr_ui.obj	0x00480830	0x0048B620	vtable-aligned	?GetActionSoundId@wrUI_BUTTON@@MAEHXZ
+wr_ui.obj	0x00480840	0x0048B630	vtable-aligned	?GetColorText@wrUI_BUTTON@@UAEKH@Z
+wr_ui.obj	0x00480880	0x0048B670	vtable-aligned	?OnMouseFocus@wrUI_BUTTON@@UAEHPAVuiELEMENT@@@Z
+wr_ui.obj	0x004808B0	0x0048B6A0	vtable-aligned	?ProcessCommand@wrUI_BUTTON_WEBSITE@@UAEXXZ
+wr_ui.obj	0x00480900	-	-	?OnChildNotify@wrUI_NEWGAME_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui.obj	0x00480A30	0x0048B6F0	exact sim1.00	??0wrUI_SYSTEM@@QAE@XZ
+wr_ui.obj	0x00480A90	0x0048B750	vtable-aligned	?GetFontName@wrUI_SYSTEM@@UAEPADH@Z
+wr_ui.obj	0x00480B50	0x0048B810	vtable-aligned	?RegisterDefaultElements@wrUI_SYSTEM@@UAEHXZ
+wr_ui.obj	0x00480FB0	0x0048BC90	vtable-aligned	?Init@wrUI_SYSTEM@@UAEHXZ
+wr_ui.obj	0x004810B0	0x0048BD90	vtable-aligned	?Term@wrUI_SYSTEM@@UAEXXZ
+wr_ui.obj	0x004810E0	0x0048BDC0	vtable-aligned	?Activate@wrUI_SYSTEM@@UAEHHPAD@Z
+wr_ui.obj	0x004812A0	0x0048BFE0	vtable-aligned	?Deactivate@wrUI_SYSTEM@@UAEXXZ
+wr_ui.obj	0x004813B0	0x0048C100	vtable-aligned	?ShowHudFrame@wrUI_SYSTEM@@UAEXH@Z
+wr_ui.obj	0x004814C0	0x0048C210	vtable-aligned	?StartAppear@wrUI_SYSTEM@@UAEHPAVuiRENDER_INFO@@H@Z
+wr_ui.obj	0x00481550	0x0048C2A0	vtable-aligned	?ProcessAppear@wrUI_SYSTEM@@UAEHPAVuiRENDER_INFO@@H@Z
+wr_ui.obj	0x00481650	0x0048C3A0	vtable-aligned	?FinishAppear@wrUI_SYSTEM@@UAEXPAVuiRENDER_INFO@@H@Z
+wr_ui.obj	0x00481690	0x0048C3E0	vtable-aligned	?Update@wrUI_SYSTEM@@UAEXXZ
+wr_ui.obj	0x00481AD0	0x0048C940	vtable-aligned	?MsgBoxW@wrUI_SYSTEM@@UAEXPBG0HHPAVuiELEMENT@@PAD@Z
+wr_ui.obj	0x00481B30	0x0048C9A0	vtable-aligned	?MsgBoxW_Startup@wrUI_SYSTEM@@UAEXPBG0HHPAVuiELEMENT@@PAD@Z
+wr_ui.obj	0x00481B90	-	-	?PlayAmbientMusic@wrUI_SYSTEM@@UAEXH@Z
+wr_ui.obj	0x00481C00	0x0048CA80	vtable-aligned	?IsSndPlaying@wrUI_SYSTEM@@UAEHH@Z
+wr_ui.obj	0x00481C60	0x0048CAE0	vtable-aligned	?PlaySnd@wrUI_SYSTEM@@UAEHH@Z
+wr_ui.obj	0x00481CF0	0x0048CB70	vtable-aligned	?PlaySnd@wrUI_SYSTEM@@UAEHPAVsncSOUND_DESCR@@@Z
+wr_ui.obj	0x00481D80	0x0048CC00	vtable-aligned	?StopSnd@wrUI_SYSTEM@@UAEXH@Z
+wr_ui.obj	0x00481DC0	0x0048CC40	vtable-aligned	?StopAllSnd@wrUI_SYSTEM@@UAEXXZ
+wr_ui.obj	0x00481DF0	0x0048CC70	vtable-aligned	?QuickSave@wrUI_SYSTEM@@UAEXH@Z
+wr_ui.obj	0x00481EB0	0x0048CD30	vtable-aligned	?QuickLoadLast@wrUI_SYSTEM@@UAEXXZ
+wr_ui.obj	0x00481F40	0x0048CDC0	vtable-aligned	?ShowPlayerPain@wrUI_SYSTEM@@UAEXHK@Z
+wr_ui.obj	0x00481F70	0x0048CDF0	exact sim1.00	?StartLoadingAction@wrUI_SYSTEM@@QAEXHHPBDH@Z
+wr_ui.obj	0x00481FC0	0x0048CE40	vtable-aligned	?ShowLoadingScreen@wrUI_SYSTEM@@UAEXPBD@Z
+wr_ui.obj	0x00482020	0x0048CEB0	vtable-aligned	?HideLoadingScreen@wrUI_SYSTEM@@UAEXH@Z
+wr_ui.obj	0x004820D0	0x0048CF70	vtable-aligned	?GetNextMpLevel@wrUI_SYSTEM@@UAEXPADH@Z
+wr_ui.obj	0x004820F0	0x0048F750	vtable-aligned	??_GwrsfxDESTROY_VASE@@UAEPAXI@Z
+wr_ui.obj	0x00482110	0x0048D120	vtable-aligned	?ProcessMsg@wrUI_WOOFER@@UAEHHPAXPAVmsgADDR@@PAH@Z
+wr_ui.obj	0x004821A0	-	-	?ProcessINIT@wrUI_WOOFER@@IAEXXZ
+wr_ui.obj	0x004822F0	0x0048D360	vtable-aligned	?ProcessMsg@wrUI_SKULL@@UAEHHPAXPAVmsgADDR@@PAH@Z
+wr_ui.obj	0x00482370	0x0048D3E0	callgraph? sim0.67	?_uiGetLevelNameStrId@@YIHPBDPAH1H@Z
+wr_ui.obj	0x00482420	0x0048F380	vtable-aligned	??_GwrUIHUD_MP_WINDOW@@UAEPAXI@Z
+wr_ui.obj	0x00482440	0x0048D5A0	vtable-aligned	?GetActiveFrame@uiUI_SYSTEM@@UAEPAVuiFRAME@@XZ
+wr_ui.obj	0x00482450	0x0048D5B0	vtable-aligned	?ShowFrame@uiUI_SYSTEM@@UAEHPADH@Z
+wr_ui.obj	0x00482460	0x0048D5C0	vtable-aligned	?GetFont@uiUI_SYSTEM@@UAEPAVuiFONT@@PAD@Z
+wr_ui.obj	0x00482470	0x0048D5D0	factory	?Create@wrUI_BUTTON@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482510	0x0048D670	vtable-aligned	?PlaySnd@uiUI_SYSTEM@@UAEHH@Z
+wr_ui.obj	0x00482520	0x0048D680	vtable-aligned	?GetFont@wrUI_BUTTON@@UAEPAVuiFONT@@H@Z
+wr_ui.obj	0x00482540	0x0048D6A0	factory	?Create@wrUI_IG_BUTTON@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x004825E0	0x0048D740	factory	?Create@wrUI_BUTTON_WEBSITE@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482680	0x0048D7E0	factory	?Create@wrUI_TEXT_INPUT@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x004826B0	0x0048D810	vtable-aligned	?GetMaxLength@uiTEXT_INPUT@@UAEHXZ
+wr_ui.obj	0x004826C0	0x0048D820	vtable-aligned	?SetMaxLenght@uiTEXT_INPUT@@UAEXH@Z
+wr_ui.obj	0x00482710	0x0048D870	vtable-aligned	?GetCursor@uiTEXT_INPUT@@UAEPAGXZ
+wr_ui.obj	0x00482720	0x0048D880	vtable-aligned	?GetBlinkPeriod@uiTEXT_INPUT@@UAEMXZ
+wr_ui.obj	0x00482730	0x0048D890	vtable-aligned	?IsValidInputChar@uiTEXT_INPUT@@UAEHG@Z
+wr_ui.obj	0x00482740	0x0048D8A0	vtable-aligned	??_GuiTEXT_INPUT@@UAEPAXI@Z
+wr_ui.obj	0x004827D0	0x0048D930	factory	?Create@wrUI_ANIMTEX@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482860	0x0048D9C0	factory	?Create@wrUI_STR_SCROLL@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x004828F0	0x0048DA50	exact sim1.00	?Resize@?$arrVector@VuiRENDER_ELEM@@@@QAEXH@Z
+wr_ui.obj	0x004829A0	0x0048DB00	vtable-aligned	?GetNumStr@wrUI_STR_SCROLL@@UAEHXZ
+wr_ui.obj	0x004829B0	0x0048DB10	vtable-aligned	?GetStr@wrUI_STR_SCROLL@@UAEPBGH@Z
+wr_ui.obj	0x004829C0	0x0048DB20	vtable-aligned	??_EwrUI_STR_SCROLL@@UAEPAXI@Z
+wr_ui.obj	0x00482A60	0x0048DBC0	factory	?Create@wrUI_NUM_SCROLL@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482AD0	0x0048DC30	vtable-aligned	?SetCurInt@wrUI_NUM_SCROLL@@UAEXH@Z
+wr_ui.obj	0x00482AF0	0x0048DC50	vtable-aligned	?GetCurInt@wrUI_NUM_SCROLL@@UAEHXZ
+wr_ui.obj	0x00482B00	0x0048DC60	vtable-aligned	?GetNumStr@wrUI_NUM_SCROLL@@UAEHXZ
+wr_ui.obj	0x00482B10	0x0048DC70	factory	?Create@wrUI_SWITCH@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482B70	0x0048DCD0	vtable-aligned	?GetElemDefType@uiFRAME_GROUP@@UAEHXZ
+wr_ui.obj	0x00482B80	0x0048DCE0	factory	?Create@wrUI_CROSSHAIR@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482BE0	0x0048DD40	factory	?Create@wrUI_SCROLL_BAR@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482C00	0x0048DD60	factory	?Create@wrUI_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482C30	0x0048DD90	factory	?Create@wrUI_FRAME@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482C60	0x0048DDF0	factory	?Create@wrUI_NEWGAME_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482C90	0x0048DE50	factory	?Create@wrUI_LS_INFO@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482CF0	0x0048DEC0	factory	?Create@wrUI_LOAD_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00482D40	0x0048DF90	vtable-aligned	?OnKeyboard@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui.obj	0x00482E60	0x0048DF10	vtable-aligned	?OnKbdFocus@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@UAEHPAVuiELEMENT@@@Z
+wr_ui.obj	0x00482E80	0x0048E0B0	exact sim1.00	?SetFocusToSelected@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@IAEXXZ
+wr_ui.obj	0x00482ED0	0x0048E100	exact sim1.00	?ProcessScroll@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@IAEXXZ
+wr_ui.obj	0x00482FB0	0x0048E1E0	vtable-aligned	??_EwrUI_SAVE_WINDOW@@UAEPAXI@Z
+wr_ui.obj	0x00482FD0	0x0048DF40	factory	?Create@wrUI_SAVE_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00483020	0x0048E200	factory	?Create@wrUI_VIDEO_INFO@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00483090	0x0048E270	factory	?Create@wrUI_VIDEO_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00483100	0x0048E2E0	vtable-aligned	?OnKeyboard@?$wrUI_WINDOW_SCROLL@UwrUI_VIDEO_RECORD@@VwrUI_VIDEO_INFO@@@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui.obj	0x00483330	0x0048E510	vtable-aligned	?ProcessUpdate@?$wrUI_WINDOW_SCROLL@UwrUI_VIDEO_RECORD@@VwrUI_VIDEO_INFO@@@@UAEHPAX@Z
+wr_ui.obj	0x00483540	0x0048E720	vtable-aligned	?OnScrollNotify@?$wrUI_WINDOW_SCROLL@UwrUI_VIDEO_RECORD@@VwrUI_VIDEO_INFO@@@@UAEXPAVwrUI_SCROLL_BAR@@H@Z
+wr_ui.obj	0x004836F0	0x0048E8D0	exact sim1.00	?SetSelectedRec@?$wrUI_WINDOW_SCROLL@UwrUI_VIDEO_RECORD@@VwrUI_VIDEO_INFO@@@@IAEXHH@Z
+wr_ui.obj	0x00483760	0x0048F1D0	exact sim1.00	?ProcessScroll@?$wrUI_WINDOW_SCROLL@UwrUI_VIDEO_RECORD@@VwrUI_VIDEO_INFO@@@@IAEXXZ
+wr_ui.obj	0x00483840	0x0048E940	exact sim1.00	?UpdateContext@?$wrUI_WINDOW_SCROLL@UwrUI_VIDEO_RECORD@@VwrUI_VIDEO_INFO@@@@QAEXXZ
+wr_ui.obj	0x00483920	0x0048EB70	vtable-aligned	?OnChildNotify@?$wrUI_WINDOW_SCROLL@UwrUI_VIDEO_RECORD@@VwrUI_VIDEO_INFO@@@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui.obj	0x004839D0	0x0048EA20	vtable-aligned	??_EwrUI_VIDEO_WINDOW@@UAEPAXI@Z
+wr_ui.obj	0x00483A20	0x0048EC20	factory	?Create@wrUI_CTRL_INFO@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00483A80	0x0048EC80	vtable-aligned	?GetCursor@wrUI_CTRL_INFO@@UAEPAGXZ
+wr_ui.obj	0x00483A90	0x0048EC90	factory	?Create@wrUI_CTRL_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00483B10	0x0048EE30	vtable-aligned	?ProcessUpdate@?$wrUI_WINDOW_SCROLL@VwrUI_CTRL_RECORD@@VwrUI_CTRL_INFO@@@@UAEHPAX@Z
+wr_ui.obj	0x00483CF0	0x0048F010	vtable-aligned	?OnScrollNotify@?$wrUI_WINDOW_SCROLL@VwrUI_CTRL_RECORD@@VwrUI_CTRL_INFO@@@@UAEXPAVwrUI_SCROLL_BAR@@H@Z
+wr_ui.obj	0x00483E90	0x0048FE30	exact sim1.00	?SetSelectedRec@?$wrUI_WINDOW_SCROLL@VwrUI_CTRL_RECORD@@VwrUI_CTRL_INFO@@@@IAEXHH@Z
+wr_ui.obj	0x00483ED0	0x0048F2B0	exact sim1.00	?UpdateContext@?$wrUI_WINDOW_SCROLL@VwrUI_CTRL_RECORD@@VwrUI_CTRL_INFO@@@@QAEXXZ
+wr_ui.obj	0x00483F90	-	-	??0wrUI_CTRL_SEQ@@QAE@XZ
+wr_ui.obj	0x00483FA0	0x0048F3A0	factory	?Create@wrUI_CADV_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00483FD0	0x0048F3D0	factory	?Create@wrUI_GAME_OPT_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484000	0x0048F400	factory	?Create@wrUI_HSCORE_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484030	0x0048F430	factory	?Create@wrUI_CR_FRAME@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484050	0x0048F450	factory	?Create@wrUI_CR_BACK@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x004840F0	0x0048F4F0	factory	?Create@wrUI_AUDIO_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484120	0x0048F520	factory	?Create@wrUI_IG_RESUME@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x004841C0	0x0048F5C0	factory	?Create@wrUI_IG_FRAME@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484200	0x0048F600	factory	?Create@wrUI_MAIN_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484230	0x0048F630	factory	?Create@wrUI_IG_MAIN_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484260	0x0048F660	factory	?Create@wrUI_MSGBOX_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484280	-	-	?Create@wrUI_WOOFER@@SIPAVentENTITY@@PAVanimINST@@@Z
+wr_ui.obj	0x004842F0	0x0048F6F0	factory	?Create@wrUI_LOADING_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484320	-	-	?Create@wrUI_SKULL@@SIPAVentENTITY@@PAVanimINST@@@Z
+wr_ui.obj	0x00484350	0x0048F770	factory	?Create@wrUI_SPLASH_FRM@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484380	0x0048F7A0	vtable-aligned	?OnKeyboard@wrUI_SPLASH_FRM@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui.obj	0x00484390	0x0048F7B0	vtable-aligned	?GetSceneName@wrUI_SYSTEM@@UAEPADXZ
+wr_ui.obj	0x004843A0	0x0048F7C0	vtable-aligned	?GetNumFonts@wrUI_SYSTEM@@UAEHXZ
+wr_ui.obj	0x004843B0	0x0048F7D0	vtable-aligned	?GetDefaultFont@wrUI_SYSTEM@@UAEPAVuiFONT@@H@Z
+wr_ui.obj	0x004843D0	0x0048F800	vtable-aligned	?ShowMsgW@wrUI_SYSTEM@@UAEXPBGMH@Z
+wr_ui.obj	0x004843F0	0x0048F820	vtable-aligned	?ClearMsg@wrUI_SYSTEM@@UAEXXZ
+wr_ui.obj	0x00484400	0x0048F830	factory	?Create@wrUI_CONN_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484430	0x0048F860	factory	?Create@wrUI_DRVINIT_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484460	0x0048F890	factory	?Create@wrUI_IPADDR_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484490	0x0048F8C0	factory	?Create@wrUI_PSETUP_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x004844C0	0x0048F8F0	factory	?Create@wrUI_WAITBROWSER_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x004844F0	0x0048F920	factory	?Create@wrUI_WAITSERVER_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484520	0x0048F950	factory	?Create@wrUI_JOIN_INFO@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484580	0x0048F9B0	factory	?Create@wrUI_JOIN_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x004845D0	0x0048FA00	vtable-aligned	?ProcessInit@?$wrUI_WINDOW_SCROLL@UwrUI_JOIN_RECORD@@VwrUI_JOIN_INFO@@@@UAEHPAX@Z
+wr_ui.obj	0x004846D0	0x0048FB00	vtable-aligned	?OnKeyboard@?$wrUI_WINDOW_SCROLL@UwrUI_JOIN_RECORD@@VwrUI_JOIN_INFO@@@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui.obj	0x004847F0	0x0048FC20	vtable-aligned	?OnScrollNotify@?$wrUI_WINDOW_SCROLL@UwrUI_JOIN_RECORD@@VwrUI_JOIN_INFO@@@@UAEXPAVwrUI_SCROLL_BAR@@H@Z
+wr_ui.obj	0x00484990	0x0048FDC0	vtable-aligned	?OnKbdFocus@?$wrUI_WINDOW_SCROLL@UwrUI_JOIN_RECORD@@VwrUI_JOIN_INFO@@@@UAEHPAVuiELEMENT@@@Z
+wr_ui.obj	0x004849B0	0x0048FDE0	exact sim1.00	?SetFocusToSelected@?$wrUI_WINDOW_SCROLL@UwrUI_JOIN_RECORD@@VwrUI_JOIN_INFO@@@@IAEXXZ
+wr_ui.obj	0x00484A00	0x0048FE70	exact sim1.00	?ProcessScroll@?$wrUI_WINDOW_SCROLL@UwrUI_JOIN_RECORD@@VwrUI_JOIN_INFO@@@@IAEXXZ
+wr_ui.obj	0x00484AE0	0x0048FF50	factory	?Create@wrUI_WAITJOIN_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484B10	0x0048FF80	factory	?Create@wrUI_SI_INFO_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484B40	0x0048FFB0	factory	?Create@wrUI_SI_PLAYER_INFO@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484BA0	0x00498340	vtable-aligned	??_EwrUI_SI_PLAYER_INFO@@UAEPAXI@Z
+wr_ui.obj	0x00484C20	0x00490010	factory	?Create@wrUI_SI_PLAYER_WND@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00484C70	0x00490060	vtable-aligned	?OnKeyboard@?$wrUI_WINDOW_SCROLL@UwrUI_SI_PLAYER_RECORD@@VwrUI_SI_PLAYER_INFO@@@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui.obj	0x00484D90	0x00490180	vtable-aligned	?ProcessUpdate@?$wrUI_WINDOW_SCROLL@UwrUI_SI_PLAYER_RECORD@@VwrUI_SI_PLAYER_INFO@@@@UAEHPAX@Z
+wr_ui.obj	0x00484F70	0x00490360	vtable-aligned	?OnScrollNotify@?$wrUI_WINDOW_SCROLL@UwrUI_SI_PLAYER_RECORD@@VwrUI_SI_PLAYER_INFO@@@@UAEXPAVwrUI_SCROLL_BAR@@H@Z
+wr_ui.obj	0x00485110	0x00490500	vtable-aligned	?OnChildNotify@?$wrUI_WINDOW_SCROLL@UwrUI_SI_PLAYER_RECORD@@VwrUI_SI_PLAYER_INFO@@@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui.obj	0x00485190	0x00490580	vtable-aligned	?OnKbdFocus@?$wrUI_WINDOW_SCROLL@UwrUI_SI_PLAYER_RECORD@@VwrUI_SI_PLAYER_INFO@@@@UAEHPAVuiELEMENT@@@Z
+wr_ui.obj	0x004851B0	0x004905A0	exact sim1.00	?SetFocusToSelected@?$wrUI_WINDOW_SCROLL@UwrUI_SI_PLAYER_RECORD@@VwrUI_SI_PLAYER_INFO@@@@IAEXXZ
+wr_ui.obj	0x00485200	0x004905F0	exact sim1.00	?ProcessScroll@?$wrUI_WINDOW_SCROLL@UwrUI_SI_PLAYER_RECORD@@VwrUI_SI_PLAYER_INFO@@@@IAEXXZ
+wr_ui.obj	0x004852E0	0x004906D0	exact sim1.00	?UpdateContext@?$wrUI_WINDOW_SCROLL@UwrUI_SI_PLAYER_RECORD@@VwrUI_SI_PLAYER_INFO@@@@QAEXXZ
+wr_ui.obj	0x004853A0	0x00490790	factory	?Create@wrUI_ADVSERV_INFO@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00485410	0x0048DEB0	vtable-aligned	?GetTabstopId@wrUI_LS_INFO@@UAEHXZ
+wr_ui.obj	0x00485420	0x00490800	factory	?Create@wrUI_ADVSERV_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00485490	0x0048ED10	vtable-aligned	?OnKeyboard@?$wrUI_WINDOW_SCROLL@VwrUI_CTRL_RECORD@@VwrUI_CTRL_INFO@@@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui.obj	0x004855B0	0x00490870	vtable-aligned	?ProcessUpdate@?$wrUI_WINDOW_SCROLL@UwrUI_ADVSERV_RECORD@@VwrUI_ADVSERV_INFO@@@@UAEHPAX@Z
+wr_ui.obj	0x00485790	0x00490A50	vtable-aligned	?OnScrollNotify@?$wrUI_WINDOW_SCROLL@UwrUI_ADVSERV_RECORD@@VwrUI_ADVSERV_INFO@@@@UAEXPAVwrUI_SCROLL_BAR@@H@Z
+wr_ui.obj	0x00485940	0x0048F1B0	vtable-aligned	?OnKbdFocus@?$wrUI_WINDOW_SCROLL@UwrUI_ADVSERV_RECORD@@VwrUI_ADVSERV_INFO@@@@UAEHPAVuiELEMENT@@@Z
+wr_ui.obj	0x00485960	0x00490C00	exact sim1.00	?SetFocusToSelected@?$wrUI_WINDOW_SCROLL@VwrUI_CTRL_RECORD@@VwrUI_CTRL_INFO@@@@IAEXXZ
+wr_ui.obj	0x004859B0	0x00490C50	exact sim1.00	?UpdateContext@?$wrUI_WINDOW_SCROLL@UwrUI_ADVSERV_RECORD@@VwrUI_ADVSERV_INFO@@@@QAEXXZ
+wr_ui.obj	0x00485A70	0x00490D90	vtable-aligned	??_E?$wrUI_WINDOW_SCROLL@UwrUI_ADVSERV_RECORD@@VwrUI_ADVSERV_INFO@@@@MAEPAXI@Z
+wr_ui.obj	0x00485AC0	0x0048EA70	vtable-aligned	?ProcessInit@?$wrUI_WINDOW_SCROLL@UwrUI_ADVSERV_RECORD@@VwrUI_ADVSERV_INFO@@@@UAEHPAX@Z
+wr_ui.obj	0x00485BC0	0x00490D10	vtable-aligned	?OnChildNotify@?$wrUI_WINDOW_SCROLL@UwrUI_ADVSERV_RECORD@@VwrUI_ADVSERV_INFO@@@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui.obj	0x00485C40	0x00490DE0	factory	?Create@wrUI_COMICS@@SIPAVuiELEMENT@@XZ
+wr_ui.obj	0x00485C60	0x00490E00	factory	?Create@wrUI_COMICS_FRAME@@SIPAVuiELEMENT@@XZ
+wr_ui_audio.obj	0x00485C80	0x00490E20	vtable-aligned	?StartAppearing@wrUI_AUDIO_WND@@UAEHH@Z
+wr_ui_audio.obj	0x00485CA0	-	-	?OnScrollNotify@wrUI_AUDIO_WND@@UAEXPAVwrUI_SCROLL_BAR@@H@Z
+wr_ui_audio.obj	0x00485D40	0x00490E70	vtable-aligned	?OnChildNotify@wrUI_AUDIO_WND@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_audio.obj	0x00485DB0	-	-	?LoadSettings@wrUI_AUDIO_WND@@IAEXXZ
+wr_ui_audio.obj	0x00485F20	0x00491050	exact sim1.00	?ApplySettings@wrUI_AUDIO_WND@@IAEXXZ
+wr_ui_audio.obj	0x00486030	0x00491160	exact sim1.00	?RestoreSettings@wrUI_AUDIO_WND@@IAEXXZ
+wr_ui_comics.obj	0x00486130	-	-	??0wrUI_COMICS@@QAE@XZ
+wr_ui_comics.obj	0x004861D0	0x00491310	vtable-aligned	??_EwrUI_COMICS@@UAEPAXI@Z
+wr_ui_comics.obj	0x004862B0	0x004913F0	vtable-aligned	?ProcessInit@wrUI_COMICS@@UAEHPAX@Z
+wr_ui_comics.obj	0x00486410	0x00491650	vtable-aligned	?StartAppearing@wrUI_COMICS@@UAEHH@Z
+wr_ui_comics.obj	0x00486440	0x00491690	vtable-aligned	?ProcessUpdate@wrUI_COMICS@@UAEHPAX@Z
+wr_ui_comics.obj	0x004866C0	0x00491910	callgraph? sim0.97	?Stop@wrUI_COMICS@@QAEXH@Z
+wr_ui_comics.obj	0x00486760	0x004919D0	exact sim1.00	?RemoveElement@wrUI_COMICS@@IAEXHM@Z
+wr_ui_comics.obj	0x00486830	0x00491A80	exact sim1.00	?AddText@wrUI_COMICS@@IAEXPADPBGKABVm3dCOLOR@@M@Z
+wr_ui_comics.obj	0x00486A90	0x00491CE0	callgraph? sim1.00	?ProcessNextEvent@wrUI_COMICS@@IAEXXZ
+wr_ui_comics.obj	0x00487140	0x00492390	exact sim1.00	?GetNextSection@wrUI_COMICS@@IAEPAVpsSECT@@XZ
+wr_ui_comics.obj	0x004871F0	-	-	??0wrUI_COMICS_FRAME@@QAE@XZ
+wr_ui_comics.obj	0x00487210	0x00492460	vtable-aligned	?ProcessInit@wrUI_COMICS_FRAME@@UAEHPAX@Z
+wr_ui_comics.obj	0x00487230	0x00492480	exact sim1.00	?Start@wrUI_COMICS_FRAME@@SIHPAVuiELEMENT@@HPBDH@Z
+wr_ui_comics.obj	0x00487410	0x00492660	vtable-aligned	?StartAppearing@wrUI_COMICS_FRAME@@UAEHH@Z
+wr_ui_comics.obj	0x00487470	0x004926C0	vtable-aligned	?ProcessUpdate@wrUI_COMICS_FRAME@@UAEHPAX@Z
+wr_ui_comics.obj	0x00487500	0x00492750	vtable-aligned	?OnKeyboard@wrUI_COMICS_FRAME@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_comics.obj	0x00487540	0x00492790	exact sim1.00	?Reserve@?$arrVector@PAVsncSOUND_DESCR@@@@QAEXH@Z
+wr_ui_comics.obj	0x00487580	0x004927D0	exact sim1.00	?Realloc@?$arrVector@UwrUI_COMICS_ELEM@@@@IAEXH@Z
+wr_ui_comics.obj	0x004875C0	0x00492D50	exact sim1.00	?Realloc@?$arrVector@PAVsncSOUND_DESCR@@@@IAEXH@Z
+wr_ui_comics.obj	0x00487600	0x00492810	exact sim1.00	??0fioFILE@@QAE@XZ
+wr_ui_comics.obj	0x00487630	0x00492840	vtable-aligned	??_GfioFILE_MEM@@UAEPAXI@Z
+wr_ui_credits.obj	0x00487650	-	-	??0wrUI_CR_FRAME@@IAE@XZ
+wr_ui_credits.obj	0x004876B0	0x004928C0	vtable-aligned	??_EwrUI_CR_FRAME@@UAEPAXI@Z
+wr_ui_credits.obj	0x004876E0	0x004928F0	vtable-aligned	?ProcessInit@wrUI_CR_FRAME@@UAEHPAX@Z
+wr_ui_credits.obj	0x004877E0	0x004929F0	callgraph? sim1.00	?ShowNextPage@wrUI_CR_FRAME@@IAEXXZ
+wr_ui_credits.obj	0x00487990	0x00492BA0	vtable-aligned	?StartAppearing@wrUI_CR_FRAME@@UAEHH@Z
+wr_ui_credits.obj	0x004879E0	0x00492BF0	vtable-aligned	?ProcessUpdate@wrUI_CR_FRAME@@UAEHPAX@Z
+wr_ui_credits.obj	0x00487AB0	0x00492CC0	vtable-aligned	?OnKeyboard@wrUI_CR_FRAME@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_credits.obj	0x00487AE0	0x00492CF0	vtable-aligned	?ProcessInit@wrUI_CR_BACK@@UAEHPAX@Z
+wr_ui_credits.obj	0x00487B00	0x00492D10	vtable-aligned	?ProcessCommand@wrUI_CR_BACK@@UAEXXZ
+wr_ui_ctrl.obj	0x00487B40	0x00492D90	exact sim1.00	?_ctrlBuildSeqName@@YIHHPAHPAGH@Z
+wr_ui_ctrl.obj	0x00487C90	0x00492EE0	exact sim1.00	?BuildSeqName@wrUI_CTRL_RECORD@@QAEPBGXZ
+wr_ui_ctrl.obj	0x00487D70	0x00492FC0	callgraph? sim0.77	?SetRecord@wrUI_CTRL_INFO@@QAEXPAVwrUI_CTRL_RECORD@@@Z
+wr_ui_ctrl.obj	0x00487DC0	0x00493010	vtable-aligned	?Init@wrUI_CTRL_INFO@@UAEXPAVobjOBJ@@@Z
+wr_ui_ctrl.obj	0x00487E00	0x00493050	vtable-aligned	?OnMouseButton@wrUI_CTRL_INFO@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_ctrl.obj	0x00487ED0	0x00493120	vtable? sim0.60	?OnKeyboard@wrUI_CTRL_INFO@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_ctrl.obj	0x00487F90	0x004932B0	vtable? sim0.60	?ProcessUpdate@wrUI_CTRL_INFO@@UAEHPAX@Z
+wr_ui_ctrl.obj	0x00488180	0x004934A0	vtable-aligned	?ProcessInit@wrUI_CTRL_WINDOW@@UAEHPAX@Z
+wr_ui_ctrl.obj	0x00488610	-	-	?StartAppearing@wrUI_CTRL_WINDOW@@UAEHH@Z
+wr_ui_ctrl.obj	0x00488740	0x00493A70	vtable-aligned	?OnChildNotify@wrUI_CTRL_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_ctrl.obj	0x00488C40	0x00493F20	exact sim1.00	?StoreCommand@wrUI_CTRL_WINDOW@@QAEHPAVwrUI_CTRL_RECORD@@HPAH@Z
+wr_ui_ctrl.obj	0x00488E40	0x00494120	vtable-aligned	?StartAppearing@wrUI_CADV_WINDOW@@UAEHH@Z
+wr_ui_ctrl.obj	0x00488F00	0x004941F0	vtable-aligned	?OnChildNotify@wrUI_CADV_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_frm.obj	0x00488FA0	0x00494290	vtable-aligned	?Init@wrUI_FRAME@@UAEXPAVobjOBJ@@@Z
+wr_ui_frm.obj	0x00488FC0	0x004942B0	vtable-aligned	?ProcessInit@wrUI_FRAME@@UAEHPAX@Z
+wr_ui_frm.obj	0x00488FF0	0x004942E0	vtable-aligned	?OnKeyboard@wrUI_FRAME@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_frm.obj	0x00489100	0x004943F0	vtable-aligned	?OnAppeared@wrUI_FRAME@@UAEXH@Z
+wr_ui_frm.obj	0x004891E0	-	-	?Action@wrUI_SPLASH_FRM@@AAEXPAUuiINPUT_INFO@@@Z
+wr_ui_frm.obj	0x00489210	0x00494500	vtable-aligned	?StartAppearing@wrUI_SPLASH_FRM@@UAEHH@Z
+wr_ui_frm.obj	0x00489230	0x00494520	vtable-aligned	?ProcessUpdate@wrUI_SPLASH_FRM@@UAEHPAX@Z
+wr_ui_frm.obj	0x00489270	0x00494560	vtable-aligned	?Init@wrUI_SPLASH_FRM@@UAEXPAVobjOBJ@@@Z
+wr_ui_gameopt.obj	0x004892B0	0x004945A0	vtable-aligned	?GetNumStr@wrUI_CROSSHAIR@@UAEHXZ
+wr_ui_gameopt.obj	0x004892C0	0x004945B0	vtable-aligned	?GetStr@wrUI_CROSSHAIR@@UAEPBGH@Z
+wr_ui_gameopt.obj	0x004892F0	0x004945E0	vtable-aligned	?OnScrolled@wrUI_CROSSHAIR@@UAEXXZ
+wr_ui_gameopt.obj	0x00489330	0x00494620	vtable-aligned	?ProcessInit@wrUI_CROSSHAIR@@UAEHPAX@Z
+wr_ui_gameopt.obj	0x004893A0	0x00494690	vtable-aligned	?ProcessInit@wrUI_GAME_OPT_WINDOW@@UAEHPAX@Z
+wr_ui_gameopt.obj	0x00489430	0x00494740	vtable-aligned	?StartAppearing@wrUI_GAME_OPT_WINDOW@@UAEHH@Z
+wr_ui_gameopt.obj	0x00489450	-	-	?OnChildNotify@wrUI_GAME_OPT_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_gameopt.obj	0x00489540	-	-	?LoadSettings@wrUI_GAME_OPT_WINDOW@@IAEXXZ
+wr_ui_hud.obj	0x004896A0	-	-	?wruiHUDRegister@@YIHXZ
+wr_ui_hud.obj	0x00489780	0x00494BB0	vtable-aligned	?SetPosition@wrUIHUD_SLIDER@@UAEXM@Z
+wr_ui_hud.obj	0x00489820	0x00494C50	vtable-aligned	?ProcessInit@wrUIHUD_SLIDER@@UAEHPAX@Z
+wr_ui_hud.obj	0x00489840	0x00494C70	vtable-aligned	?Init@wrUIHUD_ICONBAR@@UAEXPAVobjOBJ@@@Z
+wr_ui_hud.obj	0x00489890	0x00494CC0	vtable-aligned	?StartAppearing@wrUIHUD_ICONBAR@@UAEHH@Z
+wr_ui_hud.obj	0x004898C0	0x00494CF0	exact sim1.00	?UpdateTexture@wrUIHUD_ICONBAR@@IAEXXZ
+wr_ui_hud.obj	0x004899F0	0x00494E20	vtable-aligned	?ProcessUpdate@wrUIHUD_ICONBAR@@UAEHPAX@Z
+wr_ui_hud.obj	0x00489A70	0x00494F00	vtable-aligned	?ProcessUpdate@wrUIHUD_ZOOM@@UAEHPAX@Z
+wr_ui_hud.obj	0x00489AC0	0x00494F50	manual: target of wrUI_SYSTEM::ClearMsg 0x0048F820	?ClearMsg@wrUIHUD_MSG@@QAEXXZ
+wr_ui_hud.obj	0x00489B70	0x00495060	manual: target of wrUI_SYSTEM::ShowMsgW 0x0048F800	?ShowMsgW@wrUIHUD_MSG@@QAEXPBGMH@Z
+wr_ui_hud.obj	0x00489E50	0x004953A0	vtable-aligned	?ProcessInit@wrUIHUD_MSG@@MAEHPAX@Z
+wr_ui_hud.obj	0x0048A010	-	-	?ProcessUpdate@wrUIHUD_MSG@@MAEHPAX@Z
+wr_ui_hud.obj	0x0048A1C0	-	-	?RemoveConMsgLine@wrUIHUD_MSG@@IAEXH@Z
+wr_ui_hud.obj	0x0048A2A0	0x00495840	vtable-aligned	?ProcessInit@wrUIHUD_DBGMSG@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048A330	-	-	?ProcessUpdate@wrUIHUD_DBGMSG@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048A660	0x00495A00	vtable-aligned	?ProcessInit@wrUIHUD_MP_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048A720	0x00495AD0	vtable-aligned	?ProcessUpdate@wrUIHUD_MP_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048A920	0x00495E30	vtable-aligned	?ProcessInit@wrUIHUD_COOP_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048A980	-	-	?ProcessUpdate@wrUIHUD_COOP_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048AC90	0x00496230	vtable-aligned	?ProcessInit@wrUIHUD_TH_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048AD20	-	-	?SetupLine@wrUIHUD_TH_WINDOW@@IAEXHHPBGHHH@Z
+wr_ui_hud.obj	0x0048AFA0	0x004965B0	vtable-aligned	?ProcessUpdate@wrUIHUD_TH_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048B1C0	0x004968C0	vtable-aligned	?ProcessInit@wrUIHUD_SP_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048B250	0x00496950	vtable-aligned	?ProcessUpdate@wrUIHUD_SP_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048B4A0	0x00496BA0	exact sim1.00	?ShowPain@wrUIHUD_UH_WINDOW@@QAEXMHK@Z
+wr_ui_hud.obj	0x0048B4E0	0x00496BE0	vtable-aligned	?ProcessInit@wrUIHUD_UH_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048B510	-	-	?ProcessUpdate@wrUIHUD_UH_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048B590	-	-	??0wrUIHUD_WINDOW@@QAE@XZ
+wr_ui_hud.obj	0x0048B640	0x00497170	vtable-aligned	?ProcessInit@wrUIHUD_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048BA40	0x00497570	vtable-aligned	?ProcessUpdate@wrUIHUD_WINDOW@@UAEHPAX@Z
+wr_ui_hud.obj	0x0048C600	0x00498120	factory	?Create@wrUIHUD_ZOOM@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C660	0x00498180	factory	?Create@wrUIHUD_SLIDER@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C6C0	0x004981E0	factory	?Create@wrUIHUD_MSG@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C730	0x00498250	vtable-aligned	??_EwrUIHUD_MSG@@UAEPAXI@Z
+wr_ui_hud.obj	0x0048C7C0	0x004982E0	factory	?Create@wrUIHUD_DBGMSG@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C820	0x004983C0	factory	?Create@wrUIHUD_ICONBAR@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C890	0x00498460	factory	?Create@wrUIHUD_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C8B0	0x00498480	factory	?Create@wrUIHUD_UH_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C8F0	0x004984D0	factory	?Create@wrUIHUD_MP_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C930	0x00498510	factory	?Create@wrUIHUD_COOP_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C970	0x00498550	factory	?Create@wrUIHUD_TH_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui_hud.obj	0x0048C9B0	0x00498590	factory	?Create@wrUIHUD_SP_WINDOW@@SIPAVuiELEMENT@@XZ
+wr_ui_ig.obj	0x0048CA00	0x004985E0	vtable-aligned	?ProcessCommand@wrUI_IG_RESUME@@UAEXXZ
+wr_ui_ig.obj	0x0048CA30	0x00498610	vtable-aligned	?ProcessInit@wrUI_IG_FRAME@@UAEHPAX@Z
+wr_ui_ig.obj	0x0048CA60	0x00498640	vtable-aligned	?OnKeyboard@wrUI_IG_FRAME@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_ig.obj	0x0048CA90	0x00498670	vtable-aligned	?Init@wrUI_IG_BUTTON@@UAEXPAVobjOBJ@@@Z
+wr_ui_ig.obj	0x0048CAD0	0x004986B0	vtable-aligned	?ProcessCommand@wrUI_IG_BUTTON@@UAEXXZ
+wr_ui_load.obj	0x0048DD30	0x00499A50	vtable-aligned	?Init@wrUI_LS_INFO@@UAEXPAVobjOBJ@@@Z
+wr_ui_load.obj	0x0048DD60	0x00499A80	callgraph? sim1.00	?SetActive@wrUI_LS_INFO@@QAEXH@Z
+wr_ui_load.obj	0x0048DD80	0x00499AA0	vtable-aligned	?OnMouseButton@wrUI_LS_INFO@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_load.obj	0x0048DDF0	0x0049FA40	vtable-aligned	?OnKbdFocus@wrUI_JOIN_INFO@@UAEHPAVuiELEMENT@@@Z
+wr_ui_load.obj	0x0048DE30	0x00499B10	exact sim1.00	?SetRecord@wrUI_LS_INFO@@QAEXPAUwrUI_LS_RECORD@@@Z
+wr_ui_load.obj	0x0048DEC0	0x00499BA0	exact sim1.00	?ClearRecord@wrUI_LS_INFO@@QAEXXZ
+wr_ui_load.obj	0x0048DF50	0x00499C30	callgraph? sim1.00	??1wrUI_LS_WINDOW@@UAE@XZ
+wr_ui_load.obj	0x0048DF60	0x00499C40	vtable-aligned	?ProcessInit@wrUI_LS_WINDOW@@UAEHPAX@Z
+wr_ui_load.obj	0x0048E240	0x00499F20	vtable-aligned	?StartAppearing@wrUI_LS_WINDOW@@UAEHH@Z
+wr_ui_load.obj	0x0048E350	0x0049A030	vtable-aligned	?OnScrollNotify@wrUI_LS_WINDOW@@UAEXPAVwrUI_SCROLL_BAR@@H@Z
+wr_ui_load.obj	0x0048E490	0x0049A170	exact sim1.00	?OnChildNotify@wrUI_LS_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_load.obj	0x0048E700	0x0049A3E0	exact sim1.00	?ChangePicture@wrUI_LS_WINDOW@@IAEXH@Z
+wr_ui_load.obj	0x0048E850	0x0049A530	exact sim1.00	?BuildSaveName@wrUI_LS_WINDOW@@IAEXHPAD@Z
+wr_ui_load.obj	0x0048E8F0	0x0049A5D0	exact sim1.00	?RescanFileNames@wrUI_LS_WINDOW@@IAEXXZ
+wr_ui_load.obj	0x0048EC10	0x0049A8F0	vtable-aligned	?SetDefaultPicture@wrUI_LS_WINDOW@@MAEXXZ
+wr_ui_load.obj	0x0048EC20	0x0049A900	vtable-aligned	?ProcessInit@wrUI_SAVE_WINDOW@@UAEHPAX@Z
+wr_ui_load.obj	0x0048EE80	0x0049AB60	vtable-aligned	?StartAppearing@wrUI_SAVE_WINDOW@@UAEHH@Z
+wr_ui_load.obj	0x0048EFA0	0x0049AC80	vtable-aligned	?ProcessUpdate@wrUI_SAVE_WINDOW@@UAEHPAX@Z
+wr_ui_load.obj	0x0048F0D0	0x0049ADB0	vtable-aligned	?OnChildNotify@wrUI_SAVE_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_load.obj	0x0048F330	0x0049B090	vtable-aligned	?FindTabstop@wrUI_SAVE_WINDOW@@UAEXPAUuiTABSTOP_SEARCH@@@Z
+wr_ui_load.obj	0x0048F360	0x0049B0C0	vtable-aligned	?SetDefaultPicture@wrUI_SAVE_WINDOW@@MAEXXZ
+wr_ui_load.obj	0x0048F390	0x0049B0F0	callgraph? sim0.87	?SaveGame@wrUI_SAVE_WINDOW@@IAEXXZ
+wr_ui_load.obj	0x0048F640	-	-	?QuickSave@wrUI_SAVE_WINDOW@@QAEXH@Z
+wr_ui_load.obj	0x0048F7E0	0x0049B510	vtable-aligned	?ProcessUpdate@wrUI_LOAD_WINDOW@@UAEHPAX@Z
+wr_ui_load.obj	0x0048F9E0	0x0049B910	vtable-aligned	?OnChildNotify@wrUI_LOAD_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_load.obj	0x0048FB80	0x0049BAB0	exact sim1.00	?LoadLastSave@wrUI_LOAD_WINDOW@@QAEHXZ
+wr_ui_load.obj	0x0048FC60	0x0049BB90	exact sim1.00	?EnsureSelectedVisible@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@IAEXXZ
+wr_ui_load.obj	0x0048FCA0	0x0049BBD0	exact sim1.00	?UpdateContext@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@QAEXXZ
+wr_ui_load.obj	0x0048FEA0	0x0049BDD0	callgraph? sim1.00	?ProcessUpdate@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@UAEHPAX@Z
+wr_ui_load.obj	0x00490080	0x0049BFB0	exact sim1.00	?OnChildNotify@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_load.obj	0x00490100	0x0049C030	exact sim1.00	?IsSelectionVisible@?$wrUI_WINDOW_SCROLL@UwrUI_LS_RECORD@@VwrUI_LS_INFO@@@@IAEHXZ
+wr_ui_sinfo.obj	0x00492260	0x0049E980	vtable-aligned	?ProcessInit@wrUI_SI_INFO_WND@@UAEHPAX@Z
+wr_ui_sinfo.obj	0x004922A0	0x0049E9C0	vtable-aligned	?StartAppearing@wrUI_SI_INFO_WND@@UAEHH@Z
+wr_ui_sinfo.obj	0x004922F0	0x0049EA10	vtable-aligned	?Init@wrUI_SI_PLAYER_INFO@@UAEXPAVobjOBJ@@@Z
+wr_ui_sinfo.obj	0x00492340	0x0049EA60	exact sim1.00	?SetRecord@wrUI_SI_PLAYER_INFO@@QAEXPAUwrUI_SI_PLAYER_RECORD@@@Z
+wr_ui_sinfo.obj	0x00492410	0x0049EB30	vtable-aligned	?ProcessInit@wrUI_SI_PLAYER_WND@@UAEHPAX@Z
+wr_ui_textinp.obj	0x00492660	0x0049F940	vtable-aligned	?Init@wrUI_TEXT_INPUT@@UAEXPAVobjOBJ@@@Z
+wr_ui_textinp.obj	0x00492680	0x0049F960	vtable-aligned	?OnMouseButton@wrUI_TEXT_INPUT@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_textinp.obj	0x004926A0	0x0049F980	vtable-aligned	?OnMouseFocus@wrUI_SCROLL_BAR@@UAEHPAVuiELEMENT@@@Z
+wr_ui_textinp.obj	0x004926C0	-	-	?OnKbdFocus@wrUI_TEXT_INPUT@@UAEHPAVuiELEMENT@@@Z
+wr_ui_txtscrl.obj	0x00492780	0x0049FAA0	vtable-aligned	?Init@wrUI_TEXT_SCROLL@@UAEXPAVobjOBJ@@@Z
+wr_ui_txtscrl.obj	0x004927F0	0x0049FB10	vtable-aligned	?Enable@wrUI_TEXT_SCROLL@@UAEXH@Z
+wr_ui_txtscrl.obj	0x00492870	0x0049FB90	exact sim1.00	?UpdateArrows@wrUI_TEXT_SCROLL@@IAEXXZ
+wr_ui_txtscrl.obj	0x00492A10	0x0049FD30	vtable-aligned	?StartAppearing@wrUI_TEXT_SCROLL@@UAEHH@Z
+wr_ui_txtscrl.obj	0x00492A30	0x0049FD50	vtable-aligned	?OnMouseFocus@wrUI_TEXT_SCROLL@@UAEHPAVuiELEMENT@@@Z
+wr_ui_txtscrl.obj	0x00492A60	0x0049FD80	vtable-aligned	?OnKbdFocus@wrUI_TEXT_SCROLL@@UAEHPAVuiELEMENT@@@Z
+wr_ui_txtscrl.obj	0x00492B50	0x0049FE70	vtable-aligned	?DoScroll@wrUI_TEXT_SCROLL@@UAEXH@Z
+wr_ui_txtscrl.obj	0x00492C10	0x0049FF30	vtable-aligned	?OnMouseMove@wrUI_TEXT_SCROLL@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_txtscrl.obj	0x00492CE0	0x004A0000	vtable-aligned	?OnMouseButton@wrUI_TEXT_SCROLL@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_txtscrl.obj	0x00492E40	0x004A0160	vtable-aligned	?Init@wrUI_SWITCH@@UAEXPAVobjOBJ@@@Z
+wr_ui_txtscrl.obj	0x00492F30	0x004A0250	vtable-aligned	?GetStr@wrUI_SWITCH@@UAEPBGH@Z
+wr_ui_txtscrl.obj	0x00492F60	0x004A0280	exact sim1.00	?PreInit@wrUI_STRINGS@@QAEXHH@Z
+wr_ui_txtscrl.obj	0x00492FC0	0x004A02E0	exact sim1.00	?Clear@wrUI_STRINGS@@QAEXXZ
+wr_ui_txtscrl.obj	0x00493030	0x004A0350	exact sim1.00	?Compact@wrUI_STRINGS@@QAEXXZ
+wr_ui_txtscrl.obj	0x00493080	0x004A03A0	exact sim1.00	?AddString@wrUI_STRINGS@@QAEXHK@Z
+wr_ui_txtscrl.obj	0x00493110	0x004A0430	exact sim1.00	?AddString@wrUI_STRINGS@@QAEXPBDK@Z
+wr_ui_txtscrl.obj	0x004931B0	0x004A04D0	exact sim1.00	?AddString@wrUI_STRINGS@@QAEXPBGK@Z
+wr_ui_txtscrl.obj	0x004932A0	0x004A05C0	exact sim1.00	?GetStr@wrUI_STRINGS@@QAEPBGH@Z
+wr_ui_txtscrl.obj	0x004932D0	0x004A05F0	vtable-aligned	?GetStr@wrUI_NUM_SCROLL@@UAEPBGH@Z
+wr_ui_txtscrl.obj	0x00493300	0x004A0620	exact sim1.00	?Realloc@?$arrVector@URecord@wrUI_STRINGS@@@@IAEXH@Z
+wr_ui_video.obj	0x00493340	0x004A0660	exact sim1.00	??0wrUI_VIDEO_RECORD@@QAE@XZ
+wr_ui_video.obj	0x00493360	0x004A0680	exact sim1.00	?SetRecord@wrUI_VIDEO_INFO@@QAEXPAUwrUI_VIDEO_RECORD@@@Z
+wr_ui_video.obj	0x004933E0	0x004A0700	vtable-aligned	?GetNumStr@wrUI_VIDEO_INFO@@UAEHXZ
+wr_ui_video.obj	0x004933F0	0x004A0710	vtable-aligned	?GetStr@wrUI_VIDEO_INFO@@UAEPBGH@Z
+wr_ui_video.obj	0x00493450	0x0049D3E0	vtable-aligned	?OnScrolled@wrUI_VIDEO_INFO@@UAEXXZ
+wr_ui_video.obj	0x00493460	0x004A07A0	vtable-aligned	?ProcessInit@wrUI_VIDEO_WINDOW@@UAEHPAX@Z
+wr_ui_video.obj	0x004937F0	0x004A0B30	vtable-aligned	?StartAppearing@wrUI_VIDEO_WINDOW@@UAEHH@Z
+wr_ui_video.obj	0x00493970	0x004A0CB0	vtable-aligned	?OnChildNotify@wrUI_VIDEO_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_video.obj	0x00493C60	0x004A0FA0	exact sim1.00	?LoadSettings@wrUI_VIDEO_WINDOW@@IAEXXZ
+wr_ui_video.obj	0x00494210	0x004A1550	callgraph? sim1.00	?ApplySettings@wrUI_VIDEO_WINDOW@@IAEXXZ
+wr_ui_video.obj	0x00494580	0x004A18C0	exact sim1.00	?InitAdaptersList@wrUI_VIDEO_WINDOW@@IAEXXZ
+wr_ui_video.obj	0x00494690	0x004A19D0	exact sim1.00	?UpdateBppList@wrUI_VIDEO_WINDOW@@IAEXXZ
+wr_ui_video.obj	0x004947E0	0x004A1B20	exact sim1.00	?InitResolutionsList@wrUI_VIDEO_WINDOW@@IAEXXZ
+wr_ui_video.obj	0x00494890	0x004A1BD0	exact sim1.00	?UpdateResolutionsList@wrUI_VIDEO_WINDOW@@IAEXXZ
+wr_ui_video.obj	0x00494B80	0x004A1EC0	callgraph? sim1.00	?InitOnOff@wrUI_VIDEO_WINDOW@@IAEXH@Z
+wr_ui_video.obj	0x00494BE0	0x004A1F20	callgraph? sim1.00	?InitLowHigh@wrUI_VIDEO_WINDOW@@IAEXH@Z
+wr_ui_wnd.obj	0x00494C40	0x004A1F80	vtable-aligned	?Init@wrUI_WINDOW@@UAEXPAVobjOBJ@@@Z
+wr_ui_wnd.obj	0x00494CF0	0x004A2030	exact sim1.00	??0wrUI_SCROLL_BAR@@IAE@XZ
+wr_ui_wnd.obj	0x00494D90	0x004A20D0	vtable-aligned	?Init@wrUI_SCROLL_BAR@@UAEXPAVobjOBJ@@@Z
+wr_ui_wnd.obj	0x00495010	0x004A2350	exact sim1.00	?GetPos@wrUI_SCROLL_BAR@@QAEHXZ
+wr_ui_wnd.obj	0x00495050	0x004A2390	vtable-aligned	?DoScroll@wrUI_SCROLL_BAR@@MAEXH@Z
+wr_ui_wnd.obj	0x00495180	0x004A24C0	vtable-aligned	?OnMouseMove@wrUI_SCROLL_BAR@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_wnd.obj	0x004952C0	0x004A2600	vtable-aligned	?OnMouseButton@wrUI_SCROLL_BAR@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_wnd.obj	0x00495300	0x004A2640	vtable-aligned	?OnKbdFocus@wrUI_SCROLL_BAR@@UAEHPAVuiELEMENT@@@Z
+wr_ui_wnd.obj	0x00495380	0x004A26C0	exact sim1.00	?SetWindow@wrUI_SCROLL_BAR@@QAEXPAVwrUI_WINDOW@@HH@Z
+wr_ui_wnd.obj	0x004953E0	0x004A2720	exact sim1.00	?SetPos@wrUI_SCROLL_BAR@@QAEXH@Z
+wr_ui_wnd.obj	0x00495580	0x004A28C0	vtable-aligned	?NotifyWindow@wrUI_SCROLL_BAR@@UAEXH@Z
+wr_ui_wnd.obj	0x004955B0	0x004A28F0	exact sim1.00	??0wrUI_MSGBOX_WINDOW@@QAE@XZ
+wr_ui_wnd.obj	0x004955D0	0x004A2910	exact sim1.00	?GetButton@wrUI_MSGBOX_WINDOW@@IAEPAVuiBUTTON@@HH@Z
+wr_ui_wnd.obj	0x00495610	0x004A2950	vtable-aligned	?OnKeyboard@wrUI_MSGBOX_WINDOW@@UAEHPAUuiINPUT_INFO@@@Z
+wr_ui_wnd.obj	0x00495670	0x004A29B0	vtable-aligned	?OnChildNotify@wrUI_MSGBOX_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_wnd.obj	0x004957B0	0x004A2AF0	exact sim1.00	?SetButtonsMask@wrUI_MSGBOX_WINDOW@@IAEXH@Z
+wr_ui_wnd.obj	0x00495820	0x004A2B60	vtable-aligned	?StartAppearing@wrUI_MSGBOX_WINDOW@@UAEHH@Z
+wr_ui_wnd.obj	0x00495A80	0x004A2DC0	exact sim1.00	?Initialize@wrUI_MSGBOX_WINDOW@@QAEXPAVuiELEMENT@@HHPAD@Z
+wr_ui_wnd.obj	0x00495AD0	0x004A2E10	callgraph? sim1.00	?SetCaptionText@wrUI_MSGBOX_WINDOW@@QAEXPBG@Z
+wr_ui_wnd.obj	0x00495AF0	0x004A2E30	exact sim1.00	?SetMessageText@wrUI_MSGBOX_WINDOW@@QAEXPBG@Z
+wr_ui_wnd.obj	0x00495CF0	-	-	?StartAppearing@wrUI_MAIN_WINDOW@@UAEHH@Z
+wr_ui_wnd.obj	0x00495D20	0x004A30B0	vtable-aligned	?OnChildNotify@wrUI_MAIN_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_wnd.obj	0x00495DF0	0x004A3180	vtable-aligned	?StartAppearing@wrUI_IG_MAIN_WINDOW@@UAEHH@Z
+wr_ui_wnd.obj	0x00495E90	0x004A3290	vtable-aligned	?OnChildNotify@wrUI_IG_MAIN_WINDOW@@UAEXPAUuiCHILD_NOTIFY@@@Z
+wr_ui_wnd.obj	0x00495F90	0x004A3390	exact sim1.00	?SetParams@wrUI_LOADING_WND@@QAEXHHPBD@Z
+wr_ui_wnd.obj	0x00495FD0	0x004A33D0	exact sim1.00	?UpdateLevelName@wrUI_LOADING_WND@@QAEXPBD@Z
+wr_ui_wnd.obj	0x00496040	0x004A3440	callgraph? sim1.00	?ShowFrame@wrUI_LOADING_WND@@QAEXXZ
+wr_ui_wnd.obj	0x00496060	0x004A3460	exact sim1.00	?IsActive@wrUI_LOADING_WND@@QAEHXZ
+wr_ui_wnd.obj	0x00496090	-	-	?GetLevelName@wrUI_LOADING_WND@@QAEPBDXZ
+wr_ui_wnd.obj	0x004960A0	0x004A34A0	vtable-aligned	?StartAppearing@wrUI_LOADING_WND@@UAEHH@Z
+wr_ui_wnd.obj	0x00496100	0x004A3500	vtable-aligned	?ProcessUpdate@wrUI_LOADING_WND@@UAEHPAX@Z
+wr_ui_wnd.obj	0x004962D0	0x004A36D0	exact sim1.00	?Resize@?$arrVector@G@@QAEXH@Z
+wr_ui_wnd.obj	0x00496310	0x004A3710	exact sim1.00	?Insert@?$arrVector@G@@QAEXHABGH@Z
+wr_ui_wnd.obj	0x004963B0	0x004A37B0	exact sim1.00	?Realloc@?$arrVector@G@@IAEXH@Z
+wr_curs.obj	0x00498020	0x004A5460	exact sim1.00	?Init@wrCURSORS@@SIHXZ
+wr_curs.obj	0x00498170	0x004A55B0	callgraph? sim1.00	?Term@wrCURSORS@@SIXXZ
+wr_curs.obj	0x00498190	0x004A55D0	callgraph? sim1.00	?GetCursorTexture@wrCURSORS@@QAEPAVtxmTEXTURE@@HH@Z
+wr_curs.obj	0x004981B0	0x004A55F0	exact sim1.00	?SetCursor@wrCURSORS@@QAEXH@Z
+wr_curs.obj	0x004981E0	0x004A5620	exact sim1.00	?SetCursorType@wrCURSORS@@QAEXH@Z
+wr_game_opt.obj	0x00498790	0x004A5BD0	manual: alloc 0x11C + msgSYSTEM::InsertAddr	?wrGOInit@@YIHXZ
+wr_game_opt.obj	0x00498850	0x004A5CC0	manual	?wrGOTerm@@YIXXZ
+wr_game_opt.obj	0x00498870	0x004A5FC0	vtable-aligned	?ProcessMsg@wrGO_SYSTEM@@UAEHHPAXPAVmsgADDR@@PAH@Z
+wr_game_opt.obj	0x00498B50	0x004A6440	manual: build_differences.md 1	?ProcessFRAME@wrGO_SYSTEM@@QAEXXZ
+wr_game_opt.obj	0x00499060	0x004A6B80	manual: msg 0x3F4 case	?ProcessINIT_LEVEL@wrGO_SYSTEM@@QAEXXZ
+wr_game_opt.obj	0x00499180	0x004A6CE0	manual: msg 0x3EF case, ServerMode string	?ProcessINIT_GAME@wrGO_SYSTEM@@QAEXXZ
+wr_game_opt.obj	0x004994A0	0x004A7010	manual: msg 0x40E case	?ProcessMP_NOTIFY@wrGO_SYSTEM@@QAEXPAUgsEVENT@@@Z
+wr_game_opt.obj	0x00499650	0x004A72E0	vtable-aligned	?ProcessMP_GET_SYNC_DATA@wrGO_SYSTEM@@UAEXPAX@Z
+wr_game_opt.obj	0x004996C0	0x004A73B0	vtable-aligned	?ProcessMP_WRITE_SYNC_DATA@wrGO_SYSTEM@@UAEXPAUgsMSG_MP_SAVELOAD@@@Z
+wr_game_opt.obj	0x00499740	0x004A7460	manual: vtable slot +0x3C	?ProcessMP_READ_SYNC_DATA@wrGO_SYSTEM@@UAEXPAUgsMSG_MP_SAVELOAD@@@Z
+wr_game_opt.obj	0x00499840	0x004A75C0	manual: msg 0x3F1 case ?	?GenerateMP_Treasure@wrGO_SYSTEM@@QAEXHPAUm3dV@@@Z
+wr_game_opt.obj	0x00499910	0x004A7690	manual ?	?SelectMP_TreasureDefaultPos@wrGO_SYSTEM@@QAEXPAUm3dV@@@Z
+wr_game_opt.obj	0x00499B60	0x004A7990	manual ? (team count loop, called by player)	?SelectDefaultTeam@wrGO_SYSTEM@@QAEHPAVplrPLAYER_COMMON@@@Z
+wr_game_opt.obj	0x00499BE0	-	-	?GetNMP_TreasureTotal@wrGO_SYSTEM@@QAEHXZ
+wr_game_opt.obj	0x00499BF0	-	-	?GetNMP_TreasureVictory@wrGO_SYSTEM@@QAEHXZ
+wr_game_opt.obj	0x00499C20	0x004A7B00	manual: switch on difficulty +0xAC	?GetPlrDmgScale@wrGO_SYSTEM@@QAEMXZ
+wr_game_opt.obj	0x00499C50	0x004802A0	vtable-aligned	?ShadeFace@pteEMAP@@MAEHPAVobjOBJ@@HPAUpteSDR_INFO@@PAUptePOLY_DATA@@@Z
+gs:ui_main.obj	0x00503540	0x005188F0	exact sim1.00	?IsBelongBox@uiBOX@@QAEHPAU1@@Z
+gs:ui_main.obj	0x005035D0	0x00518980	exact sim1.00	?AddVertex@uiBOX@@QAEXPAUm2dV@@@Z
+gs:ui_main.obj	0x00503630	0x005189E0	exact sim1.00	??0uiELEMENT@@IAE@XZ
+gs:ui_main.obj	0x00503680	0x00518A30	vtable-aligned	?Init@uiELEMENT@@UAEXPAVobjOBJ@@@Z
+gs:ui_main.obj	0x005038A0	0x00518C50	exact sim1.00	?GetPathToChild@uiELEMENT@@QAEPAV1@PAV1@@Z
+gs:ui_main.obj	0x005038C0	0x00518C70	exact sim1.00	?FindChildElement@uiELEMENT@@QAEPAV1@PAD@Z
+gs:ui_main.obj	0x00503940	0x00518CF0	vtable-aligned	?Enable@uiELEMENT@@UAEXH@Z
+gs:ui_main.obj	0x00503960	0x00518D10	vtable-aligned	?CanAcceptMouseFocus@uiELEMENT@@UAEHXZ
+gs:ui_main.obj	0x00503980	0x00518D30	vtable-aligned	?CanAcceptKbdFocus@uiELEMENT@@UAEHXZ
+gs:ui_main.obj	0x005039A0	0x00518D50	vtable-aligned	?CanBeTabstop@uiELEMENT@@UAEHXZ
+gs:ui_main.obj	0x005039C0	0x00518D70	vtable-aligned	?GetTabstopId@uiELEMENT@@UAEHXZ
+gs:ui_main.obj	0x005039F0	0x00518DA0	vtable-aligned	?FindTabstop@uiELEMENT@@UAEXPAUuiTABSTOP_SEARCH@@@Z
+gs:ui_main.obj	0x00503A50	0x00518E00	vtable-aligned	?ProcessRender@uiELEMENT@@UAEHPAX@Z
+gs:ui_main.obj	0x00503A60	0x00518E10	vtable-aligned	?StartAppearing@uiELEMENT@@UAEHH@Z
+gs:ui_main.obj	0x00503AF0	0x00518EA0	vtable-aligned	?FinishAppearing@uiELEMENT@@UAEXXZ
+gs:ui_main.obj	0x00503B50	0x00518F00	vtable-aligned	?ProcessAppearing@uiELEMENT@@UAEHXZ
+gs:ui_main.obj	0x00503BE0	0x00518F90	vtable-aligned	?OnMouseMove@uiELEMENT@@UAEHPAUuiINPUT_INFO@@@Z
+gs:ui_main.obj	0x00503CD0	0x00519090	vtable-aligned	?OnChildNotify@uiELEMENT@@UAEXPAUuiCHILD_NOTIFY@@@Z
+gs:ui_main.obj	0x00503CE0	0x005190A0	callgraph? sim1.00	?ProcessAction@uiELEMENT@@QAEHHPAX@Z
+gs:ui_main.obj	0x00503F50	0x00519310	vtable-aligned	?ProcessUpdate@uiFRAME@@UAEHPAX@Z
+gs:ui_main.obj	0x00503F60	0x00519320	vtable-aligned	?ProcessRender@uiFRAME@@UAEHPAX@Z
+gs:ui_main.obj	0x00503F80	0x00519340	vtable-aligned	?OnPreInput@uiFRAME@@UAEHPAUuiINPUT_INFO@@@Z
+gs:ui_main.obj	0x00503FA0	0x00519360	vtable-aligned	?OnAppeared@uiFRAME@@UAEXH@Z
+gs:ui_main.obj	0x00504060	0x00519420	exact sim1.00	?Init@uiFRAME_GROUP@@UAEXPAVobjOBJ@@@Z
+gs:ui_main.obj	0x00504090	0x00519450	callgraph? sim1.00	?GetActiveFrame@uiFRAME_GROUP@@QAEPAVuiFRAME@@XZ
+gs:ui_main.obj	0x005040A0	0x00519460	callgraph? sim1.00	?ShowFrame@uiFRAME_GROUP@@QAEHPADH@Z
+gs:ui_main.obj	0x00504170	0x00519530	exact sim1.00	?ShowFrame@uiFRAME_GROUP@@IAEHPAVuiFRAME@@H@Z
+gs:ui_main.obj	0x00504230	-	-	?ProcessUpdate@uiFRAME_GROUP@@UAEHPAX@Z
+gs:ui_main.obj	0x00504320	0x005196E0	exact sim1.00	?Init@uiCURSOR@@QAEXPAVobjOBJ@@@Z
+gs:ui_main.obj	0x00504430	0x005197F0	exact sim1.00	?MoveTo@uiCURSOR@@QAEXPAUm2dV@@@Z
+gs:ui_main.obj	0x00504550	0x00519910	exact sim1.00	?Show@uiCURSOR@@QAEXH@Z
+gs:ui_main.obj	0x00504570	0x00519930	exact sim1.00	??0uiUI_SYSTEM@@QAE@XZ
+gs:ui_main.obj	0x00504640	0x00519A00	exact sim1.00	??1uiUI_SYSTEM@@QAE@XZ
+gs:ui_main.obj	0x00504670	0x00519A30	exact sim1.00	?RegisterDefaultElements@uiUI_SYSTEM@@UAEHXZ
+gs:ui_main.obj	0x005048E0	0x00519CA0	vtable-aligned	?GetTypeName@uiUI_SYSTEM@@UAEPADH@Z
+gs:ui_main.obj	0x00504910	0x00519CD0	vtable-aligned	?GetTextFlags@uiUI_SYSTEM@@UAEHPAD@Z
+gs:ui_main.obj	0x005049D0	0x00519D90	callgraph? sim0.93	?_Resize@uiUI_SYSTEM@@QAEXXZ
+gs:ui_main.obj	0x00504AA0	0x00519E60	callgraph? sim1.00	?Resize@uiUI_SYSTEM@@QAEXHH@Z
+gs:ui_main.obj	0x00504AC0	0x00519E80	callgraph? sim0.87	?Init@uiUI_SYSTEM@@UAEHXZ
+gs:ui_main.obj	0x00504D50	0x0051A100	callgraph? sim1.00	?Term@uiUI_SYSTEM@@UAEXXZ
+gs:ui_main.obj	0x00504E10	-	-	?Activate@uiUI_SYSTEM@@UAEHHPAD@Z
+gs:ui_main.obj	0x00505050	0x0051A410	exact sim1.00	?Deactivate@uiUI_SYSTEM@@UAEXXZ
+gs:ui_main.obj	0x005050E0	0x0051A4A0	vtable? sim1.00	?MsgBoxW@uiUI_SYSTEM@@UAEXPBG0HHPAVuiELEMENT@@PAD@Z
+gs:ui_main.obj	0x00505100	0x0051A4C0	vtable? sim1.00	?MsgBoxW_Startup@uiUI_SYSTEM@@UAEXPBG0HHPAVuiELEMENT@@PAD@Z
+gs:ui_main.obj	0x00505110	0x0051A4D0	exact sim1.00	?SetMouseFocus@uiUI_SYSTEM@@QAEHPAVuiELEMENT@@@Z
+gs:ui_main.obj	0x005051B0	0x0051A570	callgraph? sim1.00	?SetKbdFocus@uiUI_SYSTEM@@QAEHPAVuiELEMENT@@@Z
+gs:ui_main.obj	0x00505260	0x0051A620	vtable-aligned	?Render@uiUI_SYSTEM@@UAEXXZ
+gs:ui_main.obj	0x005052A0	0x0051A660	exact sim1.00	?Update@uiUI_SYSTEM@@UAEXXZ
+gs:ui_main.obj	0x005052D0	0x0051A690	exact sim1.00	?ProcessMouseMove@uiUI_SYSTEM@@QAEXPAUuiINPUT_INFO@@@Z
+gs:ui_main.obj	0x00505330	0x0051A6F0	vtable-aligned	?OnSysInput@uiUI_SYSTEM@@UAEXABUuiSYSINPUT_INFO@@@Z
+gs:ui_main.obj	0x00505680	0x0051AA50	callgraph? sim1.00	?GetCursorPos@uiUI_SYSTEM@@QAEXPAUm2dV@@@Z
+gs:ui_main.obj	0x005056A0	0x0051AA70	exact sim1.00	?GetCursorBBox@uiUI_SYSTEM@@QAEXPAUuiBOX@@@Z
+gs:ui_main.obj	0x005056E0	0x0051AAB0	vtable-aligned	?Notify@uiUI_SYSTEM@@UAEXHPAX@Z
+gs:ui_main.obj	0x00505720	0x0051AB00	exact sim1.00	?uiElementRegister@@YIHPADP6IPAVuiELEMENT@@XZ@Z
+gs:ui_main.obj	0x00505880	0x0051AC60	exact sim1.00	?uiElementCreate@@YIPAVuiELEMENT@@PADPAVobjOBJ@@PAV1@@Z
+gs:ui_main.obj	0x00505960	0x0051AD40	exact sim1.00	?uiElementDestroy@@YIXPAVuiELEMENT@@@Z
+gs:ui_main.obj	0x005059B0	0x0051AD90	exact sim1.00	?uiGetObjRenderRect@@YIXPAVobjOBJ@@PAUuiVERTEX@@@Z
+gs:ui_main.obj	0x00505FE0	0x0051B3C0	callgraph? sim1.00	?uiUCoord2SCoord@@YIXPAUm2dV@@0@Z
+gs:ui_main.obj	0x00506010	0x0051B3F0	exact sim1.00	?Resize@?$arrVector@UuiELEMENT_INFO@@@@QAEXH@Z
+gs:ui_main.obj	0x00506050	0x0051B430	exact sim1.00	?Insert@?$arrVector@UuiELEMENT_INFO@@@@QAEXHABUuiELEMENT_INFO@@H@Z
+gs:ui_main.obj	0x00506120	-	-	?Create@uiAREA@@SIPAVuiELEMENT@@XZ
+gs:ui_main.obj	0x005061B0	-	-	?Create@uiWINDOW@@SIPAVuiELEMENT@@XZ
+gs:ui_main.obj	0x00506210	-	-	?Create@uiFRAME@@SIPAVuiELEMENT@@XZ
+gs:ui_main.obj	0x00506270	-	-	?Create@uiFRAME_GROUP@@SIPAVuiELEMENT@@XZ
+gs:ui_area.obj	0x00513670	0x00528B10	vtable-aligned	?Init@uiAREA@@UAEXPAVobjOBJ@@@Z
+gs:ui_area.obj	0x005136A0	0x00528B40	vtable-aligned	?ProcessRender@uiAREA@@UAEHPAX@Z
+gs:ui_area.obj	0x005136D0	0x00528B70	vtable-aligned	?StartAppearing@uiAREA@@UAEHH@Z
+gs:ui_area.obj	0x00513720	0x00528BC0	vtable-aligned	?ProcessAppearing@uiAREA@@UAEHXZ
+gs:ui_area.obj	0x00513780	0x00528C20	vtable-aligned	?FinishAppearing@uiAREA@@UAEXXZ
+gs:ui_area.obj	0x005137D0	0x00528C70	exact sim1.00	?SetFont@uiAREA@@QAEXPAVuiFONT@@@Z
+gs:ui_area.obj	0x00513800	0x00528CA0	exact sim1.00	?SetTextId@uiAREA@@QAEXH@Z
+gs:ui_area.obj	0x00513830	0x00528CD0	callgraph? sim1.00	?SetTextW@uiAREA@@QAEXPBGH@Z
+gs:ui_area.obj	0x00513860	-	-	?AppendTextW@uiAREA@@QAEXPBGH@Z
+gs:ui_rnd.obj	0x005138B0	0x00528D50	callgraph? sim0.90	?Render@uiRECT@@QAEXPAVcamCAMERA@@@Z
+gs:ui_rnd.obj	0x005139D0	0x00528E70	callgraph? sim1.00	?GetString@uiRENDER_ELEM_TEXT@@QAEPBGXZ
+gs:ui_rnd.obj	0x005139F0	0x00528E90	exact sim1.00	?SetToLocalString@uiRENDER_ELEM_TEXT@@QAEXPBGHH@Z
+gs:ui_rnd.obj	0x00513A70	0x00528F10	exact sim1.00	?FreeBuf@uiRENDER_ELEM_TEXT@@IAEXXZ
+gs:ui_rnd.obj	0x00513AA0	0x00528F40	exact sim1.00	??0uiRENDER_ELEM@@QAE@XZ
+gs:ui_rnd.obj	0x00513B20	0x00528FC0	exact sim1.00	??0uiRENDER_ELEM@@QAE@ABV0@@Z
+gs:ui_rnd.obj	0x00513C70	0x00529110	exact sim1.00	??1uiRENDER_ELEM@@QAE@XZ
+gs:ui_rnd.obj	0x00513CD0	0x00529170	callgraph? sim1.00	?Init@uiRENDER_ELEM@@QAEXPAVobjOBJ@@@Z
+gs:ui_rnd.obj	0x00514120	0x005295C0	exact sim1.00	?Render@uiRENDER_ELEM@@QAEXPAVcamCAMERA@@@Z
+gs:ui_rnd.obj	0x00514300	0x005297A0	callgraph? sim1.00	?GetTextStartPos@uiRENDER_ELEM@@IAE?AUm2dV@@XZ
+gs:ui_rnd.obj	0x005143C0	0x00529860	exact sim1.00	?MoveTo@uiRENDER_ELEM@@QAEXPAUm2dV@@@Z
+gs:ui_rnd.obj	0x00514420	0x005298C0	exact sim1.00	?CalcBBox@uiRENDER_ELEM@@QAEXPAUuiBOX@@@Z
+gs:ui_rnd.obj	0x00514520	0x005299C0	exact sim1.00	?SetTextId@uiRENDER_ELEM@@QAEXH@Z
+gs:ui_rnd.obj	0x00514570	0x00529A10	exact sim1.00	?SetTextW@uiRENDER_ELEM@@QAEXPBGH@Z
+gs:ui_rnd.obj	0x00514610	0x00529AB0	exact sim1.00	?AppendTextW@uiRENDER_ELEM@@QAEXPBGH@Z
+gs:ui_rnd.obj	0x005147A0	0x00529C40	exact sim1.00	?SetAlpha@uiRENDER_ELEM@@QAEXM@Z
+gs:ui_rnd.obj	0x00514850	0x00529CF0	exact sim1.00	?SetAlphaText@uiRENDER_ELEM@@QAEXM@Z
+gs:ui_rnd.obj	0x00514900	0x00529DA0	callgraph? sim1.00	?SetTex@uiRENDER_ELEM@@QAEXPAVtxmTEXTURE@@@Z
+gs:ui_rnd.obj	0x00514910	0x00529DB0	exact sim1.00	?Init@uiRENDER_INFO@@QAEXPAVobjOBJ@@@Z
+gs:ui_rnd.obj	0x00514B10	0x00529FB0	exact sim1.00	?Render@uiRENDER_INFO@@QAEXPAVcamCAMERA@@@Z
+gs:ui_rnd.obj	0x00514B60	0x0052A000	exact sim1.00	?SetFont@uiRENDER_INFO@@QAEXPAVuiFONT@@@Z
+gs:ui_rnd.obj	0x00514BB0	0x0052A050	exact sim1.00	?SetColor@uiRENDER_INFO@@QAEXK@Z
+gs:ui_rnd.obj	0x00514BF0	0x0052A090	exact sim1.00	?SetColorText@uiRENDER_INFO@@QAEXK@Z
+gs:ui_rnd.obj	0x00514C30	0x0052A0D0	exact sim1.00	?SetTex@uiRENDER_INFO@@QAEXPAVtxmTEXTURE@@@Z
+gs:ui_rnd.obj	0x00514C70	0x0052A110	exact sim1.00	?SetAlpha@uiRENDER_INFO@@QAEXM@Z
+gs:ui_rnd.obj	0x00514E30	0x0052A2D0	exact sim1.00	?SetAlphaText@uiRENDER_INFO@@QAEXM@Z
+gs:ui_rnd.obj	0x00514FC0	0x0052A460	exact sim1.00	?CalcBBox@uiRENDER_INFO@@QAEXPAUuiBOX@@@Z
+gs:ui_rnd.obj	0x00515050	0x0052A4F0	exact sim1.00	?FindElement@uiRENDER_INFO@@QAEPAVuiRENDER_ELEM@@PAD@Z
+gs:ui_rnd.obj	0x00515120	0x0052A5C0	exact sim1.00	?SetElementIdx@uiRENDER_INFO@@QAEXPADH@Z
+gs:ui_rnd.obj	0x00515460	0x0052A900	exact sim1.00	?Reserve@?$arrVector@VuiRENDER_ELEM@@@@QAEXH@Z
+gs:ui_btn.obj	0x00515500	0x0052A9A0	callgraph? sim1.00	?Init@uiBUTTON@@UAEXPAVobjOBJ@@@Z
+gs:ui_btn.obj	0x00515B40	0x0052AFE0	exact sim1.00	?ProcessCommand@uiBUTTON@@UAEXXZ
+gs:ui_btn.obj	0x00515B80	0x0052B020	vtable-aligned	?GetRole@uiBUTTON@@UAEHXZ
+gs:ui_btn.obj	0x00515BB0	0x0058FB60	vtable-aligned	?GetHotKey@uiBUTTON@@UAEHXZ
+gs:ui_btn.obj	0x00515BC0	0x0052B050	vtable-aligned	?OnMouseButton@uiBUTTON@@UAEHPAUuiINPUT_INFO@@@Z
+gs:ui_btn.obj	0x00515CA0	0x0052B130	vtable-aligned	?OnKeyboard@uiBUTTON@@UAEHPAUuiINPUT_INFO@@@Z
+gs:ui_btn.obj	0x00515DD0	0x0052B260	vtable-aligned	?OnChar@uiBUTTON@@UAEHPAUuiINPUT_INFO@@@Z
+gs:ui_btn.obj	0x00515E00	0x0052B290	vtable-aligned	?OnKbdFocus@uiBUTTON@@UAEHPAVuiELEMENT@@@Z
+gs:ui_btn.obj	0x00515E80	0x0052B310	exact sim1.00	?OnMouseFocus@uiBUTTON@@UAEHPAVuiELEMENT@@@Z
+gs:ui_btn.obj	0x00515F00	0x0052B390	vtable-aligned	?Enable@uiBUTTON@@UAEXH@Z
+gs:ui_font.obj	0x00517290	0x0052C750	callgraph? sim1.00	??0uiFONT_PAGE@@QAE@XZ
+gs:ui_font.obj	0x005172B0	0x0052C770	exact sim1.00	?Create@uiFONT@@IAEXPAVobjOBJ@@@Z
+gs:ui_font.obj	0x00517430	0x0052C8F0	exact sim1.00	?AddPage@uiFONT@@IAEXHPAVobjOBJ@@@Z
+gs:ui_font.obj	0x005179C0	0x0052CE80	exact sim1.00	?AddLettersLine@uiFONT@@IAEXPAVuiFONT_PAGE@@PAVobjOBJ@@M@Z
+gs:ui_font.obj	0x00517BD0	0x0052D090	exact sim1.00	?GetStringSizeW@uiFONT@@QAE?AUm2dV@@PBGABU2@H@Z
+gs:ui_font.obj	0x00517CC0	0x0052D180	exact sim1.00	?AdjustStringPosW@uiFONT@@IAEXPAUm2dV@@PBGABU2@H@Z
+gs:ui_font.obj	0x00517F00	0x0052D3C0	exact sim1.00	?GetStringRectW@uiFONT@@QAEXUm2dV@@PBGABU2@HPAU2@3@Z
+gs:ui_font.obj	0x00518000	0x0052D4C0	exact sim1.00	?PrintW@uiFONT@@QAE?AUm2dV@@PAVcamCAMERA@@PBGU2@KABU2@H@Z
+gs:ui_font.obj	0x00518200	-	-	?GetFont@uiFONT_MANAGER@@QAEPAVuiFONT@@PAD@Z
+gs:ui_font.obj	0x00518260	0x0052D720	exact sim1.00	?CreateFont@uiFONT_MANAGER@@QAEHPAD@Z
+gs:ui_font.obj	0x005183A0	0x0052D860	exact sim1.00	?DestroyFont@uiFONT_MANAGER@@QAEXPAD@Z
+gs:ui_font.obj	0x00518440	0x0052D900	exact sim1.00	?cmp@?$arrStdCmp@M@@QBEHABM0@Z
+gs:ui_font.obj	0x00518480	0x0052D940	exact sim1.00	??0?$arrVector@UuiFONT_LETTER@@@@QAE@H@Z
+gs:ui_font.obj	0x005184C0	0x0052D980	exact sim1.00	?Sort@?$arrVector@VuiFONT_PAGE@@@@QAEXABU?$arrStdCmp@VuiFONT_PAGE@@@@ABU?$arrStdSwap@VuiFONT_PAGE@@@@@Z
+gs:ui_font.obj	0x00518670	0x0052DB30	exact sim1.00	?Sort@?$arrVector@UuiFONT_TMP_LINE@@@@QAEXABU?$arrStdCmp@UuiFONT_TMP_LINE@@@@ABU?$arrStdSwap@UuiFONT_TMP_LINE@@@@@Z
+gs:ui_font.obj	0x00518720	0x0052DBE0	exact sim1.00	??R?$arrStdSwapMem@UuiFONT_LETTER@@@@QBEXAAUuiFONT_LETTER@@0@Z
+gs:ui_font.obj	0x00518760	0x0052DC20	exact sim1.00	?Resize@?$arrVector@UuiFONT_LETTER@@@@QAEXH@Z
+gs:ui_font.obj	0x005187A0	0x0052DC60	exact sim1.00	?Insert@?$arrVector@UuiFONT_LETTER@@@@QAEXHABUuiFONT_LETTER@@H@Z
+gs:ui_font.obj	0x00518850	0x0052DD10	exact sim1.00	?Realloc@?$arrVector@UuiFONT_LETTER@@@@IAEXH@Z
+gs:ui_font.obj	0x00518880	0x0052DD40	exact sim1.00	?Resize@?$arrVector@VuiFONT_PAGE@@@@QAEXH@Z
+gs:ui_font.obj	0x00518920	0x0052DDE0	exact sim1.00	?Insert@?$arrVector@VuiFONT_PAGE@@@@QAEXHABVuiFONT_PAGE@@H@Z
+gs:ui_font.obj	0x00518AB0	0x0052E050	exact sim1.00	?Reserve@?$arrVector@UuiFONT_LETTER@@@@QAEXH@Z
+gs:ui_font.obj	0x00518AE0	0x0052E080	exact sim1.00	?Insert@?$arrVector@UuiFONT_LETTER@@@@QAEXHPBUuiFONT_LETTER@@0@Z
+gs:ui_font.obj	0x00518BA0	0x0052E140	exact sim1.00	?Reserve@?$arrVector@VuiFONT_PAGE@@@@QAEXH@Z
+gs:ui_textinp.obj	0x00518C00	-	-	??0uiTEXT_INPUT@@IAE@XZ
+gs:ui_textinp.obj	0x00518CD0	0x0052E270	callgraph? sim0.27	?Init@uiTEXT_INPUT@@UAEXPAVobjOBJ@@@Z
+gs:ui_textinp.obj	0x00518E00	0x0052E3D0	vtable-aligned	?OnKeyboard@uiTEXT_INPUT@@UAEHPAUuiINPUT_INFO@@@Z
+gs:ui_textinp.obj	0x00518ED0	0x0052E4B0	vtable? sim0.30	?OnChar@uiTEXT_INPUT@@UAEHPAUuiINPUT_INFO@@@Z
+gs:ui_textinp.obj	0x00519000	0x0049F9A0	callgraph? sim0.07	?ProcessUpdate@uiTEXT_INPUT@@UAEHPAX@Z
+gs:ui_textinp.obj	0x005191B0	-	-	?GetEditText@uiTEXT_INPUT@@QAEPBGXZ
+gs:ui_textinp.obj	0x005191D0	0x0052E810	exact sim1.00	?SetEditText@uiTEXT_INPUT@@QAEXPBG@Z
+gs:ui_scroll.obj	0x005192E0	0x0052E920	exact sim1.00	?Init@uiSCROLL@@UAEXPAVobjOBJ@@@Z
+gs:ui_scroll.obj	0x00519380	0x0052E9C0	vtable-aligned	?OnKeyboard@uiSCROLL@@UAEHPAUuiINPUT_INFO@@@Z
+wr_game_opt.obj	0x00499470	-	-	_$E4
+wr_game_opt.obj	0x00499490	-	-	_$E43
+wr_curs.obj	0x00498210	-	-	_$E2
+wr_ui_wnd.obj	0x00495360	-	-	_$E2
+wr_ui_wnd.obj	0x00495F60	-	-	_$E40
+wr_ui_video.obj	0x00494560	-	-	_$E4
+wr_ui_txtscrl.obj	0x00492E20	-	-	_$E2
+wr_ui_textinp.obj	0x00492760	-	-	_$E2
+wr_ui_sinfo.obj	0x00492640	-	-	_$E2
+wr_ui_load.obj	0x0048E8D0	-	-	_$E2
+wr_ui_hud.obj	0x0048A6E0	0x00495A90	exact sim1.00	?_compareRectX@@YAHPBX0@Z
+wr_ui_ig.obj	0x0048CB10	-	-	_$E2
+wr_ui_hud.obj	0x00489FB0	0x00495500	exact sim1.00	?_compareRectY@@YAHPBX0@Z
+wr_ui_hud.obj	0x00489FF0	-	-	_$E4
+wr_ui_hscores.obj	0x00489680	-	-	_$E2
+wr_ui_gameopt.obj	0x00489660	-	-	_$E4
+wr_ui_frm.obj	0x00489290	-	-	_$E2
+wr_ui_ctrl.obj	0x00488C20	-	-	_$E4
+wr_ui_credits.obj	0x00487B20	-	-	_$E2
+wr_ui_comics.obj	0x004863A0	0x004914E0	exact sim1.00	?_compareRectY@@YAHPBX0@Z
+wr_ui_comics.obj	0x00486810	-	-	_$E2
+wr_ui_audio.obj	0x00486110	-	-	_$E2
+wr_ui.obj	0x00480360	-	-	_$E46
+wr_ui.obj	0x00480F90	-	-	_$E4
+gs:ui_scroll.obj	0x00519410	-	-	_$E2
+gs:ui_textinp.obj	0x005192C0	-	-	_$E2
+gs:ui_font.obj	0x00517EE0	-	-	_$E2
+gs:ui_btn.obj	0x00515DB0	-	-	_$E2
+gs:ui_rnd.obj	0x00513CB0	-	-	_$E2
+gs:ui_area.obj	0x00513890	-	-	_$E2
+gs:ui_main.obj	0x00503AD0	-	-	_$E2
+gs:ui_main.obj	0x00505040	-	-	_$E9
+wr_game_opt.obj	-	0x004A5CE0	new in 1.2	wrGO_SYSTEM::AnnounceTimeFragsLeft (GAME_MSG_TIMELEFT / FRAGSLEFT countdown)
+wr_game_opt.obj	-	0x004A7B70	new in 1.2	wrGO_SYSTEM chat send (builds msg 0x212, text <= 0x1FF chars)  ?
+wr_game_opt.obj	-	0x004A7C40	new in 1.2	wrGO_SYSTEM chat receive / relay (msg 0x20E)  ?
+wr_game_opt.obj	-	0x004A7AC0	new in 1.2?	wrGO_SYSTEM::GetNMP_TreasureTotal (= gsMP_SYSTEM 0x0050E570)  ?
+wr_game_opt.obj	-	0x004A7AD0	new in 1.2?	wrGO_SYSTEM::GetNMP_TreasureVictory (total * 0.8)  ?
+wr_game_opt.obj	-	0x004A7B30	new in 1.2	wrGO_SYSTEM: returns this+0xC0 string if +0x104 set (HUD)  ?
+wr_game_opt.obj	-	0x004A7B50	new in 1.2	wrGO_SYSTEM: returns +0x100 if +0x104 set (HUD)  ?
+wr_ui.obj	-	0x0048F7F0	new in 1.2	wrUI_SYSTEM vt +0x20: forwards to hud_messages vt +0x60 (new wrUIHUD_MSG virtual)
+wr_ui_hud.obj	-	0x00498430	new in 1.2	wrUIHUD_CHAT_INPUT::Create ("wrh_chat_input", 0x141, vtbl 0x00605670)
+wr_ui.obj	-	0x0048DDC0	new in 1.2	wrUI_SPLAYER_WINDOW::Create ("wr_splayer_wnd")
+wr_ui.obj	-	0x0048DE20	new in 1.2	wrUI_SPLEVEL_WINDOW::Create ("wr_splevel_wnd"); init 0x0049F210, notify 0x0049F360, hash 0x0049F8A0

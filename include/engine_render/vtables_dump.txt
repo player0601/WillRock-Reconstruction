@@ -1,0 +1,382 @@
+// vtable d3dREND_DRIVER: v12 0x00606BA0 (feb 0x005DB708), feb 48 slots
+  slot +0x00 v12 0x004C1EC0 (feb 0x004B2590) ok ??_Gd3dREND_DRIVER@@UAEPAXI@Z
+  slot +0x04 v12 0x004C1EF0 (feb 0x004B25C0) ok d3dREND_DRIVER::InitHW
+  slot +0x08 v12 0x004C1FF0 (feb 0x004B2810) ok d3dREND_DRIVER::TermHW
+  slot +0x0C v12 0x004C2C70 (feb 0x004B3310) ok rendDRIVER::SetBVolUse
+  slot +0x10 v12 0x004C2180 (feb 0x004B2820) ok d3dREND_DRIVER::BeginFrame
+  slot +0x14 v12 0x004C21D0 (feb 0x004B2870) ok d3dREND_DRIVER::EndFrame
+  slot +0x18 v12 0x004B9CF0 (feb 0x004DAF60) ok aiSKEL_SWORD::IsArmoredObject
+  slot +0x1C v12 0x004BBF70 (feb 0x004AC6E0) ok d3dREND_DRIVER::FilterInst
+  slot +0x20 v12 0x004C31D0 (feb 0x004B3880) ok d3dREND_DRIVER::PreDrawObj
+  slot +0x24 v12 0x005EB030 (feb 0x005C0130) ok clSRProtocol::_Send_Fail
+  slot +0x28 v12 0x004C2E20 (feb 0x004B34C0) ok d3dREND_DRIVER::PreDrawScene
+  slot +0x2C v12 0x004BBF60 (feb 0x004B3550) ok d3dREND_DRIVER::PurgeSWBuffer
+  slot +0x30 v12 0x004BF4E0 (feb 0x004AFC40) ok d3dREND_DRIVER::BeginCamera
+  slot +0x34 v12 0x004BF810 (feb 0x004AFF70) ok d3dREND_DRIVER::EndCamera
+  slot +0x38 v12 0x004C5020 (feb 0x004B56D0) ok d3dREND_DRIVER::GetVListPtr
+  slot +0x3C v12 0x004C3770 (feb 0x004B3E20) ok d3dREND_DRIVER::DrawFace
+  slot +0x40 v12 0x004BBFC0 (feb 0x004AC730) ok d3dREND_DRIVER::DrawPoly
+  slot +0x44 v12 0x004BC180 (feb 0x004AC8E0) ok d3dREND_DRIVER::DrawLine
+  slot +0x48 v12 0x004C23D0 (feb 0x004D0E30) ok cdtCOLL_SCN::IsNearBVolAll
+  slot +0x4C v12 0x004C23E0 (feb 0x004B2A70) ok d3dREND_DRIVER::DrawIndexedPrimitive
+  slot +0x50 v12 0x004C2D80 (feb 0x004B3420) ok d3dREND_DRIVER::Configure
+  slot +0x54 v12 0x004C2D50 (feb 0x004B33F0) ok d3dREND_DRIVER::ConfigureTransp
+  slot +0x58 v12 0x004BBF20 (feb 0x004AC6A0) ok d3dREND_DRIVER::FlushHWQueue
+  slot +0x5C v12 0x004BBF60 (feb 0x004B3550) ok d3dREND_DRIVER::PurgeSWBuffer
+  slot +0x60 v12 0x004BF160 (feb 0x004AF8C0) ok d3dREND_DRIVER::ConfigureClipPlane
+  slot +0x64 v12 0x004BF210 (feb 0x004AF970) ok d3dREND_DRIVER::EnableClipPlane
+  slot +0x68 v12 0x004BF340 (feb 0x004AFAA0) ok d3dREND_DRIVER::SetMtlCoeff
+  slot +0x6C v12 0x004BF410 (feb 0x004AFB70) ok d3dREND_DRIVER::SetLight
+  slot +0x70 v12 0x004BF4B0 (feb 0x004AFC10) ok d3dREND_DRIVER::EnableLight
+  slot +0x74 v12 0x004C2620 (feb 0x004B2CA0) ok d3dREND_DRIVER::InvalidateObjDynVBuf
+  slot +0x78 v12 0x004C2A40 (feb 0x004B30C0) ok d3dREND_DRIVER::SetVBStatFrames
+  slot +0x7C v12 0x004C2C80 (feb 0x004B3320) ok d3dREND_DRIVER::InvalidateSignCFG
+  slot +0x80 v12 0x004C58B0 (feb 0x004B5F60) ok d3dREND_DRIVER::ObjAllocPrepCFG
+  slot +0x84 v12 0x004EAA30 (feb 0x004DAD70) ok rendDRIVER::InvalidatePrepCFG
+  slot +0x88 v12 0x004C5890 (feb 0x004B5F40) ok d3dREND_DRIVER::InvalidatePrepCFG
+  slot +0x8C v12 0x004C6030 (feb 0x004B6690) ok d3dREND_DRIVER::ValidatePrepCFG
+  slot +0x90 v12 0x004C2C90 (feb 0x004B3330) ok d3dREND_DRIVER::ValidatePrepCFG
+  slot +0x94 v12 0x004C5C70 (feb 0x004B62C0) ok d3dREND_DRIVER::IsValidPrepCFG
+  slot +0x98 v12 0x004C26C0 (feb 0x004B2D40) ok d3dREND_DRIVER::InitLevel
+  slot +0x9C v12 0x004C2760 (feb 0x004B2DE0) ok d3dREND_DRIVER::TermLevel
+  slot +0xA0 v12 0x004C2900 (feb 0x004B2F80) ok d3dREND_DRIVER::InstLoadNotify
+  slot +0xA4 v12 0x004C2910 (feb 0x004B2F90) ok d3dREND_DRIVER::InstDestroyNotify
+  slot +0xA8 v12 0x004C2890 (feb 0x004B2F10) ok d3dREND_DRIVER::ObjLoadNotify
+  slot +0xAC v12 0x004C28C0 (feb 0x004B2F40) ok d3dREND_DRIVER::ObjDestroyNotify
+  slot +0xB0 v12 0x004C29B0 (feb 0x004B3030) ok d3dREND_DRIVER::ObjInitHWNotify
+  slot +0xB4 v12 0x004C2920 (feb 0x004B2FA0) ok d3dREND_DRIVER::ObjTplInitHWNotify
+// vtable vidDRIVER: v12 0x006066F8 (feb 0x005DB1B8), feb 36 slots
+  slot +0x00 v12 0x004B3D80 (feb 0x004A5120) ok ??_EvidDRIVER@@UAEPAXI@Z
+  slot +0x04 v12 0x004B3F30 (feb 0x004A52D0) ok vidDRIVER::InitDrv
+  slot +0x08 v12 0x004B3F40 (feb 0x004A52E0) ok vidDRIVER::TermDrv
+  slot +0x0C v12 0x004B3F50 (feb 0x004A52F0) ok vidDRIVER::SetMode
+  slot +0x10 v12 0x004B4040 (feb 0x004A53E0) ok vidDRIVER::InitHW
+  slot +0x14 v12 0x004B4060 (feb 0x004A5400) ok vidDRIVER::TermHW
+  slot +0x18 v12 0x004B4070 (feb 0x004A5410) ok vidDRIVER::BeginScene
+  slot +0x1C v12 0x00401380 (feb 0x00403BE0) ok gsLVL_SYSTEM::ProcessFRAME
+  slot +0x20 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x24 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x28 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x2C v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x30 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x34 v12 0x004B4020 (feb 0x004A53C0) ok vidDRIVER::SetNTexStageUse
+  slot +0x38 v12 0x004B46B0 (feb 0x004A5A50) ok vidDRIVER::SetCamNearPlane
+  slot +0x3C v12 0x004B4660 (feb 0x004A5A00) ok vidDRIVER::SetNearFarZValue
+  slot +0x40 v12 0x004B4680 (feb 0x004A5A20) ok vidDRIVER::GetNearFarZValue
+  slot +0x44 v12 0x004B46C0 (feb 0x004A5A60) ok vidDRIVER::GetGamma
+  slot +0x48 v12 0x004B46E0 (feb 0x004A5A80) ok vidDRIVER::SetGamma
+  slot +0x4C v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x50 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x54 v12 0x00403A20 (feb 0x00403690) ok ?$Allocator::dtor
+  slot +0x58 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x5C v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x60 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x64 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x68 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x6C v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x70 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x74 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x78 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x7C v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x80 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x84 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+// vtable d3dDRIVER: v12 0x00606A30 (feb 0x005DB598), feb 34 slots
+  slot +0x00 v12 0x004BADB0 (feb 0x004AB550) ok ??_Gd3dDRIVER@@UAEPAXI@Z
+  slot +0x04 v12 0x004BAE10 (feb 0x004AB5B0) ok d3dDRIVER::InitDrv
+  slot +0x08 v12 0x004BAEA0 (feb 0x004AB640) ok d3dDRIVER::TermDrv
+  slot +0x0C v12 0x004B3F50 (feb 0x004A52F0) ok vidDRIVER::SetMode
+  slot +0x10 v12 0x004BAF90 (feb 0x004AB730) ok d3dDRIVER::InitHW
+  slot +0x14 v12 0x004BB6C0 (feb 0x004ABE60) ok d3dDRIVER::TermHW
+  slot +0x18 v12 0x004BB790 (feb 0x004ABF30) ok d3dDRIVER::BeginScene
+  slot +0x1C v12 0x004BB7D0 (feb 0x004ABF60) ok d3dDRIVER::EndScene
+  slot +0x20 v12 0x004BB820 (feb 0x004ABF90) ok d3dDRIVER::SwapBuffers
+  slot +0x24 v12 0x004BBA00 (feb 0x004AC170) ok d3dDRIVER::ClearBuffers
+  slot +0x28 v12 0x004BBB10 (feb 0x004AC280) ok d3dDRIVER::ReadBuffer
+  slot +0x2C v12 0x00522F80 (feb 0x004AC330) ok shtQUALIFY_PLANE::ProcessNode
+  slot +0x30 v12 0x004BBBC0 (feb 0x004AC340) ok d3dDRIVER::CopyBuffer
+  slot +0x34 v12 0x004B4020 (feb 0x004A53C0) ok vidDRIVER::SetNTexStageUse
+  slot +0x38 v12 0x004B46B0 (feb 0x004A5A50) ok vidDRIVER::SetCamNearPlane
+  slot +0x3C v12 0x004BE590 (feb 0x004AECF0) ok d3dDRIVER::SetNearFarZValue
+  slot +0x40 v12 0x004B4680 (feb 0x004A5A20) ok vidDRIVER::GetNearFarZValue
+  slot +0x44 v12 0x004B46C0 (feb 0x004A5A60) ok vidDRIVER::GetGamma
+  slot +0x48 v12 0x004BE5F0 (feb 0x004AED50) ok d3dDRIVER::SetGamma
+  slot +0x4C v12 0x004BE710 (feb 0x004AEE70) ok d3dDRIVER::ConfigureFog
+  slot +0x50 v12 0x004BE140 (feb 0x004AE8A0) ok d3dDRIVER::ConfigureStencil
+  slot +0x54 v12 0x004BBE50 (feb 0x004AC5D0) ok d3dDRIVER::InvalidateSignatureCFG
+  slot +0x58 v12 0x004BE8F0 (feb 0x004AF050) ok d3dDRIVER::ToggleMipMapFiltr
+  slot +0x5C v12 0x004BE8F0 (feb 0x004AF050) ok d3dDRIVER::ToggleMipMapFiltr
+  slot +0x60 v12 0x004BE8F0 (feb 0x004AF050) ok d3dDRIVER::ToggleMipMapFiltr
+  slot +0x64 v12 0x004BE920 (feb 0x004AF080) ok d3dDRIVER::ToggleFog
+  slot +0x68 v12 0x004BE990 (feb 0x004AF0F0) ok d3dDRIVER::ToggleZCompare
+  slot +0x6C v12 0x004BE9F0 (feb 0x004AF150) ok d3dDRIVER::ToggleZWrite
+  slot +0x70 v12 0x004BEA50 (feb 0x004AF1B0) ok d3dDRIVER::ToggleWBuffer
+  slot +0x74 v12 0x004BE520 (feb 0x004AEC80) ok d3dDRIVER::ToggleStencil
+  slot +0x78 v12 0x004BEAD0 (feb 0x004AF230) ok d3dDRIVER::ToggleFSAA
+  slot +0x7C v12 0x004BAF50 (feb 0x004AB6F0) ok d3dDRIVER::CreateTexManager
+  slot +0x80 v12 0x004BBED0 (feb 0x004AC650) ok d3dDRIVER::CreateRendDriver
+  slot +0x84 v12 0x004BBF00 (feb 0x004AC680) ok d3dDRIVER::DestroyRendDriver
+  extra +0x88 v12 0x004BBEA0 ??_EtxmD3D_MANAGER@@UAEPAXI@Z
+  extra +0x8C v12 0x004C1540 txmD3D_MANAGER::NewFrame
+  extra +0x90 v12 0x004C1780 txmD3D_MANAGER::HwInit
+  extra +0x94 v12 0x004C1800 txmD3D_MANAGER::HwTerm
+  extra +0x98 v12 0x004C1560 txmD3D_MANAGER::SetSource
+  extra +0x9C v12 0x004C1830 txmD3D_MANAGER::HwDownload
+  extra +0xA0 v12 0x004C1940 txmD3D_MANAGER::HwDelete
+  extra +0xA4 v12 0x004BBE60 txmD3D_MANAGER::MakeTex
+  extra +0xA8 v12 0x004BBE80 txmD3D_MANAGER::MakeTexLayer
+// vtable txmMANAGER: v12 0x006066D0 (feb 0x005DB190), feb 10 slots
+  slot +0x00 v12 0x004B3190 (feb 0x004A4530) ok ??_EtxmMANAGER@@UAEPAXI@Z
+  slot +0x04 v12 0x004B3980 (feb 0x004A4D20) ok txmMANAGER::NewFrame
+  slot +0x08 v12 0x004031F0 (feb 0x004036A0) ok aiNPC_WR::DoesNPCAllowSFXAppear
+  slot +0x0C v12 0x00403A20 (feb 0x00403690) ok ?$Allocator::dtor
+  slot +0x10 v12 0x00403950 (feb 0x00403870) ok ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  slot +0x14 v12 0x0048D590 (feb 0x004C46B0) ok txmTEXTURE::CreateDrv
+  slot +0x18 v12 0x00403950 (feb 0x00403870) ok ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  slot +0x1C v12 0x004B39D0 (feb 0x004A4D70) ok txmMANAGER::MakeTex
+  slot +0x20 v12 0x004B3A40 (feb 0x004A4DE0) ok txmMANAGER::MakeTexLayer
+// vtable txmD3D_MANAGER: v12 0x00606AB8 (feb 0x005DB620), feb 10 slots
+  slot +0x00 v12 0x004BBEA0 (feb 0x004AC620) ok ??_EtxmD3D_MANAGER@@UAEPAXI@Z
+  slot +0x04 v12 0x004C1540 (feb 0x004B1CA0) ok txmD3D_MANAGER::NewFrame
+  slot +0x08 v12 0x004C1780 (feb 0x004B1EE0) ok txmD3D_MANAGER::HwInit
+  slot +0x0C v12 0x004C1800 (feb 0x004B1F60) ok txmD3D_MANAGER::HwTerm
+  slot +0x10 v12 0x004C1560 (feb 0x004B1CC0) ok txmD3D_MANAGER::SetSource
+  slot +0x14 v12 0x004C1830 (feb 0x004B1F90) ok txmD3D_MANAGER::HwDownload
+  slot +0x18 v12 0x004C1940 (feb 0x004B2090) ok txmD3D_MANAGER::HwDelete
+  slot +0x1C v12 0x004BBE60 (feb 0x004AC5E0) ok txmD3D_MANAGER::MakeTex
+  slot +0x20 v12 0x004BBE80 (feb 0x004AC600) ok txmD3D_MANAGER::MakeTexLayer
+// vtable txmTEXTURE: v12 0x00606654 (feb 0x005DB114), feb 15 slots
+  slot +0x00 v12 0x004B1F10 (feb 0x004A32B0) ok ??_GtxmTEXTURE@@UAEPAXI@Z
+  slot +0x04 v12 0x004B1F40 (feb 0x004A32E0) ok txmTEXTURE::FindDisk
+  slot +0x08 v12 0x004B20C0 (feb 0x004A3460) ok txmTEXTURE::Load
+  slot +0x0C v12 0x004B2140 (feb 0x004A34E0) ok txmTEXTURE::Unload
+  slot +0x10 v12 0x004B1F90 (feb 0x004A3330) ok txmTEXTURE::Create
+  slot +0x14 v12 0x004B2160 (feb 0x004A3500) ok txmTEXTURE::Fill
+  slot +0x18 v12 0x004B2070 (feb 0x004A3410) ok txmTEXTURE::Set
+  slot +0x1C v12 0x0048D590 (feb 0x004C46B0) ok txmTEXTURE::CreateDrv
+  slot +0x20 v12 0x004036D0 (feb 0x00403390) ok txmTEXTURE::RequestSize
+  slot +0x24 v12 0x0048D590 (feb 0x004C46B0) ok txmTEXTURE::CreateDrv
+  slot +0x28 v12 0x0048D590 (feb 0x004C46B0) ok txmTEXTURE::CreateDrv
+  slot +0x2C v12 0x00403A20 (feb 0x00403690) ok ?$Allocator::dtor
+  slot +0x30 v12 0x004B39C0 (feb 0x004A4D60) ok txmTEXTURE::GetColor
+  slot +0x34 v12 0x004B39C0 (feb 0x004A4D60) ok txmTEXTURE::GetColor
+// vtable txmD3D_TEX: v12 0x00606B20 (feb 0x005DB688), feb 14 slots
+  slot +0x00 v12 0x004C1CC0 (feb 0x004B2390) ok ??_EtxmD3D_TEX@@UAEPAXI@Z
+  slot +0x04 v12 0x004B1F40 (feb 0x004A32E0) ok txmTEXTURE::FindDisk
+  slot +0x08 v12 0x004B20C0 (feb 0x004A3460) ok txmTEXTURE::Load
+  slot +0x0C v12 0x004B2140 (feb 0x004A34E0) ok txmTEXTURE::Unload
+  slot +0x10 v12 0x004B1F90 (feb 0x004A3330) ok txmTEXTURE::Create
+  slot +0x14 v12 0x004B2160 (feb 0x004A3500) ok txmTEXTURE::Fill
+  slot +0x18 v12 0x004B2070 (feb 0x004A3410) ok txmTEXTURE::Set
+  slot +0x1C v12 0x0048D590 (feb 0x004C46B0) ok txmTEXTURE::CreateDrv
+  slot +0x20 v12 0x004C1BE0 (feb 0x004B22B0) ok txmD3D_TEX::RequestSize
+  slot +0x24 v12 0x004C1BF0 (feb 0x004B22C0) ok txmD3D_TEX::CreateDrv
+  slot +0x28 v12 0x004C1C00 (feb 0x004B22D0) ok txmD3D_TEX::LoadDrv
+  slot +0x2C v12 0x004C1C10 (feb 0x004B22E0) ok txmD3D_TEX::UnloadDrv
+  slot +0x30 v12 0x004C1C80 (feb 0x004B2350) ok txmD3D_TEX::GetColor
+  slot +0x34 v12 0x004C1CA0 (feb 0x004B2370) ok txmD3D_TEX::SetColor
+  extra +0x38 v12 0x004C1E00 ??_GtxmD3D_TEX_LAY@@UAEPAXI@Z
+  extra +0x3C v12 0x004B2AB0 txmTEXTURE_LAY::FindDisk
+  extra +0x40 v12 0x004B2BD0 txmTEXTURE_LAY::Load
+  extra +0x44 v12 0x004B2EE0 txmTEXTURE_LAY::Unload
+  extra +0x48 v12 0x004B2B10 txmTEXTURE_LAY::Create
+  extra +0x4C v12 0x004B2160 txmTEXTURE::Fill
+  extra +0x50 v12 0x004B2B20 txmTEXTURE_LAY::Set
+  extra +0x54 v12 0x004B3120 txmTEXTURE_LAY::Update
+  extra +0x58 v12 0x004C1D50 txmD3D_TEX_LAY::RequestSize
+  extra +0x5C v12 0x004C1D60 txmD3D_TEX_LAY::CreateDrv
+  extra +0x60 v12 0x004C1D70 txmD3D_TEX_LAY::LoadDrv
+  extra +0x64 v12 0x004C1D80 txmD3D_TEX_LAY::UnloadDrv
+// vtable pteMANAGER: v12 0x00606FE4 (feb 0x005DBB4C), feb 1 slots
+  slot +0x00 v12 0x004D8460 (feb 0x004C94A0) ok ??_GpteMANAGER@@UAEPAXI@Z
+  extra +0x04 v12 0x004D8C90 ??_EpteSHADER@@UAEPAXI@Z
+  extra +0x08 v12 0x004D8EB0 pteSHADER::Enable
+  extra +0x0C v12 0x0041C180 pteSHADER::GetTex
+  extra +0x10 v12 0x00403970 pteSHADER::ShadeVert
+  extra +0x14 v12 0x0041C190 pteSHADER::GetColor
+  extra +0x18 v12 0x00403950 ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  extra +0x1C v12 0x00403200 physMATH::ProcessCDT
+  extra +0x20 v12 0x0041C1C0 pteSHADER::SetStateRend
+  extra +0x24 v12 0x0041C1D0 pteSHADER::GetStateRend
+  extra +0x28 v12 0x0048DF30 ?GetLayerAppState@?$pjlNPC_PJL@UminoAX_TRAIL@@@@MAEHXZ
+  extra +0x2C v12 0x004D8FA0 pteSHADER::GetName
+  extra +0x30 v12 0x004D8D20 pteSHADER::Init
+// vtable pteSHADER: v12 0x00606FE8 (feb 0x005DBB50), feb 28 slots
+  slot +0x00 v12 0x004D8C90 (feb 0x004C9CD0) ok ??_EpteSHADER@@UAEPAXI@Z
+  slot +0x04 v12 0x004D8EB0 (feb 0x004C9EF0) ok pteSHADER::Enable
+  slot +0x08 v12 0x0041C180 (feb 0x00419720) ok pteSHADER::GetTex
+  slot +0x0C v12 0x00403970 (feb 0x00403640) ok pteSHADER::ShadeVert
+  slot +0x10 v12 0x0041C190 (feb 0x00419730) ok pteSHADER::GetColor
+  slot +0x14 v12 0x00403950 (feb 0x00403870) ok ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  slot +0x18 v12 0x00403200 (feb 0x004036B0) ok physMATH::ProcessCDT
+  slot +0x1C v12 0x0041C1C0 (feb 0x00419760) ok pteSHADER::SetStateRend
+  slot +0x20 v12 0x0041C1D0 (feb 0x00419770) ok pteSHADER::GetStateRend
+  slot +0x24 v12 0x0048DF30 (feb 0x00403680) ok ?GetLayerAppState@?$pjlNPC_PJL@UminoAX_TRAIL@@@@MAEHXZ
+  slot +0x28 v12 0x004D8FA0 (feb 0x004C9FE0) ok pteSHADER::GetName
+  slot +0x2C v12 0x004D8D20 (feb 0x004C9D60) ok pteSHADER::Init
+  slot +0x30 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x34 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x38 v12 0x00403200 (feb 0x004036B0) ok physMATH::ProcessCDT
+  slot +0x3C v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x40 v12 0x00403970 (feb 0x00403640) ok pteSHADER::ShadeVert
+  slot +0x44 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+  slot +0x48 v12 0x00403950 (feb 0x00403870) ok ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  slot +0x4C v12 0x00403860 (feb 0x0057BD10) ok uiUI_SYSTEM::ShowPlayerPain
+  slot +0x50 v12 0x0048D590 (feb 0x004C46B0) ok txmTEXTURE::CreateDrv
+  slot +0x54 v12 0x00403A20 (feb 0x00403690) ok ?$Allocator::dtor
+  slot +0x58 v12 0x004D8F40 (feb 0x004C9F80) ok pteSHADER::DeleteInstNotify
+  slot +0x5C v12 0x004D8F70 (feb 0x004C9FB0) ok pteSHADER::DeleteObjNotify
+  slot +0x60 v12 0x004E0920 (feb 0x004D2690) ok pteSHADER::MakeObjIndList
+// vtable pteEMAP: v12 0x00606DC0 (feb 0x005DBDD0), feb 28 slots
+  slot +0x00 v12 0x004DE810 (feb 0x004751A0) ? ??_GwrsfxPORTAL_VIEW@@UAEPAXI@Z
+  slot +0x04 v12 0x004DE7D0 (feb 0x004C9EF0) ? pteSHADER::Enable
+  slot +0x08 v12 0x004F5CB0 (feb 0x00419720) ? pteSHADER::GetTex
+  slot +0x0C v12 0x004F6170 (feb 0x00403640) ? pteSHADER::ShadeVert
+  slot +0x10 v12 0x004F6CD0 (feb 0x00419730) ? pteSHADER::GetColor
+  slot +0x14 v12 0x004F6A10 (feb 0x00403870) ? ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  slot +0x18 v12 0x004F6730 (feb 0x004036B0) ? physMATH::ProcessCDT
+  slot +0x1C v12 0x00000000 (feb 0x00419760) ? pteSHADER::SetStateRend
+  slot +0x20 v12 0x00000000 (feb 0x00419770) ? pteSHADER::GetStateRend
+  slot +0x24 v12 0x00000000 (feb 0x00403680) ? ?GetLayerAppState@?$pjlNPC_PJL@UminoAX_TRAIL@@@@MAEHXZ
+  slot +0x28 v12 0x00000000 (feb 0x004C9FE0) ? pteSHADER::GetName
+  slot +0x2C v12 0x00000000 (feb 0x004D3E80) ? pteEMAP::Init
+  slot +0x30 v12 0x00000000 (feb 0x004D4010) ? pteEMAP::IsShadeObj
+  slot +0x34 v12 0x00000000 (feb 0x004D74E0) ? pteEMAP::IsShadeInst
+  slot +0x38 v12 0x00000000 (feb 0x004036B0) ? physMATH::ProcessCDT
+  slot +0x3C v12 0x00000000 (feb 0x00499C50) ? msgADDR::PostProcessMsg
+  slot +0x40 v12 0x00000000 (feb 0x00403640) ? pteSHADER::ShadeVert
+  slot +0x44 v12 0x00000000 (feb 0x004C46B0) ? txmTEXTURE::CreateDrv
+  slot +0x48 v12 0x00000000 (feb 0x00403870) ? ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  slot +0x4C v12 0x00000000 (feb 0x004D40D0) ? pteEMAP::PrepareFrame
+  slot +0x50 v12 0x00000000 (feb 0x004C46B0) ? txmTEXTURE::CreateDrv
+  slot +0x54 v12 0x00000000 (feb 0x00403690) ? ?$Allocator::dtor
+  slot +0x58 v12 0x00000000 (feb 0x004C9F80) ? pteSHADER::DeleteInstNotify
+  slot +0x5C v12 0x00000000 (feb 0x004C9FB0) ? pteSHADER::DeleteObjNotify
+  slot +0x60 v12 0x00000000 (feb 0x004D2690) ? pteSHADER::MakeObjIndList
+  slot +0x64 v12 0x00000000 (feb 0x004D4040) ? pteEMAP::GetMatrL2W
+  slot +0x68 v12 0x00000000 (feb 0x0056770B) ? __purecall
+// vtable pteSPOT: v12 0x00606F40 (feb 0x005DBAA8), feb 27 slots
+  slot +0x00 v12 0x004D6250 (feb 0x004C7270) ok ??_EpteSPOT@@UAEPAXI@Z
+  slot +0x04 v12 0x004D8EB0 (feb 0x004C9EF0) ok pteSHADER::Enable
+  slot +0x08 v12 0x004D7500 (feb 0x004C8530) ok pteSPOT::GetTex
+  slot +0x0C v12 0x004D7560 (feb 0x004C8590) ok pteSPOT::GetColor
+  slot +0x10 v12 0x004D7520 (feb 0x004C8550) ok pteSPOT::GetColor
+  slot +0x14 v12 0x004D64B0 (feb 0x004C74D0) ok pteSPOT::SetOrg
+  slot +0x18 v12 0x00403980 (feb 0x00403650) ok pteSPOT::GetOrg
+  slot +0x1C v12 0x004D6480 (feb 0x004C74A0) ok pteSPOT::SetStateRend
+  slot +0x20 v12 0x004D7400 (feb 0x004C8430) ok pteSPOT::GetStateRend
+  slot +0x24 v12 0x004031F0 (feb 0x004036A0) ok aiNPC_WR::DoesNPCAllowSFXAppear
+  slot +0x28 v12 0x004D8FA0 (feb 0x004C9FE0) ok pteSHADER::GetName
+  slot +0x2C v12 0x004D62C0 (feb 0x004C72E0) ok pteSPOT::Init
+  slot +0x30 v12 0x004D6640 (feb 0x004C7660) ok pteSPOT::IsShadeObj
+  slot +0x34 v12 0x004D6710 (feb 0x004C7730) ok pteSPOT::IsShadeInst
+  slot +0x38 v12 0x004D69A0 (feb 0x004C79D0) ok pteSPOT::ShadeFacePrepare
+  slot +0x3C v12 0x004D69C0 (feb 0x004C79F0) ok pteSPOT::ShadeFace
+  slot +0x40 v12 0x00403970 (feb 0x00403640) ok pteSHADER::ShadeVert
+  slot +0x44 v12 0x004D6730 (feb 0x004C7750) ok pteSPOT::IsActive
+  slot +0x48 v12 0x00403950 (feb 0x00403870) ok ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  slot +0x4C v12 0x004D68C0 (feb 0x004C78F0) ok pteSPOT::PrepareFrame
+  slot +0x50 v12 0x004D6540 (feb 0x004C7560) ok pteSPOT::InitLevel
+  slot +0x54 v12 0x004D6570 (feb 0x004C7590) ok pteSPOT::TermLevel
+  slot +0x58 v12 0x004D8F40 (feb 0x004C9F80) ok pteSHADER::DeleteInstNotify
+  slot +0x5C v12 0x004D6590 (feb 0x004C75B0) ok pteSPOT::DeleteObjNotify
+  slot +0x60 v12 0x004D7880 (feb 0x004C88C0) ok pteSPOT::MakeObjIndList
+  slot +0x64 v12 0x004D7BA0 (feb 0x004C8BE0) ok pteSPOT::GetMaxRadius
+  slot +0x68 v12 0x004D78C0 (feb 0x004C8900) ok pteSPOT::IsIncludeFaceStaticData
+// vtable pteFOG_GROUND: v12 0x0060AB60 (feb 0x005DF598), feb 26 slots
+  slot +0x00 v12 0x0059A280 (feb 0x0057E860) ok ??_EpteFOG_GROUND@@UAEPAXI@Z
+  slot +0x04 v12 0x004D8EB0 (feb 0x004C9EF0) ok pteSHADER::Enable
+  slot +0x08 v12 0x0041C180 (feb 0x00419720) ok pteSHADER::GetTex
+  slot +0x0C v12 0x00403970 (feb 0x00403640) ok pteSHADER::ShadeVert
+  slot +0x10 v12 0x0041C190 (feb 0x00419730) ok pteSHADER::GetColor
+  slot +0x14 v12 0x00403950 (feb 0x00403870) ok ?ShowCollisSFX@?$pjlPJL@UpwpACD_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+  slot +0x18 v12 0x00403200 (feb 0x004036B0) ok physMATH::ProcessCDT
+  slot +0x1C v12 0x0041C1C0 (feb 0x00419760) ok pteSHADER::SetStateRend
+  slot +0x20 v12 0x0041C1D0 (feb 0x00419770) ok pteSHADER::GetStateRend
+  slot +0x24 v12 0x0048DF30 (feb 0x00403680) ok ?GetLayerAppState@?$pjlNPC_PJL@UminoAX_TRAIL@@@@MAEHXZ
+  slot +0x28 v12 0x004D8FA0 (feb 0x004C9FE0) ok pteSHADER::GetName
+  slot +0x2C v12 0x004D8D20 (feb 0x004C9D60) ok pteSHADER::Init
+  slot +0x30 v12 0x0059A790 (feb 0x0057ED70) ok pteFOG_GROUND::IsShadeObj
+  slot +0x34 v12 0x0059A6D0 (feb 0x0057ECB0) ok pteFOG_GROUND::IsShadeInst
+  slot +0x38 v12 0x00403200 (feb 0x004036B0) ok physMATH::ProcessCDT
+  slot +0x3C v12 0x0059A8F0 (feb 0x0057EED0) ok pteFOG_GROUND::ShadeFace
+  slot +0x40 v12 0x0059ACE0 (feb 0x0057F2C0) ok pteFOG_GROUND::ShadeVert
+  slot +0x44 v12 0x0059A660 (feb 0x0057EC40) ok pteFOG_GROUND::IsActive
+  slot +0x48 v12 0x0059A6B0 (feb 0x0057EC90) ok pteFOG_GROUND::Update
+  slot +0x4C v12 0x0059A850 (feb 0x0057EE30) ok pteFOG_GROUND::PrepareFrame
+  slot +0x50 v12 0x0059A2F0 (feb 0x0057E8D0) ok pteFOG_GROUND::InitLevel
+  slot +0x54 v12 0x00403A20 (feb 0x00403690) ok ?$Allocator::dtor
+  slot +0x58 v12 0x004D8F40 (feb 0x004C9F80) ok pteSHADER::DeleteInstNotify
+  slot +0x5C v12 0x004D8F70 (feb 0x004C9FB0) ok pteSHADER::DeleteObjNotify
+  slot +0x60 v12 0x004E0920 (feb 0x004D2690) ok pteSHADER::MakeObjIndList
+// vtable scnDOMAIN: v12 0x005FCF28 (feb 0x005D200C), feb 17 slots
+  slot +0x00 v12 0x0043A2D0 (feb 0x00433EC0) ok ??_EaiAREA@@UAEPAXI@Z
+  slot +0x04 v12 0x004EFB10 (feb 0x004DC1B0) ok scnDOMAIN::Init
+  slot +0x08 v12 0x004F01D0 (feb 0x004DC870) ok scnDOMAIN::Term
+  slot +0x0C v12 0x004F0430 (feb 0x004DCAD0) ok scnDOMAIN::IsBelongPoint
+  slot +0x10 v12 0x004F0560 (feb 0x004DCC00) ok scnDOMAIN::IsBelongPointXZ
+  slot +0x14 v12 0x004F0610 (feb 0x004DCCB0) ok scnDOMAIN::IsLSegCrossBoundaryXZ
+  slot +0x18 v12 0x00502560 (feb 0x004DCD70) ok cdtCOLL_OBJ::IsectID2BBox
+  slot +0x1C v12 0x004F06D0 (feb 0x004DCD80) ok scnDOMAIN::IsIsectBox
+  slot +0x20 v12 0x004F0750 (feb 0x004DCE00) ok scnDOMAIN::_IsIsectObj
+  slot +0x24 v12 0x004F0BD0 (feb 0x004DD280) ok scnDOMAIN::IsIsectObj
+  slot +0x28 v12 0x004F0C80 (feb 0x004DD330) ok scnDOMAIN::_IsIsectInst
+  slot +0x2C v12 0x004F0C60 (feb 0x004DD310) ok scnDOMAIN::IsIsectInst
+// vtable partEMITTER_PHYS: v12 0x00606ED0 (feb 0x005DB950), feb 12 slots
+  slot +0x00 v12 0x00402FF0 (feb 0x0047F4C0) ok ??_GwrsfxCERBER_FIREBALL_EXPL_SPARKS@@UAEPAXI@Z
+  slot +0x04 v12 0x004D1D10 (feb 0x004C0760) ok partEMITTER_PHYS::SetColor
+  slot +0x08 v12 0x004D1D60 (feb 0x004C0780) ok partEMITTER_PHYS::GetColor
+  slot +0x0C v12 0x004D3730 (feb 0x004C2120) ok partEMITTER_PHYS::Update
+  slot +0x10 v12 0x004038E0 (feb 0x004035E0) ok partEMITTER_PHYS::Emit
+  slot +0x14 v12 0x00403860 (feb 0x0057BD10) ok uiUI_SYSTEM::ShowPlayerPain
+  slot +0x18 v12 0x004D5980 (feb 0x004C6980) ok partEMITTER_PHYS::Register
+  slot +0x1C v12 0x004D2860 (feb 0x004C1250) ok partEMITTER_PHYS::PartCreate
+  slot +0x20 v12 0x004D35A0 (feb 0x004C1F90) ok partEMITTER_PHYS::PartUpdate
+  slot +0x24 v12 0x004D2290 (feb 0x004C0C80) ok partEMITTER_PHYS::PartUpdateVisible
+  slot +0x28 v12 0x00403860 (feb 0x0057BD10) ok uiUI_SYSTEM::ShowPlayerPain
+  slot +0x2C v12 0x004D3CA0 (feb 0x004C2690) ok partEMITTER_PHYS::PartApplyCDT
+  extra +0x30 v12 0x00402FF0 ??_GwrsfxCERBER_FIREBALL_EXPL_SPARKS@@UAEPAXI@Z
+  extra +0x34 v12 0x004D1D10 partEMITTER_PHYS::SetColor
+  extra +0x38 v12 0x004D1D60 partEMITTER_PHYS::GetColor
+  extra +0x3C v12 0x004D40E0 partEMITTER_PHYS_FLY::Update
+  extra +0x40 v12 0x004038E0 partEMITTER_PHYS::Emit
+  extra +0x44 v12 0x00403860 uiUI_SYSTEM::ShowPlayerPain
+  extra +0x48 v12 0x004D5980 partEMITTER_PHYS::Register
+  extra +0x4C v12 0x004D2860 partEMITTER_PHYS::PartCreate
+  extra +0x50 v12 0x004D35A0 partEMITTER_PHYS::PartUpdate
+  extra +0x54 v12 0x004D2290 partEMITTER_PHYS::PartUpdateVisible
+  extra +0x58 v12 0x00403860 uiUI_SYSTEM::ShowPlayerPain
+  extra +0x5C v12 0x004D3CA0 partEMITTER_PHYS::PartApplyCDT
+// vtable objMODIFIER: v12 0x0060715C (feb 0x005DBD70), feb 9 slots
+  slot +0x00 v12 0x004DFE40 (feb 0x004D1BC0) ok ??_EobjMODIFIER@@UAEPAXI@Z
+  slot +0x04 v12 0x004DFF70 (feb 0x004D1CF0) ok objMODIFIER::AddObj
+  slot +0x08 v12 0x004E0000 (feb 0x004D1D80) ok objMODIFIER::DelObj
+  slot +0x0C v12 0x00403200 (feb 0x004036B0) ok physMATH::ProcessCDT
+  slot +0x10 v12 0x00403940 (feb 0x0057BCE0) ok objMODIFIER::Animate
+  slot +0x14 v12 0x00403A20 (feb 0x00403690) ok ?$Allocator::dtor
+  slot +0x18 v12 0x0057FFFB (feb 0x0056770B) ok __purecall
+// vtable objLOD: v12 0x00607820 (feb 0x005DC318), feb 7 slots
+  slot +0x00 v12 0x004F2FF0 (feb 0x004DED30) ok lodLOD::Apply
+  slot +0x04 v12 0x004F3440 (feb 0x004DF190) ok objLOD::GetLodCenter
+  slot +0x08 v12 0x004F31F0 (feb 0x004DEF40) ok lodLOD::Init
+  slot +0x0C v12 0x004F33D0 (feb 0x004DF120) ok objLOD::_SetLodNmb
+  slot +0x10 v12 0x004F3250 (feb 0x004DEFA0) ok lodLOD::GetDataPtr
+  slot +0x14 v12 0x00401380 (feb 0x00403BE0) ok gsLVL_SYSTEM::ProcessFRAME
+  slot +0x18 v12 0x004F3260 (feb 0x004DEFB0) ok objLOD::Init
+  extra +0x1C v12 0x004F2FF0 lodLOD::Apply
+  extra +0x20 v12 0x004F3460 animLOD_SEL::GetLodCenter
+  extra +0x24 v12 0x004F31F0 lodLOD::Init
+  extra +0x28 v12 0x004F3470 animLOD_SEL::_SetLodNmb
+  extra +0x2C v12 0x004F3250 lodLOD::GetDataPtr
+  extra +0x30 v12 0x004F36B0 animLOD_SEL::Term
+  extra +0x34 v12 0x004F3500 animLOD_SEL::Init
+// vtable fntMANAGER: v12 0x0060ABC8 (feb 0x005DF600), feb 11 slots
+  slot +0x00 v12 0x0059B520 (feb 0x0057FB00) ok ??_GfntMANAGER@@UAEPAXI@Z
+// vtable rnsSIGNATURE: v12 0x006076BC (feb 0x005DC2A4), feb 10 slots
+  slot +0x00 v12 0x004EAD50 (feb 0x004BE310) ok ??_GmsgADDR_LIST@@UAEPAXI@Z
+  slot +0x04 v12 0x004FE110 (feb 0x004EBB30) ok lstLIST::Insert
+  slot +0x08 v12 0x004AC310 (feb 0x0049DF20) ok lstLIST_SIMPLE::Add
+  slot +0x0C v12 0x004FE180 (feb 0x004EBBA0) ok lstLIST::Remove
+  slot +0x10 v12 0x004FE0F0 (feb 0x004EBB10) ok lstLIST_SIMPLE::Clear
+  slot +0x14 v12 0x004AC320 (feb 0x0049DF30) ok lstLIST::GetNumItems
+  slot +0x18 v12 0x00504DA0 (feb 0x004F2790) ok rnsSIGNATURE::Compare
+  slot +0x1C v12 0x00504D70 (feb 0x004F2760) ok rnsSIGNATURE::Insert

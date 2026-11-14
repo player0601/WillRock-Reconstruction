@@ -1,0 +1,1240 @@
+feb	v12	how	obj	name
+0042A2A0	--------		ais_atlas.obj	_$E21
+0042A300	--------		ais_atlas.obj	_$E24
+0042A310	0042F5E0	tbl:callgraph	ais_atlas.obj	?aisAtlasInit@@YIHXZ
+0042A360	0042F630	vt	ais_atlas.obj	aisATLAS::SetupAniSystem
+0042A570	0042F840	vt	ais_atlas.obj	aisATLAS::ProcessINIT
+0042A870	0042FB70	vt	ais_atlas.obj	aisATLAS::ParseNameClass
+0042A920	0042FCA0	vt	ais_atlas.obj	aisATLAS::ProcessTERM
+0042A940	--------		ais_atlas.obj	aisATLAS::FillAttackFlag
+0042AA90	--------		ais_atlas.obj	_$E2
+0042AAB0	0042FE20	vt	ais_atlas.obj	aisATLAS::SelectGoal
+0042AAF0	0042FE60	vt	ais_atlas.obj	aisATLAS::ProcessShoot
+0042AB10	0042FE80	vt	ais_atlas.obj	aisATLAS::Activate
+0042AB40	0042FEB0	vt	ais_atlas.obj	aisATLAS::EvalAnimGoalSeq
+0042ABE0	0042FF60	vt	ais_atlas.obj	aisATLAS::ProcessActionFrame
+0042AD70	004300F0	vt	ais_atlas.obj	aisATLAS::Think
+0042ADB0	00430130	vt	ais_atlas.obj	aisATLAS::SetMovementSpeed
+0042AE30	004301B0	vt	ais_atlas.obj	aisATLAS::AnimateProcedural
+0042AF80	00430300	vt	ais_atlas.obj	aisSPHINX::UpdateTimers
+0042AFB0	00431810	vt	ais_atlas.obj	aisATLAS::ProcessCDT_FIREABLE
+0042AFD0	00401380	vt	ais_atlas.obj	aisATLAS::UpdateSound
+0042B000	--------		ais_atlas.obj	aisATLAS::FillBallStartSpeed
+0042B240	00430600	cg:0042ABE0	ais_atlas.obj	aisATLAS::ThrowBall
+0042B3D0	004309A0	vt	ais_atlas.obj	aisATLAS::GetShatterRigid
+0042B3E0	004309E0	tbl:exact	ais_atlas.obj	aisATLAS_SHATTER_RIGID_START::GetPieceNameClass
+0042B410	--------		ais_atlas.obj	aisATLAS::CheckPlrVisible
+0042B430	00403200	vt	ais_atlas.obj	aisATLAS::IsArmoredObject
+0042B450	00430A80	vt	ais_atlas.obj	aisATLAS::Create
+0042B490	00430AC0	vt	ais_atlas.obj	aiNPC::GetCenter
+0042B4A0	00430AE0	vt	ais_atlas.obj	aiNPC::Freeze
+0042B4B0	00430AF0	vt	ais_atlas.obj	aiNPC::GetGravity
+0042B4C0	00430B00	vt	ais_atlas.obj	aiNPC_WR::GetLayer1State
+0042B4D0	00430B10	vt	ais_atlas.obj	aiNPC_WR::SetLayer1State
+0042B4F0	00430B30	vt	ais_atlas.obj	aisATLAS::GetAnimPlayRate
+0042B500	00430B40	vt	ais_atlas.obj	aisSPHINX::GetLayer3State
+0042B510	00430B50	vt	ais_atlas.obj	aisSPHINX::SetLayer3State
+0042B520	--------		ais_diskobolus.obj	_$E18
+0042B580	--------		ais_diskobolus.obj	_$E21
+0042B590	00430D90	tbl:callgraph	ais_diskobolus.obj	?aisDiskblInit@@YIHXZ
+0042B5E0	00430DE0	vt	ais_diskobolus.obj	aisDISKBL::SetupAniSystem
+0042B780	00430F80	vt	ais_diskobolus.obj	aisDISKBL::ProcessINIT
+0042BA10	00431230	vt	ais_diskobolus.obj	aisDISKBL::ParseNameClass
+0042BA40	00431270	tbl:callgraph	ais_diskobolus.obj	aisDISKBL::FillAttackFlag
+0042BC10	00431440	vt	ais_diskobolus.obj	aisDISKBL::SelectGoal
+0042BC30	00431460	vt	ais_diskobolus.obj	aisDISKBL::EvalAnimGoalSeq
+0042BCB0	00431500	vt	ais_diskobolus.obj	aisDISKBL::ProcessActionFrame
+0042BDA0	--------		ais_diskobolus.obj	_$E2
+0042BDC0	004315F0	vt	ais_diskobolus.obj	aisDISKBL::Think
+0042BE30	00431660	vt	ais_diskobolus.obj	aisDISKBL::SetMovementSpeed
+0042BE90	004316C0	vt	ais_diskobolus.obj	aisDISKBL::AnimateProcedural
+0042BFD0	00431810	vt	ais_diskobolus.obj	aisDISKBL::ProcessCDT_FIREABLE
+0042BFF0	00431830	vt	ais_diskobolus.obj	aisDISKBL::UpdateTimers
+0042C020	00401380	vt	ais_diskobolus.obj	aisDISKBL::UpdateSound
+0042C050	00431960	cg:0042BCB0	ais_diskobolus.obj	aisDISKBL::ThrowDisk
+0042C410	00431DC0	vt	ais_diskobolus.obj	aisDISKBL::GetShatterRigid
+0042C420	--------		ais_diskobolus.obj	aisDISKBL_SHATTER_RIGID_START::GetPieceNameClass
+0042C430	00403200	vt	ais_diskobolus.obj	aisDISKBL::IsArmoredObject
+0042C450	00431DF0	vt	ais_diskobolus.obj	aisDISKBL::Create
+0042C490	00431E30	vt	ais_diskobolus.obj	aiNPC::GetAnimPlayRate
+0042C4A0	--------		ais_perseus.obj	_$E19
+0042C500	--------		ais_perseus.obj	?aisPerseusInit@@YIHXZ
+0042C580	00431F50	vt	ais_perseus.obj	aisPERSEUS::ProcessINIT
+0042C720	004320F0	vt	ais_perseus.obj	aisPERSEUS::SetupAniSystem
+0042C820	--------		ais_perseus.obj	_$E2
+0042C840	00432210	vt	ais_perseus.obj	aisPERSEUS::ProcessFRAME
+0042C8C0	00432290	vt	ais_perseus.obj	aisPERSEUS::ProcessTERM
+0042C8F0	004322C0	vt	ais_perseus.obj	aisPERSEUS::ProcessCDT_FIREABLE
+0042C920	004322F0	vt	ais_perseus.obj	aisPERSEUS::StartDeath
+0042C980	00432350	vt	ais_perseus.obj	aisPERSEUS::ProcessDESTROY_ENT
+0042C9B0	004323E0	vt	ais_perseus.obj	aisPERSEUS::ProcessMsg
+0042CA30	00403200	vt	ais_perseus.obj	aisPERSEUS::IsArmoredObject
+0042CA50	004324C0	vt	ais_perseus.obj	aisPERSEUS::Create
+0042CAA0	--------		ais_sphinx.obj	_$E24
+0042CB60	--------		ais_sphinx.obj	pjlSPHINX_SFX::StartSFX
+0042CC30	004326E0	vt	ais_sphinx.obj	pjlSPHINX::ProcessINIT
+0042CED0	--------		ais_sphinx.obj	pjlSPHINX::AlignWithSpeed
+0042CFF0	00432A10	vt	ais_sphinx.obj	pjlSPHINX::ProcessFRAME
+0042D0C0	00432AF0	vt	ais_sphinx.obj	pjlSPHINX::ProcessCDT
+0042D240	00432C70	vt	ais_sphinx.obj	pjlSPHINX::ShowCollisSFX
+0042D2A0	--------		ais_sphinx.obj	?aisSphinxInit@@YIHXZ
+0042D340	00432D90	cg:0042D8B0	ais_sphinx.obj	aisSPHINX_PARTS::ctor
+0042D5B0	00433000	cg:0042D8B0	ais_sphinx.obj	aisSPHINX_SMOKE::ctor
+0042D860	--------		ais_sphinx.obj	_$E2
+0042D880	004332D0	vt	ais_sphinx.obj	aisSPHINX::ProcessCDT_FIREABLE
+0042D8B0	00433300	vt	ais_sphinx.obj	aisSPHINX::StartDeath
+0042D9F0	004333F0	vt	ais_sphinx.obj	aisSPHINX::ProcessINIT
+0042DBB0	004335B0	vt	ais_sphinx.obj	aisSPHINX::ProcessTERM
+0042DBE0	004335E0	vt	ais_sphinx.obj	aisSPHINX::SetMovementSpeed
+0042DC00	00433600	vt	ais_sphinx.obj	aisSPHINX::GetAnimPlayRate
+0042DC10	00433610	vt	ais_sphinx.obj	aisSPHINX::EvalAnimGoalSeq
+0042DC20	00433620	vt	ais_sphinx.obj	aisSPHINX::SetupAniSystem
+0042DD30	00433730	vt	ais_sphinx.obj	aisSPHINX::ProcessINIT_LEVEL
+0042DD90	004337A0	vt	ais_sphinx.obj	aisSPHINX::ProcessMP_NOTIFY
+0042DDC0	004337D0	vt	ais_sphinx.obj	aisSPHINX::Think
+0042E080	--------		ais_sphinx.obj	aisSPHINX::LaunchOneProjectile
+0042E3A0	00403200	vt	ais_sphinx.obj	aisSPHINX::IsArmoredObject
+0042E3C0	00433DE0	vt	ais_sphinx.obj	aisSPHINX::PlaySounds
+0042E410	00433EC0	cg:0042CC30	ais_sphinx.obj	?ProcessINIT@?$pjlPJL@UpjlSPHINX_SFX@@@@MAEHPAUphysINIT@@@Z
+0042E4C0	004340B0	vt	ais_sphinx.obj	aisSPHINX::Create
+0042E520	00434110	vt	ais_sphinx.obj	??_GaisSPHINX@@UAEPAXI@Z
+0042E540	00434130	vt	ais_sphinx.obj	pjlSPHINX::Create
+0042E600	004344B0	vt	ais_sphinx.obj	??_E?$pjlPJL@UpjlSPHINX_SFX@@@@MAEPAXI@Z
+0042E630	--------		ais_sphinx.obj	?ProcessFRAME@?$pjlPJL@UpjlSPHINX_SFX@@@@MAEXXZ
+0042E660	00434250	vt	ais_sphinx.obj	?DispatchDamage@?$pjlPJL@UpjlSFX_NONE@@@@MAEXPAVcdtINFO@@@Z
+0042E6F0	004342E0	vt	ais_sphinx.obj	?Terminate@?$pjlPJL@UpjlSFX_NONE@@@@MAEXXZ
+0042E730	00434490	vt	ais_sphinx.obj	pjlSPHINX::GetLayerAppState
+0042E740	004344A0	vt	ais_sphinx.obj	pjlSPHINX::SetLayerAppState
+0042E750	--------		ais_statue.obj	_$E17
+0042E7B0	--------		ais_statue.obj	_$E20
+0042E7C0	00434550	tbl:exact	ais_statue.obj	?aisStatueInit@@YIHXZ
+0042E820	004345B0	tbl:callgraph	ais_statue.obj	?aisStatueTerm@@YIXXZ
+0042E830	004345C0	cg:0042B450	ais_statue.obj	aisSTATUE::ctor
+0042E8F0	--------		ais_statue.obj	??_EaisSTATUE@@UAEPAXI@Z
+0042E920	004346A0	cg:0042E520	ais_statue.obj	aisSTATUE::dtor
+0042E930	004346B0	cg:0042A570	ais_statue.obj	aisSTATUE::ProcessINIT
+0042E9B0	00434730	vt	ais_statue.obj	aisSTATUE::ParseNameClass
+0042EA10	00434790	vt	ais_statue.obj	aisSTATUE::MoveRootedPivoted
+0042EA60	004347E0	cg:0042D880	ais_statue.obj	aisSTATUE::ProcessCDT_FIREABLE
+0042EA80	00434800	vt	ais_statue.obj	aisSTATUE::ProcessASK_KEEP_LEVEL_RELOAD
+0042EA90	00434810	vt	ais_statue.obj	aisSTATUE::ProcessIACTION
+0042EAA0	00434820	vt	ais_statue.obj	aisSTATUE::UpdateOnServerOnly
+0042EAD0	00434850	vt	ais_statue.obj	aisSTATUE::UpdateOnClientOnly
+0042EAE0	00434860	vt	ais_statue.obj	aisSTATUE::UpdateOnServerAndClient
+0042EB00	00434880	vt	ais_statue.obj	aisSTATUE::Activate
+0042EB40	004348C0	vt	ais_statue.obj	aisSTATUE::SelectGoal
+0042EB60	004348E0	vt	ais_statue.obj	aisSTATUE::UpdateTimers
+0042EB70	004348F0	vt	ais_statue.obj	aisSTATUE::Shoot
+0042EBA0	00434920	vt	ais_statue.obj	aisSTATUE::GetPlayerTargetPos
+0042EBD0	00434950	vt	ais_statue.obj	aisSTATUE::Colorize
+0042EC50	004349D0	vt	ais_statue.obj	aisSTATUE::SetMovementSpeed
+0042EC70	00430830	vt	ais_statue.obj	aisSTATUE::StartDeath
+0042ED10	00434AB0	vt	ais_statue.obj	aisSTATUE::GetShatterRigid
+0042ED20	00434AC0	tbl:exact	ais_statue.obj	aisSHATTER_RIGID_START::CreatePiece
+0042EEB0	--------		ais_statue.obj	aisSHATTER_RIGID_START::GetShatter
+0042EF80	--------		ais_statue.obj	_$E23
+0042EFD0	--------		ais_statue.obj	_$E4
+0042EFF0	--------		ais_statue.obj	aisSHATTER::GetPatchTex
+0042F000	00434DA0	tbl:vtable	ais_statue.obj	cgmWED_SYS::MeshGetName
+0042F010	00434DB0	tbl:vtable	ais_statue.obj	cgmWED_SYS::CalcDist
+0042F020	00540040	tbl:vtable	ais_statue.obj	??_GcgmWED@@UAEPAXI@Z
+0042F040	00434DC0	tbl:exact	ais_statue.obj	dsDYN_ARRAY::ctor
+0042F060	00434DE0	tbl:exact	ais_statue_sfx.obj	?aisStatueSFXInit@@YIHXZ
+0042F0D0	00434E50	vt	ais_statue_sfx.obj	aisSTATUE_BREAK_PART_SFX::Create
+0042F100	--------		ais_statue_sfx.obj	?aisStatueSFXStartBreakPart@@YIXPAVaisSTATUE@@@Z
+0042F120	00434EA0	vt	ais_statue_sfx.obj	aisSTATUE_BREAK_PART_SFX::ProcessMsg
+0042F150	00434ED0	tbl:callgraph	ais_statue_sfx.obj	aisSTATUE_BREAK_PART_SFX::ProcessINIT
+0042F2E0	00435000	tbl:callgraph	ais_statue_sfx.obj	aisSTATUE_BREAK_PART_SFX::ProcessFRAME
+0042F3C0	004350E0	tbl:callgraph	ais_statue_sfx.obj	aisSTATUE_PARTS::ctor
+0042F5A0	004352C0	tbl:callgraph	ais_statue_sfx.obj	aisSTATUE_SMOKE::ctor
+0042F7E0	--------		ais_statue_sfx.obj	_$E2
+0042F800	--------		atlas_ball.obj	_$E21
+0042F860	00435580	tbl:exact	atlas_ball.obj	?atlasBallInit@@YIHXZ
+0042F8A0	004355C0	vt	atlas_ball.obj	atlasBALL::ProcessINIT
+0042F940	00435690	vt	atlas_ball.obj	atlasBALL::ProcessFRAME
+0042FB70	00435A10	cg:0042FD00	atlas_ball.obj	atlasBALL::Explode
+0042FD00	00435BA0	vt	atlas_ball.obj	atlasBALL::ProcessMsg
+0042FD90	--------		atlas_ball.obj	_$E2
+0042FDB0	00435C50	vt	atlas_ball.obj	atlasBALL::Create
+0042FE20	005235A0	vt	atlas_ball.obj	??_GrgdRIGID@@UAEPAXI@Z
+0042FE50	--------		diskbl_disk.obj	_$E25
+0042FF10	00435CC0	tbl:callgraph	diskbl_disk.obj	?diskblDiskInit@@YIHXZ
+0042FF70	00435D10	vt	diskbl_disk.obj	diskblDISK::ProcessINIT
+00430260	00436020	vt	diskbl_disk.obj	diskblDISK::ProcessFRAME
+00430400	004361E0	vt	diskbl_disk.obj	diskblDISK::ShowCollisSFX
+00430470	00436240	vt	diskbl_disk.obj	diskblDISK::ProcessEV_CDT
+004305E0	004363F0	tbl:exact	diskbl_disk.obj	diskblDISK_SFX_FLAME::ctor
+004307C0	--------		diskbl_disk.obj	diskblDISK_SFX::StartSFX
+004308D0	--------		diskbl_disk.obj	diskblDISK_SFX::UpdateSFX
+00430940	--------		diskbl_disk.obj	_$E2
+00430960	00548C00	tbl:exact	diskbl_disk.obj	cdtINFO::ctor
+004309A0	--------		diskbl_disk.obj	pjlCDT::ctor
+004309C0	00436860	vt	diskbl_disk.obj	diskblDISK::Create
+00430A90	--------		diskbl_disk.obj	?ProcessINIT@?$pjlPJL@UdiskblDISK_SFX@@@@MAEHPAUphysINIT@@@Z
+00430B40	00436B20	vt	diskbl_disk.obj	?ProcessTERM@?$pjlPJL@UdiskblDISK_SFX@@@@MAEXXZ
+00430B80	--------		diskbl_disk.obj	?ProcessFRAME@?$pjlPJL@UdiskblDISK_SFX@@@@MAEXXZ
+00430C00	00436C80	vt	diskbl_disk.obj	?Terminate@?$pjlPJL@UdiskblDISK_SFX@@@@MAEXXZ
+00430C40	--------		diskbl_disk.obj	?ProcessEV_CDT@?$pjlPJL@UdiskblDISK_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+00430CE0	00436D70	vt	diskbl_disk.obj	diskblDISK::GetLayerAppState
+00430CF0	00436D80	vt	diskbl_disk.obj	diskblDISK::SetLayerAppState
+00430D00	00436D90	vt	diskbl_disk.obj	??_E?$pjlPJL@UdiskblDISK_SFX@@@@MAEPAXI@Z
+00430D30	--------		ai_amur.obj	_$E18
+00430F50	00437100	tbl:exact	ai_amur.obj	?aiAmurInit@@YIHXZ
+00430FA0	--------		ai_amur.obj	pjlAMUR_ARROW::GetArrowSound
+00430FC0	00437180	vt	ai_amur.obj	aiAMUR_GENERIC::Create
+00431010	004371D0	vt	ai_amur.obj	aiAMUR_GENERIC::SetupAniSystem
+00431270	00437420	vt	ai_amur.obj	aiAMUR_GENERIC::ProcessINIT
+004315B0	00445920	vt	ai_amur.obj	aiAMUR_GENERIC::Activate
+004315C0	00437790	vt	ai_amur.obj	aiAMUR_GENERIC::Think
+00431630	--------		ai_amur.obj	_$E2
+00431650	0043B090	vt	ai_amur.obj	aiMINO::ProcessTERM
+00431660	00437800	vt	ai_amur.obj	aiAMUR_GENERIC::EvalAnimGoalSeq
+00431700	004378A0	vt	ai_amur.obj	aiAMUR_GENERIC::StartDeath
+00431760	00437900	vt	ai_amur.obj	aiAMUR_GENERIC::ProcessCDT
+00431820	004379C0	vt	ai_amur.obj	aiAMUR_GENERIC::ProcessActionFrame
+00431940	00437AE0	vt	ai_amur.obj	aiAMUR_GENERIC::SelectGoal
+00431D40	00437FD0	vt	ai_amur.obj	aiAMUR_GENERIC::ProcessFRAME
+00431D60	00437FF0	vt	ai_amur.obj	aiAMUR_GENERIC::SetMovementSpeed
+00431DC0	00438050	vt	ai_amur.obj	aiAMUR_GENERIC::UpdateTimers
+00431E30	004380C0	vt	ai_amur.obj	aiAMUR_GENERIC::ProcessCDT_FIREABLE
+00431EA0	00438130	vt	ai_amur.obj	aiAMUR_GENERIC::PlaySounds
+00431FC0	00438250	vt	ai_amur.obj	aiAMUR_GENERIC::FillSoundFlags
+00432060	00430A10	vt	ai_amur.obj	aisDISKBL::ProcessMP_NOTIFY
+00432070	00403200	vt	ai_amur.obj	aiAMUR_GENERIC::IsArmoredObject
+004320C0	004382F0	vt	ai_amur.obj	aiAMUR_GENERIC::SetLayer3State
+004320D0	00438300	tbl:callgraph	ai_amur_arrow_pjl.obj	?pjlAmurArrowInit@@YIHXZ
+00432100	00438330	cg:00432340	ai_amur_arrow_pjl.obj	aiAMUR_GENERIC::GetShootArrowPhysParam
+00432340	00438570	cg:00431820	ai_amur_arrow_pjl.obj	aiAMUR_GENERIC::LaunchOneProjectile
+004324C0	--------		ai_amur_arrow_pjl.obj	_$E2
+004324E0	00438710	vt	ai_amur_arrow_pjl.obj	pjlAMUR_ARROW::Create
+004325B0	--------		ai_amur_arrow_pjl.obj	?ProcessINIT@?$pjlPJL@UpjlARROW_GENERIC_SFX@@@@MAEHPAUphysINIT@@@Z
+00432660	--------		ai_amur_arrow_pjl.obj	?ProcessFRAME@?$pjlPJL@UpjlARROW_GENERIC_SFX@@@@MAEXXZ
+00432690	--------		ai_amur_arrow_pjl.obj	?ProcessEV_CDT@?$pjlPJL@UpjlCERBER_FIREBALL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+00432710	00458030	vt	ai_amur_arrow_pjl.obj	??_G?$pjlPJL@UpjlARROW_GENERIC_SFX@@@@MAEPAXI@Z
+00432740	--------		ai_bird.obj	_$E52
+004328E0	--------		ai_bird.obj	?aiBirdInit@@YIHXZ
+00432930	00438D50	vt	ai_bird.obj	aiBIRD::Create
+004329E0	00438E00	vt	ai_bird.obj	aiBIRD::SetupAniSystem
+00432BA0	00438FC0	vt	ai_bird.obj	aiBIRD::ProcessINIT
+00432EE0	004392F0	vt	ai_bird.obj	aiBIRD::ProcessTERM
+00432F10	00439320	vt	ai_bird.obj	aiBIRD::ProcessFRAME
+00432F20	00439360	vt	ai_bird.obj	aiBIRD::ProcessCDT
+00432FE0	00439420	vt	ai_bird.obj	aiBIRD::ProcessCDT_FIREABLE
+00433010	00439450	vt	ai_bird.obj	aiBIRD::ProcessASK_KEEP_LEVEL_RELOAD
+00433020	00439460	vt	ai_bird.obj	aiBIRD::StartDeath
+00433060	00439490	vt	ai_bird.obj	aiBIRD::UpdateDead
+004330A0	004394D0	vt	ai_bird.obj	aiBIRD::MoveToGoal
+004330B0	004394E0	vt	ai_bird.obj	aiBIRD::ClampGoalFrame
+00433430	00439850	vt	ai_bird.obj	aiBIRD::SelectGoal
+004335F0	--------		ai_bird.obj	_$E4
+00433610	00439A30	vt	ai_bird.obj	aiBIRD::EvalAnimGoalSeq
+004338A0	00439CC0	vt	ai_bird.obj	aiBIRD::ProcessActionFrame
+004338E0	0043B900	vt	ai_bird.obj	aiCENT::GetPlayerTargetPos
+00433910	--------		ai_bird.obj	aiBIRD::ProcessAttack
+00433AB0	00439EA0	vt	ai_bird.obj	aiBIRD::UpdateTimers
+00433B50	--------		ai_bird.obj	aiBIRD::ThrowEgg
+00433DA0	0043A180	vt	ai_bird.obj	aiBIRD::FillSoundFlags
+00433DF0	0043A200	vt	ai_bird.obj	aiBIRD::PlaySounds
+00433EC0	0043A2D0	tbl:exact	ai_bird.obj	??_EaiAREA@@UAEPAXI@Z
+00433EF0	0043A300	vt	ai_bird.obj	aiBIRD::IsAnimSeqGoodForFallback
+00433F10	0043A320	vt	ai_bird.obj	??_EaiBIRD@@UAEPAXI@Z
+00433F50	--------		ai_cent.obj	_$E54
+004341D0	0043A6B0	tbl:exact	ai_cent.obj	?aiCentInit@@YIHXZ
+00434220	0043A700	cg:00434E30	ai_cent.obj	?m3dIsBelongPointCyl@@YIHPAUm3dV@@00M@Z
+00434530	0043AA00	vt	ai_cent.obj	aiCENT::Create
+00434580	0043AA50	vt	ai_cent.obj	aiCENT::SetupAniSystem
+00434890	0043AD60	vt	ai_cent.obj	aiCENT::ProcessINIT
+00434BB0	0043F710	vt	ai_cent.obj	aiAMUR_GENERIC::ParseNameClass
+00434BC0	0043B0A0	vt	ai_cent.obj	aiCENT::ProcessCDT_FIREABLE
+00434BE0	0043B0C0	vt	ai_cent.obj	aiCENT::Explode
+00434C70	0043B150	vt	ai_cent.obj	aiCENT::ProcessASK_KEEP_LEVEL_RELOAD
+00434C90	0043B170	vt	ai_cent.obj	aiCENT::StartDeath
+00434CD0	00451180	vt	ai_cent.obj	aiCENT::UpdateDead
+00434CE0	0043B1B0	vt	ai_cent.obj	aiCENT::SetMovementSpeed
+00434E10	--------		ai_cent.obj	_$E4
+00434E30	0043B300	vt	ai_cent.obj	aiCENT::MoveToGoal
+00435290	0043B760	vt	ai_cent.obj	aiCENT::Think
+004352E0	0043B7B0	vt	ai_cent.obj	aiCENT::EvalAnimGoalSeq
+00435350	0043B820	vt	ai_cent.obj	aiCENT::ProcessActionFrame
+00435430	00451B50	vt	ai_cent.obj	aiCENT::GetWpnTip
+00435460	0043B930	vt	ai_cent.obj	aiCENT::UpdateTimers
+00435500	0043B9D0	vt	ai_cent.obj	aiCENT::FillSoundFlags
+004355E0	0043BAB0	vt	ai_cent.obj	aiCENT::PlaySounds
+004356D0	0043BBA0	vt	ai_cent.obj	aiCENT::SelectGoalToRunAway
+00435700	0043BBD0	vt	ai_cent.obj	aiCENT::SelectGoal
+004357A0	0043BC70	cg:00435700	ai_cent.obj	aiCENT::StartRunStraight
+004359A0	0043BE70	cg:00434E30	ai_cent.obj	aiCENT::Throw
+00435A90	0043BF60	cg:00434E30	ai_cent.obj	aiCENT::GetHookPos
+00435AC0	0043BF90	vt	ai_cent.obj	aiCENT::ApplySpeedTrampoline
+00435B00	0043BFD0	vt	ai_cent.obj	aiCENT::AdjustSpeedsOnFallbackStart
+00435B40	00403200	vt	ai_cent.obj	aiCENT::IsArmoredObject
+00435B80	0043C010	cg:00435DC0	ai_cent.obj	aiCENT::GetShootPjlPhysParam
+00435DC0	0043C250	cg:00435350	ai_cent.obj	aiCENT::LaunchOneProjectile
+00435F30	--------		ai_cent.obj	aiCENT::CheckShootCond
+00435FC0	--------		ai_cent.obj	pjlTRIDENT::GetArrowSound
+00435FF0	0043C480	vt	ai_cent.obj	aiCENT::IsAnimSeqGoodForFallback
+00436010	0045CD90	vt	ai_cent.obj	aiMINO::GetLayer3State
+00436020	--------		ai_cerber.obj	_$E47
+004362A0	--------		ai_cerber.obj	?aiCerberInit@@YIHXZ
+00436330	00445170	vt	ai_cerber.obj	?wrsobTermNiche@@YIXXZ
+00436340	0043C870	vt	ai_cerber.obj	aiCERBER_GENERIC::Create
+00436390	0043C8C0	vt	ai_cerber.obj	aiCERBER_GENERIC::SetupAniSystem
+00436570	0043CAA0	vt	ai_cerber.obj	aiCERBER_GENERIC::ProcessINIT
+00436830	--------		ai_cerber.obj	_$E2
+00436850	0043CD90	vt	ai_cerber.obj	aiCERBER_GENERIC::EvalAnimGoalSeq
+00436950	0043CE90	vt	ai_cerber.obj	aiCERBER_GENERIC::Think
+00436A00	0043D020	vt	ai_cerber.obj	aiCERBER_GENERIC::SelectGoal
+00436B10	0043D060	vt	ai_cerber.obj	aiCERBER_GENERIC::UpdateTimers
+00436B50	0043D0A0	vt	ai_cerber.obj	aiCERBER_GENERIC::ProcessCDT_FIREABLE
+00436BE0	0043D130	vt	ai_cerber.obj	aiCERBER_GENERIC::PlaySounds
+00436CB0	0043D230	vt	ai_cerber.obj	aiCERBER_GENERIC::FillSoundFlags
+00436D60	--------		ai_cerber.obj	?aiCerberGetSound@@YIPAVsncSOUND_DESCR_3D@@H@Z
+00436D70	0043D310	vt	ai_cerber.obj	aiCERBER_GENERIC::ProcessActionFrame
+00437080	0043D620	vt	ai_cerber.obj	aiCERBER_GENERIC::SetMovementSpeed
+004370E0	--------		ai_cerber.obj	pjlCERBER_FIREBALL::Create
+004371B0	--------		ai_cerber.obj	??_GpjlCERBER_FIREBALL@@MAEPAXI@Z
+004371E0	--------		ai_cerber.obj	?ProcessINIT@?$pjlPJL@UpjlCERBER_FIREBALL_SFX@@@@MAEHPAUphysINIT@@@Z
+00437290	--------		ai_cerber.obj	?ProcessFRAME@?$pjlPJL@UpjlCERBER_FIREBALL_SFX@@@@MAEXXZ
+004372C0	0043DA40	vt	ai_cerber.obj	pjlGEFEST::GetLayerAppState
+004372D0	0043DA50	vt	ai_cerber.obj	pjlGEFEST::SetLayerAppState
+004372E0	--------		ai_cerber.obj	pjlCERBER_ACID::Create
+004373B0	--------		ai_cerber.obj	?ProcessINIT@?$pjlPJL@UpjlCERBER_ACID_SFX@@@@MAEHPAUphysINIT@@@Z
+00437460	--------		ai_cerber.obj	?ProcessTERM@?$pjlPJL@UpjlCERBER_ACID_SFX@@@@MAEXXZ
+00437480	--------		ai_cerber.obj	?ProcessFRAME@?$pjlPJL@UpjlCERBER_ACID_SFX@@@@MAEXXZ
+004374B0	--------		ai_cerber.obj	?ProcessEV_CDT@?$pjlPJL@UpjlCERBER_ACID_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+00437530	--------		ai_cerber.obj	??_GpjlCERBER_ACID@@MAEPAXI@Z
+00437560	0043DE40	tbl:exact	ai_cerber_pjl.obj	?aiCerberPjlTexturesInit@@YIHXZ
+004375B0	--------		ai_cerber_pjl.obj	pjlCERBER_BURN::ctor
+00437780	--------		ai_cerber_pjl.obj	pjlCERBER_ACID_EMITTER::ctor
+00437920	--------		ai_cerber_pjl.obj	pjlCERBER_FIREBALL_SFX::StartSFX
+004379D0	--------		ai_cerber_pjl.obj	pjlCERBER_FIREBALL_SFX::UpdateSFX
+00437A40	--------		ai_cerber_pjl.obj	pjlCERBER_FIREBALL::ProcessINIT
+00437CE0	--------		ai_cerber_pjl.obj	pjlCERBER_FIREBALL::AlignWithSpeed
+00437DD0	--------		ai_cerber_pjl.obj	pjlCERBER_FIREBALL::ProcessFRAME
+00437FC0	--------		ai_cerber_pjl.obj	_$E2
+00437FE0	--------		ai_cerber_pjl.obj	pjlCERBER_FIREBALL::ShowCollisSFX
+00438070	--------		ai_cerber_pjl.obj	pjlCERBER_ACID_SFX::StartSFX
+00438100	0043E8D0	tbl:exact	ai_cerber_pjl.obj	pjlCERBER_ACID_SFX::StopSFX
+00438120	--------		ai_cerber_pjl.obj	pjlCERBER_ACID_SFX::UpdateSFX
+00438180	--------		ai_cerber_pjl.obj	pjlCERBER_ACID::ProcessINIT
+00438420	--------		ai_cerber_pjl.obj	pjlCERBER_ACID::ProcessFRAME
+004385F0	--------		ai_cerber_pjl.obj	pjlCERBER_ACID::ShowCollisSFX
+00438680	0043ED00	cg:00438940	ai_cerber_pjl.obj	aiCERBER_GENERIC::AimPjlToPlayer
+00438940	0043EFC0	vt	ai_cerber_pjl.obj	aiCERBER_GENERIC::LaunchOneProjectile
+00438B00	--------		ai_croc.obj	_$E22
+00438B60	0043F230	tbl:exact	ai_croc.obj	?aiCrocInit@@YIHXZ
+00438BA0	0043F270	vt	ai_croc.obj	aiCROC::SetupAniSystem
+00438D40	0043F410	vt	ai_croc.obj	aiCROC::SetMovementSpeed
+00438DB0	0043F480	vt	ai_croc.obj	aiCROC::ProcessINIT
+00439060	00431260	vt	ai_croc.obj	aisDISKBL::ProcessTERM
+00439070	00460030	vt	ai_croc.obj	aiCROC::ProcessCDT_FIREABLE
+004390C0	0043F730	vt	ai_croc.obj	aiCROC::StartDeath
+004390D0	0043F740	vt	ai_croc.obj	aiCROC::Explode
+00439160	0043F7B0	vt	ai_croc.obj	aiCROC::SelectGoal
+00439220	--------		ai_croc.obj	_$E2
+00439240	0043F8F0	vt	ai_croc.obj	aiCROC::EvalAnimGoalSeq
+004392D0	0043F980	vt	ai_croc.obj	aiCROC::UpdateTimers
+00439300	0043F9B0	vt	ai_croc.obj	aiCROC::Think
+00439380	0043FC30	vt	ai_croc.obj	aiCROC::ProcessActionFrame
+004395B0	0043FE70	vt	ai_croc.obj	aiCROC::FillSoundFlags
+00439610	0043FEA0	vt	ai_croc.obj	aiCROC::PlaySounds
+00439640	0043FED0	vt	ai_croc.obj	aiCROC::Create
+00439690	0043FF20	vt	ai_croc.obj	aiCROC::IsAnimSeqGoodForFallback
+004396A0	--------		ai_cyc_stone_pjl.obj	?aiCycStonePjlInit@@YIHXZ
+004396D0	0043FF80	vt	ai_cyc_stone_pjl.obj	pjlSTONE::Create
+00439790	00440040	vt	ai_cyc_stone_pjl.obj	??_GpjlSTONE@@UAEPAXI@Z
+004397C0	00440070	vt	ai_cyc_stone_pjl.obj	pjlSTONE::ProcessINIT
+00439AB0	00440300	cg:00441D20	ai_cyc_stone_pjl.obj	pjlKNIFE::GenerateCDTUponHittingPlayer
+00439B60	004405A0	vt	ai_cyc_stone_pjl.obj	pjlSTONE::ProcessFRAME
+0043A0E0	--------		ai_cyc_stone_pjl.obj	pjlSTONE::ProcessEV_CDT
+0043A1A0	--------		ai_cyc_stone_pjl.obj	pjlSTONE::ShowCollisSFX
+0043A1D0	--------		ai_cyc_stone_pjl.obj	aiCYCLOP::AimStoneToPlayer
+0043A410	--------		ai_cyc_stone_pjl.obj	_$E2
+0043A430	--------		ai_cyc_stone_pjl.obj	aiCYCLOP::LaunchOneStone
+0043A6B0	--------		ai_cyc_stone_pjl.obj	aiCYCLOP::LaunchSeveralStones
+0043AA90	00441440	cg:004397C0	ai_cyc_stone_pjl.obj	?ProcessINIT@?$pjlPJL@UpjlSFX_NONE@@@@MAEHPAUphysINIT@@@Z
+0043AB20	004341F0	vt	ai_cyc_stone_pjl.obj	?ProcessTERM@?$pjlPJL@UpjlSFX_NONE@@@@MAEXXZ
+0043AB30	--------		ai_cyc_stone_pjl.obj	?ProcessFRAME@?$pjlPJL@UpwpMDG_PJL_SFX@@@@MAEXXZ
+0043AB50	--------		ai_cyc_stone_pjl.obj	?ProcessEV_CDT@?$pjlPJL@UpjlSPHINX_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+0043ABC0	--------		ai_cyc_stone_pjl.obj	pjlEV_CHANGE_STATE::ctor
+0043ABE0	004031F0	vt	ai_cyc_stone_pjl.obj	pjlSTONE::GetLayerAppState
+0043ABF0	004416E0	vt	ai_cyc_stone_pjl.obj	pjlSTONE::SetLayerAppState
+0043AC00	--------		ai_cyclop.obj	_$E50
+0043AE90	--------		ai_cyclop.obj	?aiCyclopInit@@YIHXZ
+0043AF00	00441F30	vt	ai_cyclop.obj	aiCYCLOP::Create
+0043AF50	00441F80	vt	ai_cyclop.obj	aiCYCLOP::SetupAniSystem
+0043B280	004422B0	vt	ai_cyclop.obj	aiCYCLOP::ProcessINIT
+0043B570	004425A0	vt	ai_cyclop.obj	aiCYCLOP::ParseNameClass
+0043B750	00445920	vt	ai_cyclop.obj	aiCYCLOP::Activate
+0043B780	004427E0	vt	ai_cyclop.obj	aiCYCLOP::ActivatePlrVisibility
+0043B7C0	--------		ai_cyclop.obj	_$E4
+0043B7E0	00442840	cg:0043BDA0	ai_cyclop.obj	aiCYCLOP::SendClubDamage
+0043B970	004429E0	vt	ai_cyclop.obj	aiCYCLOP::ProcessFRAME
+0043B9A0	00442A10	cg:0043BA40	ai_cyclop.obj	aiCYCLOP::DecideShotSequence
+0043BA40	00442AA0	vt	ai_cyclop.obj	aiCYCLOP::EvalAnimGoalSeq
+0043BDA0	00442E70	vt	ai_cyclop.obj	aiCYCLOP::ProcessActionFrame
+0043C840	00443AC0	vt	ai_cyclop.obj	aiCYCLOP::GetAnimPlayRate
+0043C880	00443B50	cg:0043BA40	ai_cyclop.obj	aiCYCLOP::CalcBorderForClubAttack
+0043C970	00443C40	cg:0043BA40	ai_cyclop.obj	aiCYCLOP::CalcBorderForSpitAttack
+0043CA50	00443D20	vt	ai_cyclop.obj	aiCYCLOP::Think
+0043CB70	00443EA0	vt	ai_cyclop.obj	aiCYCLOP::SelectGoal
+0043CC90	00443FC0	vt	ai_cyclop.obj	aiCYCLOP::SetMovementSpeed
+0043CD80	004440B0	vt	ai_cyclop.obj	aiCYCLOP::ClampGoalFrame
+0043D110	00444430	vt	ai_cyclop.obj	aiCYCLOP::UpdateTimers
+0043D180	004444A0	vt	ai_cyclop.obj	aiCYCLOP::ProcessCDT_FIREABLE
+0043D200	00444530	vt	ai_cyclop.obj	aiCYCLOP::PlaySounds
+0043D380	--------		ai_cyclop.obj	?aiCyclopGetSound@@YIPAVsncSOUND_DESCR_3D@@H@Z
+0043D390	00433790	vt	ai_cyclop.obj	aiCENT::ProcessMP_GET_SYNC_DATA
+0043D3A0	00444790	vt	ai_cyclop.obj	aiCYCLOP::ProcessMP_NOTIFY
+0043D420	00444870	vt	ai_cyclop.obj	aiCYCLOP::IsArmoredObject
+0043D460	004448B0	vt	ai_cyclop.obj	aiCYCLOP::IsAnimSeqGoodForFallback
+0043D480	004448D0	vt	ai_cyclop.obj	aiCYCLOP::GetFloorPlaceRefiner
+0043D4E0	--------		ai_cyclop.obj	_$E53
+0043D4F0	--------		ai_cyclop.obj	aiCYCLOP_REFINE::IsInclObj
+0043D560	--------		ai_gefest.obj	_$E54
+0043D790	--------		ai_gefest.obj	?aiGefestInit@@YIHXZ
+0043D880	00445180	vt	ai_gefest.obj	aiGEFEST_GENERIC::Create
+0043D8F0	004451F0	vt	ai_gefest.obj	aiGEFEST_GENERIC::SetupAniSystem
+0043DB00	00445400	vt	ai_gefest.obj	aiGEFEST_GENERIC::ProcessINIT
+0043DDC0	004456E0	vt	ai_gefest.obj	aiGEFEST_GENERIC::ParseNameClass
+0043DEF0	--------		ai_gefest.obj	_$E2
+0043DF10	004458B0	vt	ai_gefest.obj	aiGEFEST_GENERIC::ProcessTERM
+0043DF70	00445920	vt	ai_gefest.obj	aiGEFEST_GENERIC::Activate
+0043DFA0	00445930	vt	ai_gefest.obj	aiGEFEST_GENERIC::EvalAnimGoalSeq
+0043E120	--------		ai_gefest.obj	aiGEFEST_GENERIC::CalcBorderForThrowAttack
+0043E1F0	--------		ai_gefest.obj	aiGEFEST_GENERIC::FillAttackFlag
+0043E3A0	00445D20	vt	ai_gefest.obj	aiGEFEST_GENERIC::SetMovementSpeed
+0043E410	00445D90	vt	ai_gefest.obj	aiGEFEST_GENERIC::Think
+0043E440	00445DD0	vt	ai_gefest.obj	aiGEFEST_GENERIC::SelectGoal
+0043E460	00445DF0	vt	ai_gefest.obj	aiGEFEST_GENERIC::ProcessFRAME
+0043E490	0043F8E0	vt	ai_gefest.obj	aiGLAD_GENERIC::MoveToGoal
+0043E4A0	00445E20	vt	ai_gefest.obj	aiGEFEST_GENERIC::ProcessCDT_FIREABLE
+0043E510	00445E90	vt	ai_gefest.obj	aiGEFEST_GENERIC::PlaySounds
+0043E620	00445F70	vt	ai_gefest.obj	aiGEFEST_GENERIC::FillSoundFlags
+0043E6B0	--------		ai_gefest.obj	?aiGefestGetSound@@YIPAVsncSOUND_DESCR_3D@@H@Z
+0043E6C0	004460D0	vt	ai_gefest.obj	aiGEFEST_GENERIC::ProcessActionFrame
+0043E8F0	004462B0	vt	ai_gefest.obj	aiGEFEST_GENERIC::GetAnimPlayRate
+0043E920	--------		ai_gefest.obj	aiGEFEST_CARBONS::ctor
+0043EAF0	--------		ai_gefest.obj	aiGEFEST_BOWL_CARBONS::ctor
+0043EC50	--------		ai_gefest.obj	aiGEFEST_BOWL_GLOW::ctor
+0043EDE0	004467F0	vt	ai_gefest.obj	aiGEFEST_GENERIC::IsArmoredObject
+0043EE30	00446840	vt	ai_gefest.obj	aiGEFEST_GENERIC::Explode
+0043EE80	00446890	vt	ai_gefest.obj	aiGEFEST_GENERIC::Freeze
+0043EED0	--------		ai_gefest.obj	aiGEFEST_GENERIC::StartSFX
+0043EFF0	00446A00	vt	ai_gefest.obj	aiGEFEST_GENERIC::UpdateSFX
+0043F080	00446B30	vt	ai_gefest.obj	aiGEFEST_GENERIC::IsAnimSeqGoodForFallback
+0043F0A0	00446B50	vt	ai_gefest.obj	pjlGEFEST::Create
+0043F170	00446C20	vt	ai_gefest.obj	??_EpjlGEFEST@@MAEPAXI@Z
+0043F1A0	00446C50	cg:0043F620	ai_gefest.obj	?ProcessINIT@?$pjlPJL@UpjlGEFEST_SFX@@@@MAEHPAUphysINIT@@@Z
+0043F250	--------		ai_gefest.obj	?ProcessFRAME@?$pjlPJL@UpjlGEFEST_SFX@@@@MAEXXZ
+0043F280	0045BB30	vt	ai_gefest.obj	?DispatchDamage@?$pjlPJL@UpwpMDG_PJL_SFX@@@@MAEXPAVcdtINFO@@@Z
+0043F310	--------		ai_gefest_pjl.obj	pjlGEFEST_SFX_TRAIL::ctor
+0043F4B0	--------		ai_gefest_pjl.obj	pjlGEFEST_SFX::StartSFX
+0043F5C0	--------		ai_gefest_pjl.obj	pjlGEFEST_SFX::UpdateSFX
+0043F620	00447290	vt	ai_gefest_pjl.obj	pjlGEFEST::ProcessINIT
+0043F8C0	004474A0	vt	ai_gefest_pjl.obj	pjlGEFEST::ProcessFRAME
+0043FC40	00447770	vt	ai_gefest_pjl.obj	pjlGEFEST::ShowCollisSFX
+0043FD10	00447840	cg:0043FFA0	ai_gefest_pjl.obj	aiGEFEST_GENERIC::AimPjlToPlayer
+0043FFA0	00447AD0	vt	ai_gefest_pjl.obj	aiGEFEST_GENERIC::LaunchOneProjectile
+00440150	--------		ai_gefest_pjl.obj	_$E2
+00440170	00447C70	vt	ai_gefest_pjl.obj	aiGEFEST_GENERIC::LaunchSeveralProjectiles
+00440470	--------		ai_glad_generic.obj	_$E43
+004406F0	--------		ai_glad_generic.obj	?aiGladiatorsAllInit@@YIHXZ
+00440770	00448530	vt	ai_glad_generic.obj	aiGLAD_GENERIC::SetupAniSystem
+00440B70	00448970	cg:00442B70	ai_glad_generic.obj	aiGLAD_GENERIC::ProcessINIT
+00440DE0	--------		ai_glad_generic.obj	_$E2
+00440E00	00448BF0	vt	ai_glad_generic.obj	aiGLAD_GENERIC::ParseNameClass
+00440ED0	--------		ai_glad_generic.obj	aiGLAD_GENERIC::FillAttackFlag
+00441080	00448E70	vt	ai_glad_generic.obj	aiRAT::SelectGoal
+00441090	00448E80	vt	ai_glad_generic.obj	aiGLAD_GENERIC::Think
+00441110	00448F00	vt	ai_glad_generic.obj	aiNPC_WR_FLY::ProcessFRAME
+00441120	00448F30	vt	ai_glad_generic.obj	aiGLAD_GENERIC::ProcessCDT_FIREABLE
+004411B0	00448FC0	vt	ai_glad_generic.obj	aiGLAD_GENERIC::StartPassivePhysics
+004411D0	00448FE0	vt	ai_glad_generic.obj	aiGLAD_GENERIC::PlaySounds
+00441320	00449170	vt	ai_glad_generic.obj	aiGLAD_GENERIC::FillSoundFlags
+004413F0	--------		ai_glad_generic.obj	aiGLAD_GENERIC::ProcessActionFrame
+004416A0	--------		ai_glad_generic.obj	?aiGladGetSound@@YIPAVsncSOUND_DESCR_3D@@H@Z
+004416B0	00548680	vt	ai_glad_generic.obj	aiGLAD_GENERIC::IsAnimSeqGoodForFallback
+004416E0	00449510	vt	ai_glad_knife.obj	aiGLAD_KNIFE::Create
+00441730	00449560	vt	ai_glad_knife.obj	aiGLAD_KNIFE::ProcessINIT
+00441770	004495A0	vt	ai_glad_knife.obj	aiGLAD_KNIFE::ProcessINIT_LEVEL
+004417A0	004495D0	vt	ai_glad_knife.obj	aiGLAD_KNIFE::EvalAnimGoalSeq
+004418B0	004496E0	tbl:exact	ai_glad_knife.obj	?aiGladKnifePjlInit@@YIHXZ
+004418E0	00449710	vt	ai_glad_knife.obj	pjlKNIFE::Create
+004419A0	0044A640	vt	ai_glad_knife.obj	??_GpjlKNIFE@@UAEPAXI@Z
+004419D0	004497F0	vt	ai_glad_knife.obj	pjlKNIFE::ProcessINIT
+00441D20	00449B60	vt	ai_glad_knife.obj	pjlKNIFE::ProcessFRAME
+00442060	--------		ai_glad_knife.obj	_$E2
+00442080	--------		ai_glad_knife.obj	pjlKNIFE::ProcessEV_CDT
+00442140	--------		ai_glad_knife.obj	pjlKNIFE::ShowCollisSFX
+00442170	00449EB0	cg:004423D0	ai_glad_knife.obj	aiGLAD_KNIFE::AimKnifeToPlayer
+004423D0	0044A110	vt	ai_glad_knife.obj	aiGLAD_KNIFE::LaunchOneProjectile
+00442580	0044A2D0	vt	ai_glad_knife.obj	aiGLAD_KNIFE::ProcessActionFrame
+00442900	--------		ai_glad_knife.obj	?ProcessINIT@?$pjlPJL@UpjlSFX_TRAIL@@@@MAEHPAUphysINIT@@@Z
+004429B0	0044A860	vt	ai_glad_knife.obj	?ProcessTERM@?$pjlPJL@UpjlGEFEST_SFX@@@@MAEXXZ
+004429D0	--------		ai_glad_knife.obj	?ProcessFRAME@?$pjlPJL@UpjlSFX_TRAIL@@@@MAEXXZ
+00442A00	0044A8C0	vt	ai_glad_knife.obj	?ProcessMsg@?$pjlNPC_PJL@UpjlZEVS_SFX@@@@MAEHHPAXPAVmsgADDR@@PAH@Z
+00442B10	0044A9D0	vt	ai_glad_mace.obj	aiGLAD_MACE::Create
+00442B70	0044AA30	vt	ai_glad_mace.obj	aiGLAD_MACE::ProcessINIT
+00442CE0	0044ABB0	vt	ai_glad_mace.obj	aiGLAD_MACE::ProcessTERM
+00442D20	0044ABF0	vt	ai_glad_mace.obj	aiGLAD_MACE::EvalAnimGoalSeq
+00442E40	0044AD10	cg:00442B70	ai_glad_mace.obj	aiGLAD_MACE_APPEAR_GLOW::ctor
+00443010	0044AEE0	tbl:exact	ai_glad_mace.obj	?aiGladMacePjlInit@@YIHXZ
+004430A0	0044AF70	vt	ai_glad_mace.obj	pjlMACE::Create
+00443160	0044C500	vt	ai_glad_mace.obj	??_G?$pjlPJL@UpjlMACE_SFX@@@@MAEPAXI@Z
+00443190	0044B030	vt	ai_glad_mace.obj	pjlMACE::ProcessINIT
+004434F0	--------		ai_glad_mace.obj	_$E2
+00443510	--------		ai_glad_mace.obj	pjlMACE_SFX::StartSFX
+004435C0	--------		ai_glad_mace.obj	pjlMACE::GenerateCDTUponHittingPlayer
+00443670	0044B530	vt	ai_glad_mace.obj	pjlMACE::ProcessFRAME
+00443A10	--------		ai_glad_mace.obj	pjlMACE::ShowCollisSFX
+00443AC0	0044B890	cg:00443D20	ai_glad_mace.obj	aiGLAD_MACE::AimMaceToPlayer
+00443D20	0044BAF0	vt	ai_glad_mace.obj	aiGLAD_MACE::LaunchOneProjectile
+00443ED0	0044BCB0	vt	ai_glad_mace.obj	aiGLAD_MACE::UpdateSFX
+00443F50	0044BD30	vt	ai_glad_mace.obj	aiGLAD_MACE::ProcessFRAME
+00444190	0044BF70	vt	ai_glad_mace.obj	aiGLAD_MACE::ProcessActionFrame
+00444550	--------		ai_glad_mace.obj	pjlMACE_TRAIL::ctor
+00444720	--------		ai_glad_mace.obj	?ProcessINIT@?$pjlPJL@UpjlMACE_SFX@@@@MAEHPAUphysINIT@@@Z
+00444860	--------		ai_glad_mace.obj	?ProcessFRAME@?$pjlPJL@UpjlMACE_SFX@@@@MAEXXZ
+004448C0	0045BBC0	vt	ai_glad_mace.obj	?ProcessEV_CDT@?$pjlPJL@UminoAX_TRAIL@@@@MAEXPAUpjlEV_CDT@@@Z
+00444950	0044C870	vt	ai_glad_mace.obj	??_GaiGLAD_MACE@@MAEPAXI@Z
+00444980	--------		ai_medusa.obj	_$E45
+00444B10	--------		ai_medusa.obj	?aiMedusaInit@@YIHXZ
+00444B60	0044CBA0	vt	ai_medusa.obj	aiMEDUSA::SetupAniSystem
+00444CC0	0044CD00	vt	ai_medusa.obj	aiMEDUSA::SetMovementSpeed
+00444DD0	0044CE10	vt	ai_medusa.obj	aiMEDUSA::Activate
+00444E70	0044CEA0	vt	ai_medusa.obj	aiMEDUSA::ProcessTERM
+00444ED0	0044CF80	vt	ai_medusa.obj	aiMEDUSA::ProcessINIT
+00445200	--------		ai_medusa.obj	_$E2
+00445220	0044D340	vt	ai_medusa.obj	aiMEDUSA::ParseNameClass
+00445380	0044D4C0	cg:00445220	ai_medusa.obj	aiMEDUSA::CollectPotentialEmitters
+004455F0	0043F720	vt	ai_medusa.obj	aisSPHINX::ProcessFRAME
+00445600	0044D730	vt	ai_medusa.obj	aiMEDUSA::StartDeath
+00445680	0044D7B0	vt	ai_medusa.obj	aiMEDUSA::Explode
+00445710	0044D840	vt	ai_medusa.obj	aiMEDUSA::SelectGoal
+004457B0	--------		ai_medusa.obj	aiMEDUSA::InnerSelectGoal
+004458C0	0044DA20	vt	ai_medusa.obj	aiMEDUSA::EvalAnimGoalSeq
+00445950	0044DAB0	vt	ai_medusa.obj	aiMEDUSA::ProcessActionFrame
+00445980	0044DAE0	vt	ai_medusa.obj	aiMEDUSA::UpdateTimers
+004459C0	0044DB30	vt	ai_medusa.obj	aiMEDUSA::PlaySounds
+00445A40	--------		ai_medusa.obj	?aiMedusaGetSound@@YIPAVsncSOUND_DESCR_3D@@H@Z
+00445A50	0044DBE0	vt	ai_medusa.obj	aiMEDUSA::ClampGoalFrame
+00445AF0	--------		ai_medusa.obj	aiMEDUSA::AddEmitterShift
+00445D50	--------		ai_medusa.obj	aiMEDUSA::LaunchOneProjectile
+00445EE0	--------		ai_medusa.obj	aiMEDUSA::AimPjlToPlayer
+00446130	0044E3B0	vt	ai_medusa.obj	aiMEDUSA::ProcessCDT_FIREABLE
+00446600	0044E550	cg:00446130	ai_medusa.obj	aiMEDUSA::SelectOpponentToSpawn
+00446800	0044E750	vt	ai_medusa.obj	aiMEDUSA::FillSoundFlags
+00446840	0044E790	vt	ai_medusa.obj	aiMEDUSA::Think
+00446870	0044E7C0	vt	ai_medusa.obj	aiMEDUSA::PostThink
+00446890	0044EB60	vt	ai_medusa.obj	aiMEDUSA::StartPassivePhysics
+004469F0	0044ECC0	vt	ai_medusa.obj	aiMEDUSA::Create
+00446A60	0044ED30	tbl:exact	ai_medusa_pjl.obj	?aiPjlMedusaInit@@YIHXZ
+00446AB0	0044ED80	vt	ai_medusa_pjl.obj	pjlMEDUSA::Create
+00446B90	--------		ai_medusa_pjl.obj	pjlMEDUSA_SFX_FIRE::ctor
+00446D70	--------		ai_medusa_pjl.obj	pjlMEDUSA_SFX_TRAIL::ctor
+00446F00	--------		ai_medusa_pjl.obj	pjlMEDUSA_SFX::StartSFX
+00446FF0	--------		ai_medusa_pjl.obj	pjlMEDUSA_SFX::UpdateSFX
+004470E0	--------		ai_medusa_pjl.obj	pjlMEDUSA::AlignWithSpeed
+004471D0	--------		ai_medusa_pjl.obj	_$E2
+004471F0	0044F2E0	vt	ai_medusa_pjl.obj	pjlMEDUSA::ProcessINIT
+00447530	0044F590	vt	ai_medusa_pjl.obj	pjlMEDUSA::ProcessFRAME
+00447870	0044F840	vt	ai_medusa_pjl.obj	pjlMEDUSA::ShowCollisSFX
+00447950	--------		ai_medusa_pjl.obj	pjlMEDUSA::Split
+00447B80	0044FB30	vt	ai_medusa_pjl.obj	pjlMEDUSA::ProcessTERM
+00447BD0	0044FB80	vt	ai_medusa_pjl.obj	??_G?$pjlPJL@UpjlMEDUSA_SFX@@@@MAEPAXI@Z
+00447C00	0044FBB0	cg:004471F0	ai_medusa_pjl.obj	?ProcessINIT@?$pjlPJL@UpjlMEDUSA_SFX@@@@MAEHPAUphysINIT@@@Z
+00447CB0	--------		ai_medusa_pjl.obj	?ProcessFRAME@?$pjlPJL@UpjlZEVS_SFX@@@@MAEXXZ
+00447CE0	004034E0	vt	ai_medusa_pjl.obj	?ProcessMP_NOTIFY@?$pjlPJL@UpjlSPEAR_SFX@@@@MAEXPAUgsEVENT@@@Z
+00447D20	--------		ai_mino.obj	_$E46
+00447F40	--------		ai_mino.obj	?aiMinoInit@@YIHXZ
+00447FB0	00450410	vt	ai_mino.obj	aiMINO::SetupAniSystem
+004484A0	00450900	vt	ai_mino.obj	aiMINO::ProcessINIT
+004487A0	00450B80	vt	ai_mino.obj	aiMINO::ParseNameClass
+00448A10	--------		ai_mino.obj	_$E4
+00448A30	00450E00	vt	ai_mino.obj	aiMINO::ProcessFRAME
+00448A70	00450E40	vt	ai_mino.obj	aiMINO::ProcessDESTROY_ENT
+00448AA0	00450E70	vt	ai_mino.obj	aiMINO::ProcessCDT
+00448B20	00450EF0	vt	ai_mino.obj	aiMINO::IsAnimSeqGoodForFallback
+00448B50	00450F20	vt	ai_mino.obj	aiMINO::AdjustSpeedsOnFallbackStart
+00448B80	00403200	vt	ai_mino.obj	aiMINO::IsArmoredObject
+00448BA0	00460030	vt	ai_mino.obj	aiMINO::ProcessCDT_FIREABLE
+00448BD0	00450F50	vt	ai_mino.obj	aiMINO::ProcessASK_KEEP_LEVEL_RELOAD
+00448C00	00450F80	cg:00448CD0	ai_mino.obj	aiMINO::Explode
+00448CD0	00451050	vt	ai_mino.obj	aiMINO::StartDeath
+00448DE0	00451160	vt	ai_mino.obj	aiMINO::SelectDeathAnim
+00448E00	00451190	vt	ai_mino.obj	aiMINO::MoveToGoal
+00449090	00451420	vt	ai_mino.obj	aiMINO::SelectGoal
+004492D0	00451670	vt	ai_mino.obj	aiMINO::Activate
+00449350	004516F0	vt	ai_mino.obj	aiMINO::GetAnimPlayRate
+00449370	00451710	vt	ai_mino.obj	aiMINO::EvalAnimGoalSeq
+00449490	00451830	vt	ai_mino.obj	aiMINO::ProcessActionFrame
+00449530	004518D0	vt	ai_mino.obj	aiMINO::Think
+004497B0	00451B80	cg:00448E00	ai_mino.obj	aiMINO::SingleProcessSlash
+004499D0	00448F10	vt	ai_mino.obj	aiGLAD_GENERIC::UpdateTimers
+004499F0	00451E30	cg:00449C30	ai_mino.obj	aiMINO::AimAxToPlayer
+00449C30	00452080	vt	ai_mino.obj	aiMINO::ThrowAx
+00449DF0	00452240	vt	ai_mino.obj	aiMINO::SettleSurface
+00449E40	00452290	vt	ai_mino.obj	aiMINO::FillSoundFlags
+00449F70	004523F0	vt	ai_mino.obj	aiMINO::PlaySounds
+0044A090	--------		ai_mino.obj	aiMINO::Regenerate
+0044A150	004526D0	vt	ai_mino.obj	aiMINO::IsReadyActivate
+0044A170	004526F0	vt	ai_mino.obj	aiMINO::SetMovementSpeed
+0044A1A0	00452750	vt	ai_mino.obj	aiMINO::Create
+0044A220	004527D0	vt	ai_mino.obj	aiMINO::DoesNPCAllowSFXAppear
+0044A230	004527E0	vt	ai_mino.obj	aiMINO::Explode
+0044A250	00452800	vt	ai_mino.obj	aiMINO_ATRIUM::Create
+0044A2D0	00452880	vt	ai_mino_atrium.obj	aiMINO_ATRIUM::ProcessINIT
+0044A380	00452930	vt	ai_mino_atrium.obj	aiMINO_ATRIUM::Activate
+0044A3B0	00452960	vt	ai_mino_atrium.obj	aiMINO_ATRIUM::ThrowAx
+0044A3D0	00452980	vt	ai_mino_atrium.obj	aiMINO_ATRIUM::MoveToGoal
+0044A520	00452AE0	vt	ai_mino_atrium.obj	aiMINO_ATRIUM::SelectDeathAnim
+0044A560	00452B20	vt	ai_mino_atrium.obj	aiMINO_ATRIUM::StartPassivePhysics
+0044A700	--------		ai_mino_atrium.obj	_$E4
+0044A720	00452CE0	vt	ai_npc_wr.obj	aiNPC_WR::ParseNameClass
+0044A7C0	00452D70	cg:00434890	ai_npc_wr.obj	aiNPC_WR::ProcessINIT
+0044AAE0	--------		ai_npc_wr.obj	aiNPC_WR::ProcessTERM
+0044AB10	004530F0	vt	ai_npc_wr.obj	aiNPC_WR::Explode
+0044AB60	00453140	vt	ai_npc_wr.obj	aiNPC_WR::DecideExplosion
+0044AC90	00453270	vt	ai_npc_wr.obj	aiNPC_WR::StartDeath
+0044AD00	00453370	cg:00431E30	ai_npc_wr.obj	aiNPC_WR::ProcessCDT_FIREABLE
+0044AF00	--------		ai_npc_wr.obj	_$E2
+0044AF20	00432380	vt	ai_npc_wr.obj	aiNPC_WR::ProcessMP_NOTIFY
+0044B070	00453650	cg:00431760	ai_npc_wr.obj	aiNPC_WR::StartBlood
+0044B1B0	00453780	cg:00434BE0	ai_npc_wr.obj	aiNPC_WR::StartChunkMeat
+0044B1D0	004537A0	cg:004560E0	ai_npc_wr.obj	?ClassifyCollisionTarget@@YIHPAVcdtINFO@@@Z
+0044B220	004537F0	vt	ai_npc_wr.obj	aiNPC_WR::SetInitShootFallBack
+0044B2C0	004538B0	vt	ai_npc_wr.obj	aiNPC_WR::Think
+0044B330	00453920	vt	ai_npc_wr.obj	aiNPC_WR::PostThink
+0044B3C0	004539B0	vt	ai_npc_wr.obj	aiNPC_WR::SetInitDeadSpeed
+0044B590	00453B80	vt	ai_npc_wr.obj	aiNPC_WR::StartPassivePhysics
+0044B7A0	00453D90	vt	ai_npc_wr.obj	aiNPC_WR::ProcessINIT_LEVEL
+0044B7D0	00453DC0	vt	ai_npc_wr.obj	aiNPC_WR::InitSFX
+0044B8D0	00453EB0	vt	ai_npc_wr.obj	aiNPC_WR::SyncSFX
+0044B920	00453EE0	vt	ai_npc_wr.obj	aiNPC_WR::IsReadyActivate
+0044B940	00453F20	vt	ai_npc_wr.obj	aiNPC_WR::ProcessFRAME
+0044B960	--------		ai_npc_wr.obj	aiNPC_WR::OrientTowardsPlayer
+0044B9D0	00453FB0	cg:00433430	ai_npc_wr.obj	aiNPC_WR::CorrectGoalByWaterLevel
+0044BA50	00454030	vt	ai_npc_wr.obj	aiNPC_WR::UpdateTimers
+0044BA80	00454080	vt	ai_npc_wr.obj	aiNPC_WR::MoveToGoal
+0044BBF0	--------		ai_npc_wr.obj	?_DrawTri@@YIXPAUm2dTRI@@K@Z
+0044BCE0	00454370	tbl:callgraph	ai_npc_wr.obj	aiNPC_WR::SelectEscapeWhenOut
+0044BD60	004543F0	vt	ai_npc_wr.obj	aiNPC_WR::RestrictGoalByBanCross
+0044BE30	004544C0	vt	ai_npc_wr.obj	aiNPC_WR::SelectGoalToRunAway
+0044BE80	00454510	cg:00455740	ai_npc_wr.obj	aiNPC_WR::UpdateInAreaFlags
+0044C050	004546E0	vt	ai_npc_wr.obj	aiNPC_WR::ProcessAltarOppUnhide
+0044C0F0	00454780	vt	ai_npc_wr.obj	aiNPC_WR::ProcessMsg
+0044C140	004547D0	vt	ai_npc_wr.obj	physMATH::IsAtRest
+0044C250	--------		ai_npc_wr.obj	physDRIFT_MATH::IsAtRest
+0044C460	00454AF0	cg:00431270	ai_npc_wr_fly.obj	aiNPC_WR_FLY::ProcessINIT
+0044C4A0	00454B30	vt	ai_npc_wr_fly.obj	aiNPC_WR_FLY::ProcessVoluntaryPhysics
+0044C6F0	00454D80	vt	ai_npc_wr_fly.obj	aiNPC_WR_FLY::SettleSurface
+0044C770	00454E10	cg:00445600	ai_npc_wr_fly.obj	aiNPC_WR_FLY::StartDeath
+0044C7D0	00454E70	vt	ai_npc_wr_fly.obj	aiNPC_WR_FLY::StartPassivePhysics
+0044C940	--------		ai_npc_wr_fly.obj	_$E2
+0044C960	--------		ai_pjl.obj	pjlSFX_TRAIL::StartSFX
+0044CA10	--------		ai_pjl.obj	pjlMACE_SFX::UpdateSFX
+0044CA60	--------		ai_pjl.obj	_$E2
+0044CA80	--------		ai_rat.obj	_$E21
+0044CC00	00455350	tbl:exact	ai_rat.obj	?aiRatInit@@YIHXZ
+0044CC50	004553A0	vt	ai_rat.obj	aiRAT::Create
+0044CCA0	004553F0	vt	ai_rat.obj	aiRAT::SetupAniSystem
+0044CDC0	00455510	vt	ai_rat.obj	aiRAT::ProcessINIT
+0044D060	004557D0	vt	ai_rat.obj	aiRAT::EvalAnimGoalSeq
+0044D0F0	00455860	vt	ai_rat.obj	aiRAT::ProcessActionFrame
+0044D140	004558B0	vt	ai_rat.obj	aiRAT::GetAnimPlayRate
+0044D160	004558D0	cg:0044D2D0	ai_rat.obj	aiRAT::ExplodeDead
+0044D2B0	--------		ai_rat.obj	_$E2
+0044D2D0	00455A50	vt	ai_rat.obj	aiRAT::StartDeath
+0044D300	00455A80	vt	ai_rat.obj	aiRAT::Deactivate
+0044D320	00455AA0	vt	ai_rat.obj	aiRAT::SetMovementSpeed
+0044D3E0	00455B60	vt	ai_rat.obj	aiRAT::Think
+0044D490	--------		ai_rat.obj	_$E24
+0044D4A0	00455C20	vt	ai_rat.obj	aiRAT::ProcessFRAME
+0044D4E0	00455C60	vt	ai_rat.obj	aiRAT::MoveToGoal
+0044D520	00455CA0	vt	ai_rat.obj	aiRAT::UpdateTimers
+0044D560	00455CE0	vt	ai_rat.obj	aiRAT::PlaySounds
+0044D610	00455DA0	vt	ai_rat.obj	aiRAT::ProcessCDT_FIREABLE
+0044D660	00455DF0	vt	ai_rat.obj	aiRAT::Freeze
+0044D690	00455E20	vt	ai_rat.obj	aiRAT::FillSoundFlags
+0044D760	00455F00	vt	ai_rat.obj	aiRAT::AdjustSpeedsOnFallbackStart
+0044D780	--------		ai_satyr.obj	_$E25
+0044D920	--------		ai_satyr.obj	?aiSatyrInit@@YIHXZ
+0044D970	00456280	vt	ai_satyr.obj	aiSATYR::SetupAniSystem
+0044DB90	004564A0	vt	ai_satyr.obj	aiSATYR::SetMovementSpeed
+0044DBF0	00456500	vt	ai_satyr.obj	aiSATYR::ProcessINIT
+0044DE70	004567A0	vt	ai_satyr.obj	aiSATYR::ParseNameClass
+0044DF00	00456880	vt	ai_satyr.obj	aiSATYR::ProcessCDT_FIREABLE
+0044DF20	004568A0	vt	ai_satyr.obj	aiSATYR::StartDeath
+0044DF30	004568B0	vt	ai_satyr.obj	aiSATYR::Explode
+0044DFC0	--------		ai_satyr.obj	_$E2
+0044DFE0	00456940	vt	ai_satyr.obj	aiSATYR::SelectGoal
+0044E350	00456CB0	vt	ai_satyr.obj	aiSATYR::EvalSniperGoalSeq
+0044E360	00456CC0	vt	ai_satyr.obj	aiSATYR::EvalRunningGoalSeq
+0044E380	00456CE0	vt	ai_satyr.obj	aiSATYR::EvalAnimGoalSeq
+0044E3F0	00456D50	vt	ai_satyr.obj	aiSATYR::ProcessActionFrame
+0044E430	00456D90	cg:0044E3F0	ai_satyr.obj	aiSATYR::LaunchOneProjectile
+0044E610	00456F70	vt	ai_satyr.obj	aiGEFEST_GENERIC::UpdateTimers
+0044E640	00456FA0	vt	ai_satyr.obj	aiSATYR::FillSoundFlags
+0044E6E0	00457080	vt	ai_satyr.obj	aiSATYR::PlaySounds
+0044E780	--------		ai_satyr.obj	?aiSatyrGetSound@@YIPAVsncSOUND_DESCR_3D@@H@Z
+0044E790	00403200	vt	ai_satyr.obj	aiSATYR::IsArmoredObject
+0044E800	00457150	vt	ai_satyr.obj	aiSATYR::Create
+0044E850	004571A0	vt	ai_satyr.obj	aiSATYR::IsAnimSeqGoodForFallback
+0044E870	004571B0	tbl:exact	ai_satyr_arrow_pjl.obj	?pjlSatyrArrowInit@@YIHXZ
+0044E8C0	00457200	vt	ai_satyr_arrow_pjl.obj	pjlARROW_GENERIC::ProcessINIT
+0044EBE0	--------		ai_satyr_arrow_pjl.obj	pjlARROW_GENERIC::AlignWithSpeed
+0044ECE0	--------		ai_satyr_arrow_pjl.obj	pjlARROW_GENERIC::Vibrate
+0044EDC0	--------		ai_satyr_arrow_pjl.obj	pjlSPEAR::PlaySounds
+0044EE50	00457730	vt	ai_satyr_arrow_pjl.obj	pjlARROW_GENERIC::ProcessFRAME
+0044F040	--------		ai_satyr_arrow_pjl.obj	pjlARROW_GENERIC_SFX::StartSFX
+0044F110	--------		ai_satyr_arrow_pjl.obj	pjlARROW_GENERIC_SFX::UpdateSFX
+0044F180	--------		ai_satyr_arrow_pjl.obj	pjlGEFEST_SFX::StopSFX
+0044F1A0	00457A70	vt	ai_satyr_arrow_pjl.obj	pjlARROW_GENERIC::ShowCollisSFX
+0044F270	--------		ai_satyr_arrow_pjl.obj	pjlSATYR_ARROW::GetArrowSound
+0044F2B0	--------		ai_satyr_arrow_pjl.obj	_$E2
+0044F2D0	00457B50	cg:0044E430	ai_satyr_arrow_pjl.obj	aiSATYR::GetShootArrowPhysParam
+0044F510	--------		ai_satyr_arrow_pjl.obj	pjlARROW_TRAIL::ctor
+0044F6E0	00457F70	vt	ai_satyr_arrow_pjl.obj	pjlSATYR_ARROW::Create
+0044F7B0	--------		ai_skel_generic.obj	_$E20
+0044FA70	00458490	tbl:exact	ai_skel_generic.obj	?aiSkeletonsAllInit@@YIHXZ
+0044FAE0	00458500	vt	ai_skel_generic.obj	aiSKEL_GENERIC::SetupAniSystem
+0044FF10	00458930	cg:00450C10	ai_skel_generic.obj	aiSKEL_GENERIC::ProcessINIT
+00450100	--------		ai_skel_generic.obj	_$E2
+00450120	00458B20	vt	ai_skel_generic.obj	aiSKEL_GENERIC::ParseNameClass
+00450220	00458C20	vt	ai_skel_generic.obj	aiSKEL_GENERIC::IsReadyActivate
+00450240	--------		ai_skel_generic.obj	aiSKEL_GENERIC::GetBlueClothes
+00450280	00458C80	vt	ai_skel_generic.obj	aiSKEL_GENERIC::Activate
+004503A0	0045C8C0	vt	ai_skel_generic.obj	aiSKETAVR::StartDeath
+004503C0	00458DA0	vt	ai_skel_generic.obj	aiSKEL_GENERIC::StartDeath
+00450620	--------		ai_skel_generic.obj	aiSKEL_GENERIC::SelectGoal
+004506A0	--------		ai_skel_generic.obj	aiSKEL_GENERIC::MoveToGoal
+004506C0	004590A0	vt	ai_skel_generic.obj	aiSKEL_GENERIC::GetStateEntExcludeCDT
+004506E0	004590C0	tbl:exact	ai_skel_generic.obj	aiSKEL_RIGID_START::CreatePiece
+004507D0	004591B0	cg:004503C0	ai_skel_generic.obj	aiSKEL_RIGID_START::StartExplos
+004509D0	004593D0	tbl:exact	ai_skel_generic.obj	aiSKEL_RIGID_START::IsInclObj
+00450A10	00459410	vt	ai_skel_generic.obj	aiSKEL_GENERIC::PlaySounds
+00450B90	--------		ai_skel_generic.obj	?aiSpearSkelGetSound@@YIPAVsncSOUND_DESCR_3D@@H@Z
+00450BA0	004595C0	vt	ai_skel_generic.obj	aiSKEL_GENERIC::UpdateDead
+00450BB0	004595D0	vt	ai_skel_generic.obj	aiSKEL_GENERIC::ProcessCDT_FIREABLE
+00450BC0	004595E0	vt	ai_skel_spear.obj	aiSKEL_SPEAR::Create
+00450C10	00459630	vt	ai_skel_spear.obj	aiSKEL_SPEAR::ProcessINIT
+00450D70	00459790	vt	ai_skel_spear.obj	aiSKEL_SPEAR::ParseNameClass
+00450E90	004598B0	vt	ai_skel_spear.obj	aiSKEL_SPEAR::ProcessINIT_LEVEL
+00450EB0	004598D0	cg:00450D70	ai_skel_spear.obj	aiSKEL_SPEAR::SetupWeaponOnINIT
+00450F90	--------		ai_skel_spear.obj	aiSKEL_SPEAR::EvalSwordAnimGoalSeq
+00451050	--------		ai_skel_spear.obj	aiSKEL_SPEAR::EvalSpearAnimGoalSeq
+004510F0	--------		ai_skel_spear.obj	_$E2
+00451110	00459B30	vt	ai_skel_spear.obj	aiSKEL_SPEAR::EvalAnimGoalSeq
+00451220	00459C40	cg:004513D0	ai_skel_spear.obj	aiSKEL_SPEAR::SetupWeaponByDistance
+004513D0	00459DE0	vt	ai_skel_spear.obj	aiSKEL_SPEAR::ProcessActionFrame
+004518C0	0045A2D0	vt	ai_skel_spear.obj	aiSKEL_SPEAR::FillSoundFlags
+00451A10	--------		ai_skel_spear.obj	aiSKEL_SPEAR::FillAttackFlag
+00451BC0	0045A5B0	vt	ai_skel_spear.obj	aiSKEL_SPEAR::Think
+00451C20	0045A670	vt	ai_skel_spear.obj	aiSKEL_SPEAR::SetMovementSpeed
+00451DA0	0045A7F0	vt	ai_skel_spear.obj	aiSKEL_SPEAR::SelectGoal
+00451DB0	0045A800	vt	ai_skel_spear.obj	aiSKEL_SPEAR::MoveToGoal
+00451DE0	0045A830	vt	ai_skel_spear.obj	aiSKEL_SPEAR::UpdateTimers
+00451E30	0045A880	vt	ai_skel_spear.obj	aiSKEL_SPEAR::UpdateSFX
+00451E70	0045A8C0	vt	ai_skel_spear.obj	aiSKEL_SPEAR::Activate
+00451F00	0045A980	tbl:exact	ai_skel_spear_pjl.obj	?aiSkelSpearPjlInit@@YIHXZ
+00451F50	0045A9D0	vt	ai_skel_spear_pjl.obj	pjlSPEAR::Create
+00452010	0045AA90	vt	ai_skel_spear_pjl.obj	??_GpjlSPEAR@@UAEPAXI@Z
+00452040	0045AAC0	vt	ai_skel_spear_pjl.obj	pjlSPEAR::ProcessINIT
+00452380	--------		ai_skel_spear_pjl.obj	pjlSPEAR::GenerateCDTUponHittingPlayer
+00452460	--------		ai_skel_spear_pjl.obj	pjlSPEAR::AlignWithSpeed
+00452550	--------		ai_skel_spear_pjl.obj	pjlSPEAR::GetSpearSound
+00452590	0045B020	vt	ai_skel_spear_pjl.obj	pjlSPEAR::ProcessFRAME
+004526F0	0044C830	vt	ai_skel_spear_pjl.obj	pjlARROW_GENERIC::Terminate
+00452710	0045B170	vt	ai_skel_spear_pjl.obj	pjlSPEAR::ShowCollisSFX
+004527F0	--------		ai_skel_spear_pjl.obj	pjlSPEAR_SFX::StartSFX
+00452870	--------		ai_skel_spear_pjl.obj	_$E2
+00452890	0045B2C0	cg:00452AD0	ai_skel_spear_pjl.obj	aiSKEL_SPEAR::AimSpearToPlayer
+00452AD0	0045B520	cg:004513D0	ai_skel_spear_pjl.obj	aiSKEL_SPEAR::LaunchOneProjectile
+00452C70	--------		ai_skel_spear_pjl.obj	pjlSPEAR_TRAIL::ctor
+00452E20	--------		ai_skel_spear_pjl.obj	?ProcessINIT@?$pjlPJL@UpjlSPEAR_SFX@@@@MAEHPAUphysINIT@@@Z
+00452F20	--------		ai_skel_spear_pjl.obj	?ProcessFRAME@?$pjlPJL@UpjlSPEAR_SFX@@@@MAEXXZ
+00452F60	004031F0	vt	ai_skel_spear_pjl.obj	pjlMACE::GetLayerAppState
+00452F70	004035F0	vt	ai_skel_spear_pjl.obj	pjlARROW_GENERIC::SetLayerAppState
+00452F80	0045BC90	vt	ai_skel_sword.obj	aiSKEL_SWORD::Create
+00452FD0	0045BCE0	vt	ai_skel_sword.obj	aiSKEL_SWORD::ProcessINIT
+004530C0	0045BDD0	vt	ai_skel_sword.obj	aiSKEL_SWORD::ProcessINIT_LEVEL
+004530D0	0045BDE0	vt	ai_skel_sword.obj	aiSKEL_SWORD::ProcessFRAME
+004533F0	0045BE10	vt	ai_skel_sword.obj	aiSKEL_SWORD::ProcessActionFrame
+00453560	0045BF80	vt	ai_skel_sword.obj	aiSKEL_SWORD::EvalAnimGoalSeq
+004535C0	0045BFE0	vt	ai_skel_sword.obj	aiSKEL_SWORD::FillSoundFlags
+00453660	0045C080	vt	ai_skel_sword.obj	aiSKEL_SWORD::Think
+00453740	0045C160	vt	ai_skel_sword.obj	aiSKEL_SWORD::SelectGoal
+00453770	0045C190	vt	ai_skel_sword.obj	aiSKEL_SWORD::MoveToGoal
+004537B0	0045C1D0	vt	ai_skel_sword.obj	aiSKEL_SWORD::ClassifyCollisionTarget
+00453810	0045C5A0	vt	ai_skel_sword.obj	aiSKEL_SWORD::ProcessCDT
+00453B40	0045C5D0	vt	ai_skel_sword.obj	aiSKEL_SWORD::IsDeadVoluntary
+00453B50	--------		ai_skel_sword.obj	_$E4
+00453B70	0045C600	vt	ai_skel_sword.obj	aiBIRD::GetLayer3State
+00453B80	0045C610	vt	ai_skel_sword.obj	aiMEDUSA::SetLayer3State
+00453B90	--------		ai_sketavr.obj	_$E54
+00453D10	0045C830	tbl:callgraph	ai_sketavr.obj	?aiSketavrInit@@YIHXZ
+00453D50	0045C870	vt	ai_sketavr.obj	aiSKETAVR::Create
+00453DA0	0045C8E0	vt	ai_sketavr.obj	aiSKETAVR::ProcessINIT
+00453E00	0045C940	vt	ai_sketavr.obj	aiSKETAVR::StartDeath
+00454050	0045CBA0	vt	ai_sketavr.obj	aiSKETAVR::PlaySounds
+004540F0	0045CC30	vt	ai_sketavr.obj	aiSKETAVR::ProcessMP_GET_SYNC_DATA
+00454100	0045CC40	vt	ai_sketavr.obj	aiSKETAVR::ProcessMP_NOTIFY
+00454110	0045CC50	tbl:callgraph	ai_sketavr.obj	?pjlTridentInit@@YIHXZ
+00454140	--------		ai_sketavr.obj	_$E4
+00454160	0045CCD0	vt	ai_sketavr.obj	pjlTRIDENT::Create
+00454230	--------		ai_tiger.obj	_$E42
+00454430	--------		ai_tiger.obj	_$E45
+00454630	--------		ai_tiger.obj	?aiTigerInit@@YIHXZ
+004546A0	0045D4B0	vt	ai_tiger.obj	aiTIGER::ParseNameClass
+00454780	0045D590	vt	ai_tiger.obj	aiTIGER::Create
+004547D0	0045D5E0	vt	ai_tiger.obj	aiTIGER::SetupAniSystem
+00454C10	--------		ai_tiger.obj	_$E2
+00454C30	0045DA70	vt	ai_tiger.obj	aiTIGER::ProcessINIT
+00454EA0	0045DD90	vt	ai_tiger.obj	aiTIGER::EvalAnimGoalSeq
+004551C0	0045E0C0	cg:00455480	ai_tiger.obj	aiTIGER::CalcDamageToTarget
+00455450	0045E4B0	vt	ai_tiger.obj	aiTIGER::SelectGoalToRunAway
+00455480	0045E4E0	vt	ai_tiger.obj	aiTIGER::ProcessActionFrame
+00455740	0045E7E0	vt	ai_tiger.obj	aiTIGER::Think
+00455880	0045E9C0	vt	ai_tiger.obj	aiTIGER::PostThink
+00455900	--------		ai_tiger.obj	aiTIGER::FillAttackFlags
+00455B70	0045ECB0	vt	ai_tiger.obj	aiTIGER::SetMovementSpeed
+00455D20	0045EEA0	vt	ai_tiger.obj	aiTIGER::SelectGoal
+00455DC0	0045EF40	vt	ai_tiger.obj	aiTIGER::MoveToGoal
+00455E80	0045F000	vt	ai_tiger.obj	aiTIGER::UpdateTimers
+00455EF0	0045F090	vt	ai_tiger.obj	aiTIGER::ProcessCDT_FIREABLE
+00455FD0	0045F170	cg:004560E0	ai_tiger.obj	aiTIGER::Kick
+004560E0	0045F280	vt	ai_tiger.obj	aiTIGER::ProcessCDT
+00456160	0045F310	vt	ai_tiger.obj	aiTIGER::PlaySounds
+004562F0	0045F470	vt	ai_tiger.obj	aiTIGER::FillSoundFlags
+00456440	0048DF30	vt	ai_tiger.obj	aiTIGER::IsAnimSeqGoodForFallback
+00456470	00547E40	vt	ai_tiger.obj	??_GaiTIGER@@UAEPAXI@Z
+00456490	--------		ai_zevs.obj	_$E28
+00456610	--------		ai_zevs.obj	?aiZevsInit@@YIHXZ
+00456690	00456270	tbl:callgraph	ai_zevs.obj	?aiCyclopTerm@@YIXXZ
+004566A0	0045F9A0	vt	ai_zevs.obj	aiZEVS::SetupAniSystem
+004568D0	0045FBD0	vt	ai_zevs.obj	aiZEVS::SetMovementSpeed
+004568E0	0045FBE0	vt	ai_zevs.obj	aiZEVS::ProcessINIT
+00456B70	0045FEB0	vt	ai_zevs.obj	aiZEVS::ProcessINIT_LEVEL
+00456C00	0045FF60	vt	ai_zevs.obj	aiZEVS::Activate
+00456C90	0045FFF0	vt	ai_zevs.obj	aiZEVS::ProcessTERM
+00456CC0	00448F00	vt	ai_zevs.obj	aiZEVS::ProcessFRAME
+00456D00	00460030	vt	ai_zevs.obj	aiZEVS::ProcessCDT_FIREABLE
+00456D50	--------		ai_zevs.obj	_$E2
+00456D70	00460050	cg:00456E40	ai_zevs.obj	aiZEVS::StartMainSFX
+00456E40	00460120	vt	ai_zevs.obj	aiZEVS::StartDeath
+00456E60	00460150	vt	ai_zevs.obj	aiZEVS::SelectGoal
+00456E90	00460180	vt	ai_zevs.obj	aiZEVS::EvalAnimGoalSeq
+00456EF0	00460250	vt	ai_zevs.obj	aiZEVS::UpdateTimers
+00456FC0	004603F0	vt	ai_zevs.obj	aiZEVS::PlaySounds
+00457040	00460550	vt	ai_zevs.obj	aiZEVS::ParseNameClass
+004570E0	00460600	vt	ai_zevs.obj	aiZEVS::Think
+00457160	00460680	cg:00456B70	ai_zevs.obj	aiZEVS::MakeRoofsIgnoreCDT
+00457220	00460740	vt	ai_zevs.obj	aiZEVS::ProcessActionFrame
+00457290	--------		ai_zevs.obj	aiZEVS::LaunchOneProjectile
+004574E0	00460A30	cg:00457220	ai_zevs.obj	aiZEVS::LaunchOneBolt
+004576B0	00460C20	vt	ai_zevs.obj	aiZEVS::IsArmoredObject
+00457700	00460C70	cg:00456D70	ai_zevs.obj	aiZEVS_DEATH_SFX_STARS::ctor
+004578B0	00460E20	cg:00456D70	ai_zevs.obj	aiZEVS_DEATH_SFX_LGTN::ctor
+00457AF0	00461060	cg:004574E0	ai_zevs.obj	aiZEVS::CalcBoltPosition
+00457CF0	--------		ai_zevs.obj	_$E31
+00457D00	00461270	vt	ai_zevs.obj	aiZEVS::ProcessMP_NOTIFY
+00457D40	004612B0	vt	ai_zevs.obj	aiZEVS::ProcessMP_GET_SYNC_DATA
+00457E60	004613D0	vt	ai_zevs.obj	aiZEVS::ProcessMP_WRITE_SYNC_DATA
+00457F10	00461480	vt	ai_zevs.obj	aiZEVS::ProcessMP_READ_SYNC_DATA
+00458140	0045CCA0	tbl:exact	ai_zevs.obj	sncSOUND_DESCR::ctor
+00458170	004616B0	vt	ai_zevs.obj	aiZEVS::Create
+00458230	0045A950	vt	ai_zevs.obj	aiCENT::SetLayer3State
+00458240	00461770	vt	ai_zevs.obj	??_GaiZEVS@@UAEPAXI@Z
+00458280	004617B0	tbl:exact	ai_zevs_pjl.obj	?aiPjlZevsMoteInit@@YIHXZ
+004582D0	00461800	vt	ai_zevs_pjl.obj	pjlZEVS::Create
+004583A0	004618D0	vt	ai_zevs_pjl.obj	??_E?$pjlPJL@UpjlZEVS_SFX@@@@MAEPAXI@Z
+004583D0	--------		ai_zevs_pjl.obj	pjlZEVS_SFX_FIRE::ctor
+004585A0	--------		ai_zevs_pjl.obj	pjlZEVS_SFX_TRAIL::ctor
+00458720	--------		ai_zevs_pjl.obj	pjlZEVS_SFX::StartSFX
+00458810	--------		ai_zevs_pjl.obj	_$E2
+00458830	--------		ai_zevs_pjl.obj	pjlZEVS::ProcessINIT
+00458A50	00462190	vt	ai_zevs_pjl.obj	pjlZEVS::ProcessFRAME
+00458CE0	00462460	vt	ai_zevs_pjl.obj	pjlZEVS::ShowCollisSFX
+00458D40	004624F0	vt	ai_zevs_pjl.obj	pjlZEVS::ProcessCDT
+00458F60	--------		ai_zevs_pjl.obj	?ProcessINIT@?$pjlPJL@UpjlZEVS_SFX@@@@MAEHPAUphysINIT@@@Z
+00459010	004629D0	vt	ai_zevs_pjl.obj	?ProcessTERM@?$pjlPJL@UpjlZEVS_SFX@@@@MAEXXZ
+00459050	00436BF0	vt	ai_zevs_pjl.obj	?DispatchDamage@?$pjlPJL@UpjlZEVS_SFX@@@@MAEXPAVcdtINFO@@@Z
+004590E0	--------		ai_zevs_pjl.obj	?ProcessEV_CDT@?$pjlPJL@UpjlMEDUSA_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+00459180	0044FF70	vt	ai_zevs_pjl.obj	?ProcessMP_NOTIFY@?$pjlNPC_PJL@UpjlARROW_GENERIC_SFX@@@@MAEXPAUgsEVENT@@@Z
+004591D0	00462A20	cg:00458D40	ai_zevs_pjl.obj	?GetCDTType@?$pjlPJL@UpjlZEVS_SFX@@@@IAEHPAVcdtINFO@@@Z
+00459240	--------		bird_egg.obj	_$E25
+00459350	--------		bird_egg.obj	?birdEggInit@@YIHXZ
+00459410	--------		bird_egg.obj	birdEGG_PJL_SFX::StartSFX
+004595A0	--------		bird_egg.obj	birdEGG::ProcessINIT
+00459850	00462FE0	vt	bird_egg.obj	birdEGG::ShowCollisSFX
+00459A50	004631E0	vt	bird_egg.obj	birdEGG_SFX::ProcessINIT
+00459CA0	--------		bird_egg.obj	_$E2
+00459CC0	004633F0	vt	bird_egg.obj	birdEGG_SFX::ProcessFRAME
+00459CD0	--------		bird_egg.obj	birdEGG_TRAIL::ctor
+00459DF0	00463540	cg:00459A50	bird_egg.obj	birdEGG_SPARKS_1::ctor
+00459F60	--------		bird_egg.obj	birdEGG_SPARKS_1::PartApplyCDT
+00459F70	004636C0	cg:00459A50	bird_egg.obj	birdEGG_SPARKS_1_TRAIL::ctor
+0045A090	004637E0	cg:00459A50	bird_egg.obj	birdEGG_SPARKS_2::ctor
+0045A210	00463960	cg:00459A50	bird_egg.obj	birdEGG_SPARKS_2_TRAIL::ctor
+0045A3A0	--------		bird_egg.obj	?ProcessINIT@?$pjlPJL@UbirdEGG_PJL_SFX@@@@MAEHPAUphysINIT@@@Z
+0045A450	00463AF0	vt	bird_egg.obj	birdEGG::Create
+0045A520	00463DE0	vt	bird_egg.obj	?ProcessTERM@?$pjlPJL@UbirdEGG_PJL_SFX@@@@MAEXXZ
+0045A580	--------		bird_egg.obj	?ProcessFRAME@?$pjlPJL@UbirdEGG_PJL_SFX@@@@MAEXXZ
+0045A5D0	00463EA0	vt	bird_egg.obj	?DispatchDamage@?$pjlPJL@UbirdEGG_PJL_SFX@@@@MAEXPAVcdtINFO@@@Z
+0045A660	00463F30	vt	bird_egg.obj	?Terminate@?$pjlPJL@UbirdEGG_PJL_SFX@@@@MAEXXZ
+0045A6A0	00463F70	vt	bird_egg.obj	?ProcessEV_CDT@?$pjlPJL@UbirdEGG_PJL_SFX@@@@MAEXPAUpjlEV_CDT@@@Z
+0045A760	00464120	vt	bird_egg.obj	?ProcessFRAME@?$pjlNPC_PJL@UbirdEGG_PJL_SFX@@@@MAEXXZ
+0045A820	00463BC0	vt	bird_egg.obj	??_E?$pjlPJL@UbirdEGG_PJL_SFX@@@@MAEPAXI@Z
+0045A850	004641F0	vt	bird_egg.obj	birdEGG_SFX::Create
+0045A8E0	00464290	vt	bird_egg.obj	??_EbirdEGG_SFX@@UAEPAXI@Z
+0045A910	--------		mino_ax.obj	_$E27
+0045A9D0	--------		mino_ax.obj	?minoAxInit@@YIHXZ
+0045AA50	--------		mino_ax.obj	minoAX_TRAIL::StartSFX
+0045AB00	--------		mino_ax.obj	minoAX_TRAIL::UpdateSFX
+0045AB60	00464440	vt	mino_ax.obj	minoAX::ProcessINIT
+0045AE60	00464760	vt	mino_ax.obj	minoAX::ProcessFRAME
+0045B080	00464980	vt	mino_ax.obj	minoAX::ShowCollisSFX
+0045B1D0	--------		mino_ax.obj	minoAX_TRAIL_EMITTER::ctor
+0045B3B0	--------		mino_ax.obj	_$E2
+0045B3D0	00464CB0	vt	mino_ax.obj	minoAX::Create
+0045B4A0	00464D70	vt	mino_ax.obj	??_GminoAX@@MAEPAXI@Z
+0045B4D0	--------		mino_ax.obj	?ProcessINIT@?$pjlPJL@UminoAX_TRAIL@@@@MAEHPAUphysINIT@@@Z
+0045B610	0045BAB0	vt	mino_ax.obj	?ProcessTERM@?$pjlPJL@UminoAX_TRAIL@@@@MAEXXZ
+0045B640	--------		mino_ax.obj	?ProcessFRAME@?$pjlPJL@UminoAX_TRAIL@@@@MAEXXZ
+0045B6C0	004650D0	tbl:exact	mino_sfx.obj	?minoSFXInit@@YIHXZ
+0045B7A0	004651B0	vt	mino_sfx.obj	aiMINO::InitSFX
+0045BB80	00465580	vt	mino_sfx.obj	aiMINO::TermSFX
+0045BBD0	004655D0	vt	mino_sfx.obj	aiMINO::UpdateSFX
+0045BD70	--------		mino_sfx.obj	aiMINO::ChunkCreateNotify
+0045BD90	--------		mino_sfx.obj	_$E4
+0045EC00	004689D0	tbl:exact	sfx_atlas.obj	?wrsfxAtlasInit@@YIHXZ
+0045EC90	00468A60	cg:0045F190	sfx_atlas.obj	wrsfxATLAS_GLOBE_APPEAR_LGTN::ctor
+0045EF40	00468D10	cg:0045F190	sfx_atlas.obj	wrsfxATLAS_GLOBE_APPEAR_SPHERE::ctor
+0045F110	00468EE0	cg:0042ABE0	sfx_atlas.obj	wrsfxATLAS_GLOBE_APPEAR::Start
+0045F190	00468F60	vt	sfx_atlas.obj	wrsfxATLAS_GLOBE_APPEAR::ProcessMsg
+0045F460	00469230	cg:0045F740	sfx_atlas.obj	wrsfxATLAS_GLOBE_LAND_FLASH::ctor
+0045F690	--------		sfx_atlas.obj	_$E4
+0045F6B0	00469480	cg:0042FB70	sfx_atlas.obj	wrsfxATLAS_GLOBE_LAND::Start
+0045F740	00469510	vt	sfx_atlas.obj	wrsfxATLAS_GLOBE_LAND::ProcessMsg
+0045F8C0	00469690	vt	sfx_atlas.obj	wrsfxATLAS_GLOBE_APPEAR::Create
+0045F910	004696E0	vt	sfx_atlas.obj	??_GwrsfxATLAS_GLOBE_APPEAR@@UAEPAXI@Z
+0045F940	00469710	vt	sfx_atlas.obj	wrsfxATLAS_GLOBE_LAND::Create
+0045F990	00469760	vt	sfx_atlas.obj	??_GwrsfxATLAS_GLOBE_LAND@@UAEPAXI@Z
+004604C0	--------		sfx_bird.obj	?wrsfxBirdInit@@YIHXZ
+00460510	0046A2E0	cg:00460960	sfx_bird.obj	wrsfxBIRD_DEATH_EMITTER::ctor
+00460780	--------		sfx_bird.obj	wrsfxBIRD_DEATH_EMITTER::PartUpdate
+004608F0	--------		sfx_bird.obj	wrsfxBIRD_DEATH::Start
+00460960	0046A730	vt	sfx_bird.obj	wrsfxBIRD_DEATH::ProcessMsg
+00460A80	--------		sfx_bird.obj	_$E2
+00460AA0	0046A870	vt	sfx_bird.obj	wrsfxBIRD_DEATH::Create
+00460AF0	0046A8C0	vt	sfx_bird.obj	??_GwrsfxBIRD_DEATH@@UAEPAXI@Z
+00464720	0046E530	tbl:exact	sfx_cyclop.obj	?wrsfxCyclopInit@@YIHXZ
+004647D0	0046E5E0	cg:004650F0	sfx_cyclop.obj	wrsfxCYCLOP_WALK_GRIT::ctor
+00464A40	0046E850	cg:004650F0	sfx_cyclop.obj	wrsfxCYCLOP_WALK_CLOUD::ctor
+00464C70	0046EA80	cg:004650F0	sfx_cyclop.obj	wrsfxCYCLOPMINI_WALK_GRIT::ctor
+00464EC0	--------		sfx_cyclop.obj	_$E2
+00464EE0	0046ECF0	cg:004650F0	sfx_cyclop.obj	wrsfxCYCLOPMINI_WALK_CLOUD::ctor
+004650F0	0046EF00	vt	sfx_cyclop.obj	wrsfxCYCLOP_WALK::ProcessMsg
+00465360	0046F130	cg:00465C10	sfx_cyclop.obj	wrsfxCYCLOP_HIT_DUST::ctor
+00465570	0046F340	cg:00465C10	sfx_cyclop.obj	wrsfxCYCLOP_HIT_GRIT::ctor
+004657B0	0046F580	cg:00465C10	sfx_cyclop.obj	wrsfxCYCLOPMINI_HIT_DUST::ctor
+004659D0	0046F7A0	cg:00465C10	sfx_cyclop.obj	wrsfxCYCLOPMINI_HIT_GRIT::ctor
+00465C10	0046F9E0	vt	sfx_cyclop.obj	wrsfxCYCLOP_HIT::ProcessMsg
+00465EA0	0046FC10	cg:00466710	sfx_cyclop.obj	wrsfxCYCLOP_DEATH_SMOKE::ctor
+004660B0	0046FE20	cg:00466710	sfx_cyclop.obj	wrsfxCYCLOP_DEATH_GRIT::ctor
+004662F0	00470060	cg:00466710	sfx_cyclop.obj	wrsfxCYCLOPMINI_DEATH_SMOKE::ctor
+00466500	00470270	cg:00466710	sfx_cyclop.obj	wrsfxCYCLOPMINI_DEATH_GRIT::ctor
+00466710	00470480	vt	sfx_cyclop.obj	wrsfxCYCLOP_DEATH::ProcessMsg
+00466960	004706A0	vt	sfx_cyclop.obj	wrsfxCYCLOP_WALK::Create
+004669B0	004706F0	vt	sfx_cyclop.obj	??_GwrsfxCYCLOP_WALK@@UAEPAXI@Z
+004669E0	00470720	vt	sfx_cyclop.obj	wrsfxCYCLOP_HIT::Create
+00466A30	00470770	vt	sfx_cyclop.obj	??_GwrsfxCYCLOP_HIT@@MAEPAXI@Z
+00466A60	004707A0	vt	sfx_cyclop.obj	wrsfxCYCLOP_DEATH::Create
+0046C7F0	004764D0	tbl:exact	sfx_glad.obj	?wrsfxGladInit@@YIHXZ
+0046C8A0	00476580	cg:0046D180	sfx_glad.obj	wrsfxGLAD_MACE_EXPL_BURN::ctor
+0046CAC0	004767A0	cg:0046D180	sfx_glad.obj	wrsfxGLAD_MACE_EXPL_GLOW::ctor
+0046CD00	004769E0	cg:0046D180	sfx_glad.obj	wrsfxGLAD_MACE_EXPL_SPARKS::ctor
+0046CF20	00476C00	cg:0046D180	sfx_glad.obj	wrsfxGLAD_MACE_EXPL_BURN1::ctor
+0046D160	--------		sfx_glad.obj	_$E2
+0046D180	00476E60	vt	sfx_glad.obj	wrsfxGLAD_MACE_EXPL::ProcessMsg
+0046D400	004770E0	vt	sfx_glad.obj	wrsfxGLAD_MACE_EXPL::Create
+0046D450	00477130	vt	sfx_glad.obj	??_GwrsfxGLAD_MACE_EXPL@@MAEPAXI@Z
+00475F30	004802B0	tbl:exact	sfx_rat.obj	?wrsfxRatInit@@YIHXZ
+00476000	00480380	cg:00476360	sfx_rat.obj	wrsfxRAT_SPARKS_EMITTER::ctor
+004761D0	--------		sfx_rat.obj	wrsfxRAT_SPARKS::Start
+00476320	004806B0	cg:0044D160	sfx_rat.obj	wrsfxRAT_SPARKS::Stop
+00476360	004806F0	vt	sfx_rat.obj	wrsfxRAT_SPARKS::ProcessMsg
+00476570	004808F0	cg:00476C20	sfx_rat.obj	wrsfxRAT_EXPL_BURN::ctor
+004767B0	--------		sfx_rat.obj	_$E2
+004767D0	00480B50	cg:00476C20	sfx_rat.obj	wrsfxRAT_EXPL_SMOKE::ctor
+00476A00	00480D80	cg:00476C20	sfx_rat.obj	wrsfxRAT_EXPL_GLOW::ctor
+00476C20	00480FA0	vt	sfx_rat.obj	wrsfxRAT_EXPL::ProcessMsg
+00476E20	004811A0	vt	sfx_rat.obj	wrsfxRAT_EXPL::Create
+00476E70	004811F0	vt	sfx_rat.obj	??_GwrsfxRAT_EXPL@@MAEPAXI@Z
+00476EA0	00481220	vt	sfx_rat.obj	wrsfxRAT_SPARKS::Create
+00476EF0	00481270	vt	sfx_rat.obj	??_GwrsfxRAT_SPARKS@@MAEPAXI@Z
+004776C0	00481A40	tbl:exact	sfx_skeleton.obj	?wrsfxSkeletonInit@@YIHXZ
+004777D0	00481B50	cg:00477BA0	sfx_skeleton.obj	wrsfxSKELETON_SPEAR_APPEAR_CYL::ctor
+00477A50	--------		sfx_skeleton.obj	wrsfxSKELETON_SPEAR_APPEAR::Start
+00477BA0	00481F20	vt	sfx_skeleton.obj	wrsfxSKELETON_SPEAR_APPEAR::ProcessMsg
+00477E70	--------		sfx_skeleton.obj	_$E2
+00477E90	00482210	cg:00478340	sfx_skeleton.obj	wrsfxSKELETON_SPEAR_LAND_GRIT::ctor
+00478100	00482480	cg:00478340	sfx_skeleton.obj	wrsfxSKELETON_SPEAR_LAND_CLOUDS::ctor
+00478300	--------		sfx_skeleton.obj	wrsfxSKELETON_SPEAR_LAND::Start
+00478340	004826C0	vt	sfx_skeleton.obj	wrsfxSKELETON_SPEAR_LAND::ProcessMsg
+00478550	004828D0	tbl:callgraph	sfx_skeleton.obj	wrsfxSKELETON_DEATH_SHARD::ctor
+00478750	00482AD0	tbl:callgraph	sfx_skeleton.obj	wrsfxSKELETON_DEATH_DUST::ctor
+00478A20	00482DA0	tbl:callgraph	sfx_skeleton.obj	wrsfxSKELETON_DEATH::AddPiece
+00479030	--------		sfx_skeleton.obj	wrsfxSKELETON_DEATH::ProcessFRAME
+004790C0	--------		sfx_skeleton.obj	wrsfxSKELETON_DEATH::ProcessTERM
+00479130	--------		sfx_skeleton.obj	wrsfxSKELETON_DEATH::ProcessDESTROY_ENT
+004791B0	00483540	vt	sfx_skeleton.obj	wrsfxSKELETON_DEATH::ProcessMsg
+00479210	004835A0	vt	sfx_skeleton.obj	wrsfxSKELETON_SPEAR_APPEAR::Create
+00479290	00483620	vt	sfx_skeleton.obj	??_GwrsfxSKELETON_SPEAR_APPEAR@@UAEPAXI@Z
+004792C0	00483650	vt	sfx_skeleton.obj	wrsfxSKELETON_SPEAR_LAND::Create
+00479310	004836A0	vt	sfx_skeleton.obj	??_GwrsfxSKELETON_SPEAR_LAND@@UAEPAXI@Z
+00479340	004836D0	vt	sfx_skeleton.obj	wrsfxSKELETON_DEATH::Create
+004793A0	00483730	vt	sfx_skeleton.obj	??_EwrsfxSKELETON_DEATH@@UAEPAXI@Z
+0047B8E0	--------		sfx_zeus.obj	?wrsfxZeusInit@@YIHXZ
+0047B950	00485DD0	cg:0047BD90	sfx_zeus.obj	wrsfxZEUS_LGTN_GLOW::ctor
+0047BB70	00485FF0	cg:0047BD90	sfx_zeus.obj	wrsfxZEUS_LGTN_PARTS::ctor
+0047BD90	00486210	vt	sfx_zeus.obj	wrsfxZEUS_LGTN::ProcessINIT
+0047BF40	00486400	vt	sfx_zeus.obj	wrsfxZEUS_LGTN::ProcessTERM
+0047BF80	00486440	vt	sfx_zeus.obj	wrsfxZEUS_LGTN::ProcessFRAME
+0047BFB0	--------		sfx_zeus.obj	_$E2
+0047BFD0	00486490	vt	sfx_zeus.obj	wrsfxZEUS_LGTN::Create
+0047C060	00486530	vt	sfx_zeus.obj	??_GwrsfxZEUS_LGTN@@MAEPAXI@Z
+00530AB0	0054BCD0	tbl:callgraph	gs_shared:ai_ctrl_die.obj	?aiIsNPCDead@@YIHPAVentENTITY@@PAH@Z
+00530AF0	0054BD10	vt	gs_shared:ai_ctrl_die.obj	aiNPC::ProcessCDT_FIREABLE
+00530BE0	0054BE00	vt	gs_shared:ai_ctrl_die.obj	aiNPC::StartDeath
+00530C50	0054BEB0	vt	gs_shared:ai_ctrl_die.obj	aiNPC::UpdateDead
+00530DD0	--------		gs_shared:ai_ctrl_die.obj	aiDMG_DISPATCHER_TO_SIBLING::Dispatch
+00530E90	--------		gs_shared:ai_ctrl_die.obj	aiNPC::DieOfInactivity
+00530F70	--------		gs_shared:ai_ctrl_die.obj	_$E10
+00530F80	--------		gs_shared:ai_ctrl_die.obj	_$E4
+00530FA0	--------		gs_shared:ai_enemy.obj	aiENEMY::GetMostRecentCrumbID
+00530FC0	0054C450	tbl:callgraph	gs_shared:ai_enemy.obj	aiENEMY::GetBreadCrumb
+00530FE0	0054C250	tbl:callgraph	gs_shared:ai_enemy.obj	aiENEMY::GetPos
+00531010	0054C2A0	cg:00433430	gs_shared:ai_enemy.obj	aiENEMY::GetDir
+00531040	--------		gs_shared:ai_enemy.obj	aiENEMY::GetSpeed
+00531090	--------		gs_shared:ai_enemy.obj	aiENEMY::GetSpeedScalar
+00531230	0054C480	tbl:exact	gs_shared:ai_enemy.obj	aiENEMY::Assign
+00531270	0054C4C0	tbl:callgraph	gs_shared:ai_enemy.obj	aiENEMY::IsDead
+005312A0	--------		gs_shared:ai_enemy.obj	aiENEMY::IsActive
+005312D0	0054C520	cg:00434E30	gs_shared:ai_enemy.obj	aiENEMY::ApplySpeed
+00531310	0054C5A0	cg:00434E30	gs_shared:ai_enemy.obj	aiENEMY::ProcessCDT_FIREABLE
+00531340	--------		gs_shared:ai_enemy.obj	aiENEMY::UpdateTimers
+00531350	005593E0	tbl:callgraph	gs_shared:ai_enemy.obj	aiNPC::IsPlrVisible
+00531480	0054C720	vt	gs_shared:ai_enemy.obj	aiNPC::ShouldChangeEnemy
+00531510	0054C7B0	tbl:callgraph	gs_shared:ai_enemy.obj	aiNPC::DecideEnemy
+005316A0	0054C970	vt	gs_shared:ai_enemy.obj	aiNPC::SelectNewEnemy
+00531720	0054CA20	vt	gs_shared:ai_enemy.obj	aiNPC::SelectFromSortedPlayers
+00531810	--------		gs_shared:ai_enemy.obj	_$E4
+00531830	--------		gs_shared:ai_ctrl_MP.obj	aiNPC::NotifyAIState
+00531880	--------		gs_shared:ai_ctrl_MP.obj	_$E10
+00531890	0054CB90	vt	gs_shared:ai_ctrl_MP.obj	aiNPC::ProcessMP_GET_SYNC_DATA
+00531AA0	0054CDA0	vt	gs_shared:ai_ctrl_MP.obj	aiNPC::ProcessMP_WRITE_SYNC_DATA
+00531D50	0054D050	vt	gs_shared:ai_ctrl_MP.obj	aiNPC::ProcessMP_READ_SYNC_DATA
+00531F70	0054D270	vt	gs_shared:ai_ctrl_MP.obj	aiNPC::GetMP_UPD_STATE
+00532000	--------		gs_shared:ai_ctrl_MP.obj	_$E12
+00532010	0054D340	vt	gs_shared:ai_ctrl_MP.obj	aiNPC::UpdateOnClientOnly
+00532040	0054D370	vt	gs_shared:ai_ctrl_MP.obj	aiNPC::NotifyHealthChange
+005320C0	0054D3F0	vt	gs_shared:ai_ctrl_MP.obj	aiNPC::NotifyDeath
+00532130	0054D450	vt	gs_shared:ai_ctrl_MP.obj	aiNPC::ProcessMP_NOTIFY
+00532350	--------		gs_shared:ai_ctrl_MP.obj	_$E4
+00532370	0054D740	tbl:exact	gs_shared:ai_ctrl_MP.obj	aiSYNC_DATA::ctor
+00532420	0054D7F0	vt	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::MoveToGoal
+005324F0	0054D8B0	cg:00536580	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::GetClampingSpeeds
+00532800	0054DBC0	vt	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::ClampGoalFrame
+00532DA0	0054E160	vt	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::GetFloorPlaceRefiner
+00532E10	--------		gs_shared:ai_ctrl_nav_phys.obj	_$E10
+00532E20	0054E200	vt	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::ProcessVoluntaryPhysics
+00533280	--------		gs_shared:ai_ctrl_nav_phys.obj	_$E12
+00533290	0054E6B0	vt	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::ProcessPassivePhysics
+005333E0	--------		gs_shared:ai_ctrl_nav_phys.obj	aiNPC::ProcessPhysics
+00533410	0054E850	vt	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::ApplySpeed
+00533430	0054E870	vt	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::ApplySpeedTrampoline
+00533440	0054E880	vt	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::GetFloorInfo
+00533470	0054E8A0	cg:00532E20	gs_shared:ai_ctrl_nav_phys.obj	aiNPC::ConstrainMotion
+00533680	--------		gs_shared:ai_ctrl_nav_phys.obj	_$E4
+005336A0	0054EB40	vt	gs_shared:ai_ctrl_geo.obj	aiNPC::SettleSurface
+00533780	--------		gs_shared:ai_ctrl_geo.obj	aiNPC::FillToPlayerCoords
+005338E0	0054ED60	vt	gs_shared:ai_ctrl_geo.obj	aiNPC::GetWpnTip
+00533900	0054ED80	vt	gs_shared:ai_ctrl_geo.obj	aiNPC::GetPlayerTargetPos
+00533910	0054ED90	cg:00536580	gs_shared:ai_ctrl_geo.obj	aiNPC::IsPivotUsable
+00533930	--------		gs_shared:ai_ctrl_geo.obj	aiNPC::SetDirection
+005339F0	0054EED0	vt	gs_shared:ai_ctrl_geo.obj	aiNPC::GetStateEntExcludeCDT
+00533A00	0054EEE0	vt	gs_shared:ai_ctrl_geo.obj	aiNPC::Colorize
+00533AB0	--------		gs_shared:ai_ctrl_geo.obj	aiCDT_REFINE::IsInclInst
+00533B20	--------		gs_shared:ai_ctrl_geo.obj	aiCDT_REFINE::IsInclObj
+00533B70	0054F0C0	cg:0043D480	gs_shared:ai_ctrl_geo.obj	aiCDT_REFINE::Init
+00533B90	--------		gs_shared:ai_ctrl_geo.obj	aiNPC::GetPrevPositions
+00533BD0	0054F120	vt	gs_shared:ai_ctrl_geo.obj	aiNPC::IsStayOn
+00533C20	--------		gs_shared:ai_ctrl_geo.obj	_$E4
+00533C40	0054F190	vt	gs_shared:ai_ctrl_LOD.obj	aiNPC::Activate
+00533C90	0054F1F0	vt	gs_shared:ai_ctrl_LOD.obj	aiNPC::Deactivate
+00533CC0	0054F250	vt	gs_shared:ai_ctrl_LOD.obj	aiNPC::ActivatePlrVisibility
+00533CD0	0054F260	vt	gs_shared:ai_ctrl_LOD.obj	aiNPC::IsReadyActivate
+00533D00	0054F290	cg:00531480	gs_shared:ai_ctrl_LOD.obj	aiNPC::CheckDeactivateCondition
+00533DA0	0054F330	vt	gs_shared:ai_ctrl_LOD.obj	aiNPC::Think
+00533DC0	0054F350	vt	gs_shared:ai_ctrl_LOD.obj	aiNPC::PostThink
+00533ED0	--------		gs_shared:ai_ctrl_LOD.obj	_$E10
+00533EE0	0054F440	vt	gs_shared:ai_ctrl_LOD.obj	aiNPC::UpdateOnServerOnly
+00534010	0054F5A0	vt	gs_shared:ai_ctrl_LOD.obj	aiNPC::UpdateOnServerAndClient
+00534050	--------		gs_shared:ai_ctrl_LOD.obj	_$E4
+00534070	--------		gs_shared:ai_ctrl.obj	_$E12
+00534080	--------		gs_shared:ai_ctrl.obj	_$E11
+00534090	--------		gs_shared:ai_ctrl.obj	aiINIT_DATA_PACK::ctor
+005340B0	--------		gs_shared:ai_ctrl.obj	?aiInit@@YIHXZ
+005340F0	00547920	tbl:callgraph	gs_shared:ai_ctrl.obj	?aiTerm@@YIXXZ
+00534100	00547930	tbl:callgraph	gs_shared:ai_ctrl.obj	aiNPC::GetNext
+00534160	00547990	tbl:callgraph	gs_shared:ai_ctrl.obj	aiNPC::GetNOpp
+00534210	00547A60	vt	gs_shared:ai_ctrl.obj	aiNPC::ctor
+005345E0	00547E60	cg:00534210	gs_shared:ai_ctrl.obj	aiNAV_PARAMS::ctor
+00534600	00547E80	cg:00456470	gs_shared:ai_ctrl.obj	aiNPC::dtor
+00534620	--------		gs_shared:ai_ctrl.obj	aiNAV_PARAMS::dtor
+00534640	00547EC0	vt	gs_shared:ai_ctrl.obj	aiNPC::ProcessMsg
+005348A0	00548120	vt	gs_shared:ai_ctrl.obj	aiNPC::ProcessINIT
+00534C70	--------		gs_shared:ai_ctrl.obj	_$E4
+00534C90	00548540	vt	gs_shared:ai_ctrl.obj	aiNPC::SetupHeightCDTParams
+00534CF0	005485A0	vt	gs_shared:ai_ctrl.obj	aiNPC::ProcessINIT_LEVEL
+00534D70	00548620	vt	gs_shared:ai_ctrl.obj	aiNPC::ProcessTERM
+00534DD0	00548690	vt	gs_shared:ai_ctrl.obj	aiNPC::ProcessDESTROY_ENT
+00534E00	005486C0	vt	gs_shared:ai_ctrl.obj	aiNPC::ProcessIACTION
+00534EA0	00548760	vt	gs_shared:ai_ctrl.obj	aiNPC::ProcessFRAME
+00534F90	00548880	vt	gs_shared:ai_ctrl.obj	aiNPC::UpdateTimers
+00535070	00548990	vt	gs_shared:ai_ctrl.obj	aiNPC::PlaySounds
+00535080	005489A0	tbl:exact	gs_shared:ai_ctrl.obj	aiINIT_DATA::ctor
+005350B0	005489D0	tbl:exact	gs_shared:ai_ctrl.obj	aiINIT_DATA_PACK::Pack
+005350F0	00548A10	tbl:exact	gs_shared:ai_ctrl.obj	aiINIT_DATA_PACK::UnPack
+00535120	00548A40	tbl:exact	gs_shared:ai_ctrl.obj	m3dMATR::TransformPoint
+005352B0	004E74A0	tbl:callgraph	gs_shared:ai_ctrl.obj	animINST::GetNameClass
+005352C0	004E74B0	tbl:callgraph	gs_shared:ai_ctrl.obj	animINST::GetNameTpl
+005352D0	00548BD0	cg:005348A0	gs_shared:ai_ctrl.obj	animINST::Scale
+005352F0	00548BF0	cg:005348A0	gs_shared:ai_ctrl.obj	animINST::GetMatrL2W
+00535300	00548C40	tbl:exact	gs_shared:ai_ctrl.obj	scnDOMAIN::ctor
+00535330	00548C80	cg:005348A0	gs_shared:ai_ctrl.obj	scnDOMAIN::SetObj
+00535340	--------		gs_shared:ai_ctrl.obj	msgDATA_PACK::ctor
+00535350	004C9950	tbl:callgraph	gs_shared:ai_ctrl.obj	msgDATA_PACK::GetPackID
+00535360	00548CB0	cg:005348A0	gs_shared:ai_ctrl.obj	entIACTIVE_OBJ::IsLocked
+00535370	00548CC0	tbl:exact	gs_shared:ai_ctrl.obj	aiAREA::ctor
+005353B0	--------		gs_shared:ai_ctrl.obj	scnDOMAIN::dtor
+005353C0	00548D00	cg:00534210	gs_shared:ai_ctrl.obj	aiENEMY::ctor
+005353D0	00548D10	cg:00534F90	gs_shared:ai_ctrl.obj	aiNPC::IsInAnyStrafe
+005353E0	00548D20	tbl:callgraph	gs_shared:ai_ctrl.obj	aiNPC::IsDead
+005353F0	--------		gs_shared:ai_ctrl.obj	cinSYSTEM::IsActive
+00535400	0054F630	tbl:callgraph	gs_shared:ai_ctrl_anim.obj	aiNPC::GetPosRooted
+00535470	0054F6A0	cg:00532E20	gs_shared:ai_ctrl_anim.obj	aiNPC::SetPosRooted
+00535540	0054F770	vt	gs_shared:ai_ctrl_anim.obj	aiNPC::MoveRootedPivoted
+005355C0	0054F990	vt	gs_shared:ai_ctrl_anim.obj	aiNPC::Animate
+00535720	--------		gs_shared:ai_ctrl_anim.obj	_$E4
+00535740	--------		gs_shared:ai_ctrl_nav_plan.obj	_$E4
+00535760	--------		gs_shared:ai_ctrl_nav_plan.obj	aiNPC::SelectGoal_P
+00535790	0054FB90	vt	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::SelectGoal
+005358A0	0054FD40	cg:00535DF0	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::SelectBasicStrafeDirection
+00535AE0	0054FF80	cg:00534F90	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::StopStrafe
+00535B00	0054FFA0	vt	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::StartJump
+00535BA0	00550050	cg:00536070	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::CheckCycle
+00535DF0	00550280	vt	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::StartResolveCycle
+00535F00	00550590	vt	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::PlanMove
+00536070	00550700	vt	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::AnalyzeMove
+00536270	--------		gs_shared:ai_ctrl_nav_plan.obj	aiNPC::UpdateUnderwater
+005362C0	00550950	cg:00535F00	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::AvoidObstacles
+00536580	00550C10	vt	gs_shared:ai_ctrl_nav_plan.obj	aiNPC::FillGoalDirection
+00536760	--------		gs_shared:ai_att_planner.obj	?aiPlannerInit@@YIHXZ
+00536830	00550F20	tbl:callgraph	gs_shared:ai_att_planner.obj	?aiPlannerTerm@@YIXXZ
+00536850	--------		gs_shared:ai_att_planner.obj	??_GaiPLANNER@@UAEPAXI@Z
+00536880	--------		gs_shared:ai_att_planner.obj	aiPLANNER::RegisterNPC
+005368A0	--------		gs_shared:ai_att_planner.obj	aiPLANNER::UnRegisterNPC
+005368F0	--------		gs_shared:ai_att_planner.obj	aiPLANNER::ProcessMsg
+00536A00	--------		gs_shared:ai_att_planner.obj	aiPLANNER::ProcessFRAME
+00536A60	00551220	cg:0044BD60	gs_shared:ai_att_planner.obj	aiPLANNER::GetBanCrossDomain
+00536A80	00551240	tbl:callgraph	gs_shared:ai_att_planner.obj	aiPLANNER::GetFleeGoalPoint
+00536BD0	00551390	tbl:callgraph	gs_shared:ai_att_planner.obj	aiPLANNER::GetEnemyMeetPoint
+00536FE0	005517E0	tbl:callgraph	gs_shared:ai_att_planner.obj	aiPLANNER::GetAttackGoalPoint
+00537330	--------		gs_shared:ai_att_planner.obj	_$E2
+00537350	00559270	tbl:callgraph	gs_shared:ai_att_planner.obj	aiPLANNER::GetCrumbGoalPoint
+00537420	--------		gs_shared:ai_att_planner.obj	aiPLANNER::DesyncAnimations
+00537680	--------		gs_shared:ai_att_planner.obj	aiPLANNER::GetBossHealth
+005376F0	0054C4C0	cg:0043B750	gs_shared:ai_att_planner.obj	aiPLANNER::SetBoss
+00537700	00551E40	tbl:callgraph	gs_shared:ai_att_planner.obj	aiPLANNER::ClipPointByNavArea
+00537870	00551FB0	cg:0043CB70	gs_shared:ai_att_planner.obj	aiPLANNER::GetNavAreaCenter
+00537910	00552050	tbl:exact	gs_shared:ai_att_planner.obj	aiPLANNER::UsePredictiveAiming
+00537940	00552100	tbl:exact	gs_shared:ai_area.obj	aiAREA::Init
+00537990	00552150	tbl:exact	gs_shared:ai_area.obj	aiAREA::Term
+005379C0	00552180	tbl:callgraph	gs_shared:ai_area.obj	aiAREA::CalcWeights
+00538120	005528D0	tbl:exact	gs_shared:ai_area.obj	aiAREA::GetRandomPos
+005381B0	00552960	tbl:exact	gs_shared:ai_area.obj	aiAREA::GetRandomPos
+00538260	00552AB0	tbl:callgraph	gs_shared:ai_area.obj	aiAREA::MakePointList
+00538640	00552E40	tbl:exact	gs_shared:ai_area.obj	aiAREA::FillBoundaryPoly
+00538870	--------		gs_shared:ai_area.obj	_$E2
+00538890	00553090	tbl:exact	gs_shared:ai_area.obj	aiAREA::ISectLSegBoundaryXZ
+00538970	00553170	cg:00444ED0	gs_shared:ai_ctrl_script.obj	aiNPC::GetStr
+00538A20	00553220	cg:00438DB0	gs_shared:ai_ctrl_script.obj	aiNPC::GetInt
+00538AD0	005532D0	cg:00534C90	gs_shared:ai_ctrl_script.obj	aiNPC::GetFloat
+00538B70	00553370	cg:00454C30	gs_shared:ai_ctrl_script.obj	aiNPC::GetBool
+00538C10	00553410	cg:005348A0	gs_shared:ai_ctrl_script.obj	aiNPC::GetLogableName
+00538C40	--------		gs_shared:ai_ctrl_script.obj	_$E2
+00538C60	--------		gs_shared:aia_arena.obj	?aiaArenaInit@@YIHXZ
+00538CB0	005534B0	tbl:callgraph	gs_shared:aia_arena.obj	?aiaArenaTerm@@YIXXZ
+00538CD0	--------		gs_shared:aia_arena.obj	aiaDOMAIN_LIST_ARENA::IsAddObj
+00538CF0	--------		gs_shared:aia_arena.obj	aiaDOMAIN_LIST_ARENA::ProcessINIT_LEVEL
+00538D00	--------		gs_shared:aia_arena.obj	aiaDOMAIN_LIST_ARENA::AssignArena
+00538FB0	--------		gs_shared:aia_arena.obj	aiaDOMAIN_LIST_ARENA::IsPlrInArena
+00538FC0	005537C0	tbl:callgraph	gs_shared:aia_arena.obj	aiaDOMAIN_LIST_ARENA::GetPlrStageNmb
+00539040	00553840	tbl:callgraph	gs_shared:aia_arena.obj	aiaDOMAIN_LIST_ARENA::GetNPCStageNmb
+005390D0	--------		gs_shared:aia_arena.obj	aiaDOMAIN_ARENA::Enter
+005390F0	--------		gs_shared:aia_arena.obj	aiaDOMAIN_ARENA::Leave
+00539100	00553900	tbl:exact	gs_shared:aia_arena.obj	aiaDOMAIN_ARENA::Init
+00539360	--------		gs_shared:aia_arena.obj	_$E2
+00539380	--------		gs_shared:aia_arena.obj	aiaDOMAIN_LIST_ARENA::MakeDomain
+00539400	00553C00	tbl:exact	gs_shared:aia_arena.obj	??_EaiaDOMAIN_ARENA@@UAEPAXI@Z
+00539450	--------		gs_shared:aia_arena.obj	??_EaiaDOMAIN_LIST_ARENA@@UAEPAXI@Z
+00539480	--------		gs_shared:aia_arena.obj	??_EaiaDOMAIN_ARENA@@WJE@AEPAXI@Z
+00539490	--------		gs_shared:ai_spawn.obj	?aiSpawnInit@@YIHXZ
+00539500	00548DC0	tbl:callgraph	gs_shared:ai_spawn.obj	?aiSpawnTerm@@YIXXZ
+00539520	00548DE0	tbl:exact	gs_shared:ai_spawn.obj	?aiSpawnSetOppCoeff@@YIXM@Z
+00539560	--------		gs_shared:ai_spawn.obj	aiDOMAIN_LIST_SPAWN::IsAddObj
+00539580	--------		gs_shared:ai_spawn.obj	aiDOMAIN_LIST_SPAWN::MakeSubDomain
+00539630	--------		gs_shared:ai_spawn.obj	aiDOMAIN_LIST_SPAWN::DestroySubDomain
+00539660	00548F30	tbl:exact	gs_shared:ai_spawn.obj	aiDOMAIN_LIST_SPAWN::ProcessLEVEL_LOADED
+00539680	--------		gs_shared:ai_spawn.obj	aiDOMAIN_LIST_SPAWN::ProcessINIT_LEVEL
+00539690	--------		gs_shared:ai_spawn.obj	aiDOMAIN_LIST_SPAWN::Update
+005396B0	--------		gs_shared:ai_spawn.obj	_$E11
+005396C0	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::Init
+00539B10	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::Update
+00539B90	00549520	tbl:callgraph	gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::IsReadySpawn
+00539CB0	005496D0	tbl:callgraph	gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::Spawn
+00539CE0	00549700	tbl:callgraph	gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::SpawnSingle
+00539E40	00549860	tbl:callgraph	gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::GetSpawnPosDir
+0053A1A0	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::ProcessMsg
+0053A4E0	--------		gs_shared:ai_spawn.obj	_$E4
+0053A500	--------		gs_shared:ai_spawn.obj	??_GaiSPAWN_AREA@@UAEPAXI@Z
+0053A550	--------		gs_shared:ai_spawn.obj	aiSPAWN_AREA::Init
+0053A590	--------		gs_shared:ai_spawn.obj	aiSPAWN_AREA::IsValidPoint
+0053A6A0	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::FillMergedPointsList
+0053A7D0	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::FillExplicitMergedPointsList
+0053A9F0	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::GetFromMergedListSpawnPosDir
+0053AAE0	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::CalcWeightEven
+0053AC60	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::CalcWeightDistant
+0053AF40	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::ProcessMP_NOTIFY
+0053AF80	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::ProcessMP_GET_SYNC_DATA
+0053B020	0050CBB0	vt	gs_shared:ai_spawn.obj	dynDYNAMIC::ProcessMP_WRITE_SYNC_DATA
+0053B140	--------		gs_shared:ai_spawn.obj	aiDOMAIN_SPAWN::ProcessMP_READ_SYNC_DATA
+0053B280	--------		gs_shared:ai_spawn.obj	??_EaiSPAWN_AREA@@WJE@AEPAXI@Z
+0053B290	--------		gs_shared:ai_spawn.obj	??_GaiDOMAIN_SPAWN@@UAEPAXI@Z
+0053B2F0	--------		gs_shared:ai_spawn.obj	aiDOMAIN_LIST_SPAWN::MakeDomain
+0053B340	--------		gs_shared:ai_spawn.obj	??_EaiDOMAIN_LIST_SPAWN@@UAEPAXI@Z
+0053B370	--------		gs_shared:ai_spawn.obj	??_EaiDOMAIN_SPAWN@@WJE@AEPAXI@Z
+00540CE0	--------		gs_shared:ai_plan_filter.obj	aiPLANNER::GatherPlrInformation
+00540DA0	0055AEC0	tbl:exact	gs_shared:ai_plan_filter.obj	aiPLANNER::StartFilteringPlayers
+00540DF0	--------		gs_shared:ai_plan_filter.obj	aiPLANNER::SortFilteredPlayersByDist
+00540F80	--------		gs_shared:ai_plan_filter.obj	aiPLANNER::HaveAChoiceFromFiltered
+00540FB0	0055B200	tbl:exact	gs_shared:ai_plan_filter.obj	aiPLANNER::GetFilteredByIdx
+00540FE0	--------		gs_shared:ai_plan_filter.obj	_$E2
+00541000	00559550	tbl:callgraph	gs_shared:aiw_wave.obj	aiDOMAIN_LIST_SPAWN::CreateWaves
+005410C0	00559610	tbl:callgraph	gs_shared:aiw_wave.obj	aiwWAVE::Init
+005412E0	00559830	tbl:callgraph	gs_shared:aiw_wave.obj	aiwWAVE::ProcessFRAME
+00541430	00559980	tbl:vtable	gs_shared:aiw_wave.obj	aiwWAVE::ProcessMsg
+005414D0	--------		gs_shared:aiw_wave.obj	_$E4

@@ -1,0 +1,467 @@
+obj	feb	v12	how	symbol
+gs_init	004fa2e0	0050D030	manual	?gsRun@@YIXXZ
+gs_init	004fa320	0050D060	callgraph	??0gsAPP_SYSTEM@@QAE@XZ
+gs_init	004fa330	0050D070	vtable	??_GgsAPP_SYSTEM@@UAEPAXI@Z
+gs_init	004fa330	0050D070	vtable	??_EgsAPP_SYSTEM@@UAEPAXI@Z
+gs_init	004fa350	0050D090	callgraph	??1gsAPP_SYSTEM@@UAE@XZ
+gs_init	004fa360	0050D0A0	prologue?	?InitAll@gsAPP_SYSTEM@@QAEHXZ
+gs_init	004fa760	0050D4A0	prologue?	?TermAll@gsAPP_SYSTEM@@QAEXXZ
+gs_msg	004fc420	005107A0	manual	?gsMsgInit@@YIHXZ
+gs_msg	004fc600	00510980	manual	?gsMsgStopLoop@@YIXXZ
+gs_msg	004fc610	005109A0	callgraph	?_gsMsgCalcElapsedTime@@YIXXZ
+gs_msg	004fc7e0	00510B90	exact	?gsMsgCallFrame@@YIXXZ
+gs_msg	004fc940	00510CF0	exact	?gsMsgSetElapsedTimeScale@@YIXM@Z
+gs_msg	004fc970			?gsMsgGetElapsedTimeScale@@YIMXZ
+gs_msg	004fc980	00510D50	callgraph	?gsMsgChangeMode@@YIXH@Z
+gs_msg	004fca10	00510DE0	callgraph	?SetFPS@vidDRIVER@@QAEXM@Z
+gs_msg	004fca20	00510DF0	callgraph	?GetFrameNmb@msgSYSTEM@@QAEHXZ
+gs_msg	004fca30	00510E00	callgraph	?GetMode@gsMP_SYSTEM@@QAEHXZ
+gs_sound	004fdfc0	00510E10	exact	?ReadParams@gsSOUND_DESCR@@UAEHPAVpsSHEET@@PAD1@Z
+gs_sound	004fe0c0	00510F10	exact	?Init@gsCHANNEL_LIST@@UAEHH@Z
+gs_sound	004fe110	00510F60	exact	?Term@gsCHANNEL_LIST@@UAEXXZ
+gs_sound	004fe130	00510F80	exact	?Del@gsCHANNEL_LIST@@UAEHPAVsncCHANNEL@@@Z
+gs_sound	004fe160	00510FB0	exact	??0gsSND_SYSTEM@@QAE@XZ
+gs_sound	004fe1b0	00511000	vtable	??_EgsSND_SYSTEM@@UAEPAXI@Z
+gs_sound	004fe1b0	00511000	vtable	??_GgsSND_SYSTEM@@UAEPAXI@Z
+gs_sound	004fe1e0	00511030	prologue?	??1gsSND_SYSTEM@@UAE@XZ
+gs_sound	004fe1f0	00511040	manual	?Init@gsSND_SYSTEM@@QAEHXZ
+gs_sound	004fe5b0	00511420	vtable	??_GgsCHANNEL_LIST@@UAEPAXI@Z
+gs_sound	004fe5b0	00511420	vtable	??_EgsCHANNEL_LIST@@UAEPAXI@Z
+gs_sound	004fe5d0	00511440	prologue?	?Term@gsSND_SYSTEM@@QAEXXZ
+gs_sound	004fe690	005114E0	vtable	?ProcessMsg@gsSND_SYSTEM@@UAEHHPAXPAVmsgADDR@@PAH@Z
+gs_sound	004fe790	00511610	callgraph	?ProcessCamera@gsSND_SYSTEM@@AAEXXZ
+gs_sound	004fe920	005117A0	callgraph	?ApplySettings@gsSND_SYSTEM@@QAEHXZ
+gs_sound	004fea10	005118C0	callgraph	?Mute@gsSND_SYSTEM@@QAEXHH@Z
+gs_sound	004feb30	00511910	exact	?AddChannel@gsSND_SYSTEM@@QAEHPAVsncCHANNEL@@PAVentIACTIVE_OBJ@@PAVobjOBJ@@@Z
+gs_sound	004febc0	005119A0	exact	?DelChannel@gsSND_SYSTEM@@QAEXPAVentIACTIVE_OBJ@@@Z
+gs_sound	004fec20	00511A00	prologue?	?DelChannel@gsSND_SYSTEM@@QAEXPAVsncCHANNEL@@@Z
+gs_sound	004fec30	00511A10	exact	?AddChannel@gsSND_SYSTEM@@QAEHPAVpsSHEET@@PAVentIACTIVE_OBJ@@PAVobjOBJ@@@Z
+gs_sound	004fed40	00511B20	callgraph	?CreateChannel@gsSND_SYSTEM@@QAEPAVsncCHANNEL@@PAVpsSHEET@@HPAD111PAVobjOBJ@@PAPAV4@@Z
+gs_sound	004ff170	00511F50	callgraph	?UpdateEntPos@gsSND_SYSTEM@@QAEXPAVentENTITY@@@Z
+gs_sound	004ff250	00512040	callgraph	?UpdateEntAnim@gsSND_SYSTEM@@QAEXPAVentENTITY@@@Z
+gs_sound	004ff3a0	00512190	exact	?UpdateIAction@gsSND_SYSTEM@@QAEHPAVentIACTIVE_OBJ@@H@Z
+gs_sound	004ff420	00512210	exact	?Play@gsSND_SYSTEM@@QAEXPAVsncSOUND_DESCR_3D@@PAUm3dV@@@Z
+gs_sound	004ff490	00512280	manual	?ReleaseMusic@gsSND_SYSTEM@@QAEXXZ
+gs_sound	004ff4b0	005122A0	callgraph	?GetNChn@gsSND_SYSTEM@@QAEHXZ
+gs_sound	004ff4c0	005122B0	vtable	?Init@gsDOMAIN_SND@@MAEHXZ
+gs_sound	004ff5e0	00512480	vtslot	?Enter@gsDOMAIN_SND@@MAEXXZ
+gs_sound	004ff650	00401380	vtslot	?Leave@gsDOMAIN_SND@@MAEXXZ
+gs_sound	004ff690	00512500	vtslot	?Update@gsDOMAIN_SND@@MAEXPAUm3dV@@@Z
+gs_sound	004ff750	00512790	vtslot	?IsAddObj@gsDOMAIN_LIST_SND@@MAEHPAVobjOBJ@@@Z
+gs_sound	004ff770	005127B0	exact	?Init@gsDOMAIN_MUS@@MAEHXZ
+gs_sound	004ff7d0	00512810	vtslot	?Enter@gsDOMAIN_MUS@@MAEXXZ
+gs_sound	004ff7f0	00512830	vtslot	?ProcessMsg@gsDOMAIN_MUS@@MAEHHPAXPAVmsgADDR@@PAH@Z
+gs_sound	004ff840	00512880	vtslot	?IsAddObj@gsDOMAIN_LIST_MUS@@MAEHPAVobjOBJ@@@Z
+gs_sound	004ff860	005128A0	vtslot	?ProcessINIT@gsDOMAIN_LIST_MUS@@MAEHXZ
+gs_sound	004ff890	005128D0	vtslot	?ProcessTERM@gsDOMAIN_LIST_MUS@@MAEXXZ
+gs_sound	004ff8b0	005128F0	vtslot	?ProcessINIT_LEVEL@gsDOMAIN_LIST_MUS@@MAEHXZ
+gs_sound	004ff9f0	00512A30	vtslot	?ProcessTERM_LEVEL@gsDOMAIN_LIST_MUS@@MAEXXZ
+gs_sound	004ff9f0	00512A30	vtslot	?ProcessTERM_LEVEL@aiDOMAIN_LIST_SPAWN@@UAEXXZ
+gs_sound	004ffa00	00512A40	vtslot	?Leave@gsDOMAIN_LIST_MUS@@MAEXXZ
+gs_sound	004ffa10	00512A50	vtslot	?Update@gsDOMAIN_LIST_MUS@@MAEXXZ
+gs_sound	004ffa20	00512A60	vtslot	?ProcessMsg@gsDOMAIN_LIST_MUS@@MAEHHPAXPAVmsgADDR@@PAH@Z
+gs_sound	004ffbb0	00512BF0	manual	?SetMusicTempo@gsDOMAIN_LIST_MUS@@KIXPAV1@PAD@Z
+gs_sound	004ffcf0	00512D30	vtslot	?ProcessMP_GET_SYNC_DATA@gsDOMAIN_LIST_MUS@@MAEXPAX@Z
+gs_sound	004ffdd0	00512E00	vtslot	?ProcessMP_WRITE_SYNC_DATA@gsDOMAIN_LIST_MUS@@MAEXPAUgsMSG_MP_SAVELOAD@@@Z
+gs_sound	004ffe90	00512EC0	vtslot	?ProcessMP_READ_SYNC_DATA@gsDOMAIN_LIST_MUS@@MAEXPAUgsMSG_MP_SAVELOAD@@@Z
+gs_sound	004ffff0	00406710	exact	??0sncCHANNEL_3D@@IAE@XZ
+gs_sound	00500030	00513040	vtslot	?MakeDomain@gsDOMAIN_LIST_SND@@MAEPAVgsDOMAIN@@XZ
+gs_sound	00500070	0055CFA0	callgraph	??_EwrDOMAIN_SECRET@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GgsDOMAIN_MUS@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_EgsDOMAIN_VIS@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_EdomACT_DOMAIN@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_EwrDOMAIN_MSG@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_EgsDOMAIN_SND@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_EdomTPT_DOMAIN@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GgsDOMAIN_SND@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GdomCLN_DOMAIN@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GdomTPT_DOMAIN@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GgsDOMAIN_VIS@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GwrDOMAIN_MSG@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_EdomCLN_DOMAIN@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_EgsDOMAIN_MUS@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_EdomKILL_DOMAIN@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GwrDOMAIN_SECRET@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GdomACT_DOMAIN@@UAEPAXI@Z
+gs_sound	00500070	0055CFA0	callgraph	??_GdomKILL_DOMAIN@@UAEPAXI@Z
+gs_sound	00500090	00513090	vtslot	?MakeDomain@gsDOMAIN_LIST_MUS@@MAEPAVgsDOMAIN@@XZ
+gs_rend	005062d0	0051B6C0	exact	??0gsRENDER_SYSTEM@@QAE@XZ
+gs_rend	00506300	0051B6F0	callgraph	?Init@gsRENDER_SYSTEM@@UAEHXZ
+gs_rend	00506330	0051B720	exact	?InitLevel@gsRENDER_SYSTEM@@UAEHXZ
+gs_rend	00506350	0051B740	vtable	?HideTitle@gsRENDER_SYSTEM@@UAEXXZ
+gs_rend	00506360	0051B750	vtable	?BeginFrame@gsRENDER_SYSTEM@@UAEXXZ
+gs_rend	005063e0	0051B7D0	vtable	?SwapBuffers@gsRENDER_SYSTEM@@UAEXXZ
+gs_rend	005065a0	0051B990	vtable	?EndFrame@gsRENDER_SYSTEM@@UAEXH@Z
+gs_rend	00506640	0051BA50	vtable	?RenderFrame@gsRENDER_SYSTEM@@UAEXPAVcamCAMERA@@H@Z
+gs_rend	00506aa0	0051BF00	vtslot	?IsVisUpdateReq@gsRENDER_EMITTER_VIS@@UAEHXZ
+gs_rend	00506ab0	0051BF10	vtslot	?IsVisible@gsRENDER_EMITTER_VIS@@UAEHPAUm3dV@@@Z
+gs_rend	00506ac0	0051BF20	vtslot	?IsVisible@gsRENDER_EMITTER_VIS@@UAEHPAVm3dBOX@@@Z
+gs_rend	00506ad0	0051BF30	vtable	?RenderSetOptions@gsRENDER_SYSTEM@@MAEXXZ
+gs_rend	00506af0	0051BF50	vtable	?_SaveScreenShot@gsRENDER_SYSTEM@@MAEXPAVcamCAMERA@@@Z
+gs_rend	00506c70	0051C0E0	exact	?SetColorFullScr@gsRENDER_SYSTEM@@QAEXK@Z
+gs_rend	00506cf0	0051C160	exact	?RenderColorFullScr@gsRENDER_SYSTEM@@MAEXPAVcamCAMERA@@@Z
+gs_strings	00507030	0051C4A0	prologue?	??0gsSTRINGS@@QAE@XZ
+gs_strings	005070f0	0051C550	callgraph	?AddString@gsSTRINGS@@QAEHPBDPBG@Z
+gs_strings	005072b0	0051C740	exact	?Printf@gsSTRINGS@@QAAPBGHZZ
+gs_strings	005072d0	0051C760	callgraph	?Printf@gsSTRINGS@@QAAPBGPBDZZ
+gs_strings	005073c0	0051C840	callgraph	?PrintfV@gsSTRINGS@@QAEPBGPBGPAD@Z
+gs_strings	00507900	0051CD80	exact	?PrintfInsertStringA@gsSTRINGS@@IAEXPAPAGPAGPBD@Z
+gs_strings	00507940	0051CDC0	exact	?PrintfInsertFloat@gsSTRINGS@@IAEXPAPAGPAGMHGH@Z
+gs_strings	00507aa0	0051CF20	callgraph	?GetStringId@gsSTRINGS@@QAEHPBD@Z
+gs_strings	00507c20	0051CFD0	callgraph	?GetStringIdFmt@gsSTRINGS@@QAAHPBDZZ
+gs_strings	00507da0	0051D120	callgraph	?GetStringById@gsSTRINGS@@QAEPBGH@Z
+gs_strings	00507dc0	0051D140	exact	?GetStringById@gsSTRINGS@@QAEXHPAGH@Z
+gs_strings	00507e00	0051D180	exact	?AsciiToUnicode@gsSTRINGS@@QAEXPBDPAGH@Z
+gs_strings	00507e40	0051D1C0	exact	?AsciiToUnicode@gsSTRINGS@@QAEPBGPBD@Z
+gs_strings	00507e80	0051D200	exact	?UnicodeToAscii@gsSTRINGS@@QAEHPBGPADH@Z
+gs_strings	00507ed0	0051D250	callgraph	?ParseTableLine@gsSTRINGS@@IAEHPAG@Z
+gs_strings	005080b0			?cmp@RecordCmp@gsSTRINGS@@QBEHABURecord@2@0@Z
+gs_strings	00508100	0051D410	exact	?ReadWord@gsSTRINGS@@IAEHPAPAGPAV?$arrVector@G@@@Z
+gs_strings	005083a0	0051D6B0	exact	?ReadEscChar@gsSTRINGS@@IAEHPAPAGPAG@Z
+gs_strings	00508420	0051D730	exact	?LoadStringsTable@gsSTRINGS@@QAEHPBD@Z
+gs_strings	00508750	0051DA60	exact	?Reserve@?$arrVector@G@@QAEXH@Z
+gs_strings	00508780	0051DA90	exact	?Insert@?$arrVector@G@@QAEXHPBG0@Z
+gs_strings	00508830			?Sort@?$arrVector@URecord@gsSTRINGS@@@@QAEXABVRecordCmp@gsSTRINGS@@ABU?$arrStdSwap@URecord@gsSTRINGS@@@@@Z
+gs_strings	00508910	0051DB40	exact	?FindSorted@?$arrVector@URecord@gsSTRINGS@@@@QAEHABQBDABVRecordCmp@gsSTRINGS@@@Z
+gs_strings	005089a0	0051DBD0	exact	?Resize@?$arrVector@H@@QAEXH@Z
+gs_strings	005089a0	0051DBD0	exact	?Resize@?$arrVector@PAX@@QAEXH@Z
+gs_strings	005089e0	0052DF70	exact	?Resize@?$arrVector@URecord@gsSTRINGS@@@@QAEXH@Z
+gs_strings	005089e0	0052DF70	exact	?Resize@?$arrVector@UuiFONT_TMP_LINE@@@@QAEXH@Z
+gs_strings	00508a20	0052DFB0	exact	?Insert@?$arrVector@UuiFONT_TMP_LINE@@@@QAEXHABUuiFONT_TMP_LINE@@H@Z
+gs_strings	00508a20	0052DFB0	exact	?Insert@?$arrVector@URecord@gsSTRINGS@@@@QAEXHABURecord@gsSTRINGS@@H@Z
+gs_strings	00508a20	0052DFB0	exact	?Insert@?$arrVector@URecord@wrUI_STRINGS@@@@QAEXHABURecord@wrUI_STRINGS@@H@Z
+gs_strings	00508ac0	0051DC10	exact	?Insert@?$arrVector@H@@QAEXHABHH@Z
+gs_strings	00508ac0	0051DC10	exact	?Insert@?$arrVector@PAX@@QAEXHABQAXH@Z
+gs_domain	00512570	00527A20	manual	??0gsDOMAIN@@QAE@XZ
+gs_domain	005125f0	00527AA0	vtable	??_EgsDOMAIN@@UAEPAXI@Z
+gs_domain	005125f0	00527AA0	vtable	??_GgsDOMAIN@@UAEPAXI@Z
+gs_domain	00512640	00527AF0	callgraph	??1gsDOMAIN@@UAE@XZ
+gs_domain	00512680	00527B30	callgraph	?Init@gsDOMAIN@@MAEHXZ
+gs_domain	00512860	00527D10	callgraph	?Term@gsDOMAIN@@MAEXXZ
+gs_domain	00512880	00527D30	callgraph	?AddSubDomain@gsDOMAIN@@QAEHPAVscnDOMAIN@@@Z
+gs_domain	005128b0	00527D60	vtable	?ProcessMsg@gsDOMAIN@@MAEHHPAXPAVmsgADDR@@PAH@Z
+gs_domain	005128d0	00527D80	manual	??0gsDOMAIN_LIST@@QAE@XZ
+gs_domain	00512910	00559A40	vtable	??_GentENTITY@@MAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_GgsDOMAIN_LIST@@UAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_EentIACTIVE_OBJ@@MAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_EwrGO_SYSTEM@@UAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_GwrGO_SYSTEM@@UAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_GentIACTIVE_OBJ@@MAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_EentENTITY@@MAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_GaiwWAVE@@UAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_EaiwWAVE@@UAEPAXI@Z
+gs_domain	00512910	00559A40	vtable	??_EgsDOMAIN_LIST@@UAEPAXI@Z
+gs_domain	00512940	00538F70	vtslot	?ProcessINIT_LEVEL@gsDOMAIN_LIST@@MAEHXZ
+gs_domain	005129a0	00527E40	vtslot	?ProcessTERM_LEVEL@gsDOMAIN_LIST@@MAEXXZ
+gs_domain	00512a40	00527EE0	vtslot	?GetNUpdatePoint@gsDOMAIN_LIST@@MAEHXZ
+gs_domain	00512a50	00527EF0	vtslot	?GetUpdatePoint@gsDOMAIN_LIST@@MAEHHPAUm3dV@@@Z
+gs_domain	00512a90	00527F30	vtslot	?Update@gsDOMAIN_LIST@@MAEXXZ
+gs_domain	00512c50	005280F0	callgraph	?FindDomain@gsDOMAIN_LIST@@QAEPAVgsDOMAIN@@PAD@Z
+gs_domain	00512cb0	00528150	vtslot	?AddSubDomain@gsDOMAIN_LIST@@UAEPAVscnDOMAIN@@PAVgsDOMAIN@@PAD@Z
+gs_domain	00512ce0	00528180	vtslot	?AddSubDomain@gsDOMAIN_LIST@@UAEPAVscnDOMAIN@@PAVgsDOMAIN@@PAVobjOBJ@@@Z
+gs_domain	00512e40			?FindDomNmb@gsDOMAIN_LIST@@QAEHPAVgsDOMAIN@@@Z
+gs_domain	00512e70	00528310	callgraph	?Collect@gsDOMAIN_LIST@@AAEHPAVobjOBJ@@@Z
+gs_domain	00512f80	00528420	callgraph	?ProcessLEVEL_LOADED@gsDOMAIN_LIST@@MAEXXZ
+gs_domain	00512fa0	00528440	vtslot	?ProcessMsg@gsDOMAIN_LIST@@MAEHHPAXPAVmsgADDR@@PAH@Z
+gs_domain	00513000	005284A0	vtable	??_EgsDOMAIN@@WJE@AEPAXI@Z
+gs_input	00515f70	0052B400	exact	?Read@gsiKEY_SEQ@@QAEPADPAD@Z
+gs_input	00515ff0	0052B480	exact	?Read@gsiCOMMAND@@QAEHPAD@Z
+gs_input	00516080	0052B510	exact	?GetInput@gsiCOMMAND@@QAEXPAVinpINPUT@@HH@Z
+gs_input	005161f0	0052B680	exact	?GetKSeq@gsiCOMMAND@@QAEXHPAH0@Z
+gs_input	00516230	0052B6C0	exact	?SetKSeq@gsiCOMMAND@@QAEXHHPAH@Z
+gs_input	00516260	0052B6F0	exact	?FindKSeq@gsiCOMMAND@@QAEHHPAH@Z
+gs_input	005162d0	0052B760	prologue?	??0gsiCONTEXT@@QAE@HH@Z
+gs_input	005162f0	0052B780	exact	?Init@gsiCONTEXT@@UAEHXZ
+gs_input	00516350	0052B7E0	exact	?Term@gsiCONTEXT@@UAEXXZ
+gs_input	00516370	0052B800	exact	?Clear@gsiCONTEXT@@UAEXXZ
+gs_input	005163b0	0052B840	vtable	?GetFileName@gsiCONTEXT@@UAEPBDXZ
+gs_input	005163c0	0052B850	vtable	?GetSectionName@gsiCONTEXT@@UAEPBDXZ
+gs_input	005163d0	0052B860	exact	?LoadLayout@gsiCONTEXT@@UAEHXZ
+gs_input	005164a0	0052B930	exact	?SaveLayout@gsiCONTEXT@@UAEHXZ
+gs_input	00516640	0052BAD0	exact	?GetCmdName@gsiCONTEXT_CINEMATIC@@UAEXHPAD@Z
+gs_input	00516660	0052BAF0	exact	?LoadLayout@gsiCONTEXT_CINEMATIC@@UAEHXZ
+gs_input	005166a0	0052BB30	exact	??0gsINP_SYSTEM@@QAE@XZ
+gs_input	00516700	0052BB90	vtable	??_GgsINP_SYSTEM@@UAEPAXI@Z
+gs_input	00516700	0052BB90	vtable	??_EgsINP_SYSTEM@@UAEPAXI@Z
+gs_input	00516730	0052BBC0	prologue?	??1gsINP_SYSTEM@@UAE@XZ
+gs_input	00516740	0052BBD0	exact	?ProcessMsg@gsINP_SYSTEM@@UAEHHPAXPAVmsgADDR@@PAH@Z
+gs_input	00516770	0052BC00	exact	?Init@gsINP_SYSTEM@@UAEHXZ
+gs_input	005168c0	0052BD50	exact	?Term@gsINP_SYSTEM@@UAEXXZ
+gs_input	00516920	0052BDB0	exact	?GetCtxByName@gsINP_SYSTEM@@UAEPAVgsiCONTEXT@@PBD@Z
+gs_input	00516990	0052BE20	exact	?SetCurCtx@gsINP_SYSTEM@@QAEXPAVgsiCONTEXT@@@Z
+gs_input	005169d0	0052BE60	exact	?SetDefCtx@gsINP_SYSTEM@@UAEXXZ
+gs_input	00516a20	0052BEB0	exact	?AddCtxes@gsINP_SYSTEM@@MAEXXZ
+gs_input	00516a80	0052BF10	exact	?DestroyCtx@gsINP_SYSTEM@@MAEXPAVgsiCONTEXT@@@Z
+gs_input	00516af0	0052BF80	exact	?FindFreeCtxIdx@gsINP_SYSTEM@@IAEHXZ
+gs_input	00516b10	0052BFA0	exact	?SaveLayout@gsINP_SYSTEM@@QAEHXZ
+gs_input	00516b40	0052BFD0	vtable	?ProcessInput@gsINP_SYSTEM@@UAEXXZ
+gs_input	00517130	0052C5D0	callgraph	?Acquire@gsINP_SYSTEM@@QAEXXZ
+gs_input	00517140	0052C5E0	exact	?ApplyMouseSettings@gsINP_SYSTEM@@AAEXXZ
+gs_input	005171d0	0052C670	prologue?	?FlushBuffers@gsINP_SYSTEM@@QAEXXZ
+gs_input	005171e0	0052C680	exact	?ApplySettings@gsINP_SYSTEM@@QAEHXZ
+gs_input	00517270	0052C710	prologue?	?SetMouseMode@gsINP_SYSTEM@@QAEXH@Z
+gs_input	00517280	0052C720	vtable	?GetName@gsiCONTEXT_CINEMATIC@@UAEPBDXZ
+gs_saveload	0051a5d0	0052FE60	exact	?gslInit@@YIHXZ
+gs_saveload	0051a690	0052FF20	exact	?gslTerm@@YIXXZ
+gs_saveload	0051a6d0	0052FF60	callgraph	?gslSave@@YIHPADPAUgslHDR_EX@@@Z
+gs_saveload	0051a6e0	0052FF70	callgraph	?gslLoad@@YIHPADPAUgslHDR_EX@@@Z
+gs_saveload	0051a6f0	0052FF80	exact	?gslGetHdrEx@@YIHPADPAUgslHDR_EX@@@Z
+gs_saveload	0051a740	0052FFD0	callgraph	?Save@gslSL@@QAEHPADPAUgslHDR_EX@@@Z
+gs_saveload	0051a9b0	00530260	callgraph	?Load@gslSL@@QAEHPADPAUgslHDR_EX@@@Z
+gs_saveload	0051ab90	00530440	exact	?WriteFileHeader@gslSL@@IAEHXZ
+gs_saveload	0051ad10	005305C0	exact	?ReadFileHeader@gslSL@@IAEHXZ
+gs_saveload	0051ae70	00530720	exact	?WriteFileHeaderEx@gslSL@@IAEHPAUgslHDR_EX@@@Z
+gs_saveload	0051b050	00530900	callgraph	?ReadFileHeaderEx@gslSL@@IAEHPAUgslHDR_EX@@@Z
+gs_saveload	0051b1c0	00530A70	callgraph	?WriteMsgSync@gslSL@@IAEHPAVentIACTIVE_OBJ@@PAUgsMSG_MP_SYNC@@@Z
+gs_saveload	0051b640	00530F30	callgraph	?WriteMsgSyncUsr@gslSL@@IAEHPAVentIACTIVE_OBJ@@PAUmsgDATA@@@Z
+gs_saveload	0051b750	00531040	callgraph	?ReadMsgSync@gslSL@@IAEHXZ
+gs_saveload	0051bb00	00531420	callgraph	?ReadMsgSyncUsr@gslSL@@IAEHXZ
+gs_saveload	0051bc50	00531570	callgraph	?WriteTimeMsgQueue@gslSL@@IAEHXZ
+gs_saveload	0051bf80	005318A0	callgraph	?ReadTimeMsgQueue@gslSL@@IAEHXZ
+gs_saveload	0051c1e0	00531B00	vtable	?GetBuf@fioFILE_MEM@@UAEPAEXZ
+gs_saveload	0051c1f0	00531B10	vtable	?GetCurPtr@fioFILE_MEM@@UAEPAEXZ
+gs_level_init	0051fc80	00535600	exact	?InitBumpMtl@gsLVL_SYSTEM@@MAEHXZ
+gs_level_init	0051fd00	00535680	exact	?ObjLoadNotify@gsLVL_SYSTEM@@UAEXPAVobjOBJ@@@Z
+gs_level_init	0051fd80	00535700	exact	?InstLoadNotify@gsLVL_SYSTEM@@UAEXPAVanimINST@@@Z
+gs_level_init	0051fe20	005357A0	exact	?ObjDestroyNotify@gsLVL_SYSTEM@@UAEXPAVobjOBJ@@@Z
+gs_level_init	0051fe80	00535800	exact	?InstDestroyNotify@gsLVL_SYSTEM@@UAEXPAVanimINST@@@Z
+gs_level_init	0051fed0	00535850	vtable	?TplDestroyNotify@gsLVL_SYSTEM@@UAEXPAVanimTPL@@@Z
+gs_level_init	0051fef0	00535870	exact	?TplDestroyNotify@gsLVL_SYSTEM@@UAEXH@Z
+gs_level_init	0051ff40	005358C0	callgraph	?gsLvlInstLoadNotify@@YIHPAVanimINST@@PAX@Z
+gs_level_init	0051ff60	005358E0	prologue?	?gsLvlInstDestroyNotify@@YIHPAVanimINST@@PAX@Z
+gs_level_init	0051ff80	00535900	callgraph	?SetExtraObjFlags@gsLVL_SYSTEM@@AAEXPAVobjOBJ@@@Z
+gs_level_init	00520330	00535CB0	callgraph	?SetExtraLightFlags@gsLVL_SYSTEM@@AAEXPAVscnSCENE@@@Z
+gs_level_init	00520340	00535CC0	callgraph	?SetTexAnimObjFlags@gsLVL_SYSTEM@@AAEXPAVobjOBJ@@@Z
+gs_level_init	00520740	005360C0	exact	?AddExtraObjMtls@gsLVL_SYSTEM@@AAEXPAVobjOBJ@@@Z
+gs_level_init	005207b0	00536130	callgraph	?_AddExtraObjMtls@gsLVL_SYSTEM@@AAEXPAVobjOBJ@@@Z
+gs_level_init	00520c10			?SetTplObjFlags@gsLVL_SYSTEM@@AAEXPAVobjOBJ@@PAVanimTPL@@@Z
+gs_level_init	00520ed0	005366D0	exact	?IsUse@objFILTER_FIND_CDT_OBJ@@UAEHPAVobjOBJ@@@Z
+gs_level	00520f00	00536700	exact	??0gsLVL_SYSTEM@@QAE@XZ
+gs_level	00520fd0	005367D0	vtable	??_EgsLVL_SYSTEM@@UAEPAXI@Z
+gs_level	00520fd0	005367D0	vtable	??_GgsLVL_SYSTEM@@UAEPAXI@Z
+gs_level	00521000	00536800	prologue?	??1gsLVL_SYSTEM@@UAE@XZ
+gs_level	00521010	00536810	exact	?Init@gsLVL_SYSTEM@@QAEHXZ
+gs_level	005210d0	005368D0	exact	?Term@gsLVL_SYSTEM@@QAEXXZ
+gs_level	00521110	00536910	exact	?LoadLevel@gsLVL_SYSTEM@@UAEHPAUgsLOAD_SCENE_PARAM@@@Z
+gs_level	00521140	00536940	callgraph	?gsLoadLevel1@@YIHPAUgsLOAD_SCENE_PARAM@@@Z
+gs_level	00521150	00536950	callgraph	?__gsLoadLevel@@YIHPAUgsLOAD_SCENE_PARAM@@@Z
+gs_level	005213a0	00536B90	vtable	?DestroyLevel@gsLVL_SYSTEM@@UAEXPAUgsLOAD_SCENE_PARAM@@@Z
+gs_level	00521570	00536D70	exact	?PrepareReloadAnchor@gsLVL_SYSTEM@@AAEHPAUgsLOAD_SCENE_PARAM@@@Z
+gs_level	00521620	00536E20	callgraph	?ApplyReloadAnchor@gsLVL_SYSTEM@@AAEHPAUgsLOAD_SCENE_PARAM@@@Z
+gs_level	005216f0	00536EF0	callgraph	?LoadInstAll@gsLVL_SYSTEM@@AAEHXZ
+gs_level	00521ac0	00537230	vtable	?FindTplName@gsLVL_SYSTEM@@UAEPAVanimTPL@@PAD@Z
+gs_level	00521c80	00537540	vtable	?ProcessMsg@gsLVL_SYSTEM@@UAEHHPAXPAVmsgADDR@@PAH@Z
+gs_level	00521e60	00537720	exact	?LoadTpl@gsLVL_SYSTEM@@AAEHPADPAVanimTPL@@@Z
+gs_level	00521f50	00537810	exact	?ProcessINIT_LEVEL@gsLVL_SYSTEM@@UAEHXZ
+gs_level	00522060	00537920	prologue?	??0gsLVL_TEX2MTL@@QAE@XZ
+gs_vis	00522080	00537940	vtable	?Init@gsDOMAIN_VIS@@EAEHXZ
+gs_vis	00522320	00537BE0	exact	?Term@gsDOMAIN_VIS@@EAEXXZ
+gs_vis	00522380	00537C40	vtslot	?Enter@gsDOMAIN_VIS@@EAEXXZ
+gs_vis	00522390	00537C50	vtslot	?Leave@gsDOMAIN_VIS@@EAEXXZ
+gs_vis	005223a0			?ApplyMPEnablerData@gsDOMAIN_VIS@@QAEXPAUgsDOM_VIS_ENABLER_DATA@@@Z
+gs_vis	00522410	00537CD0	vtslot	?ProcessMsg@gsDOMAIN_VIS@@EAEHHPAXPAVmsgADDR@@PAH@Z
+gs_vis	005225b0	00537E70	vtslot	?ProcessMP_GET_SYNC_DATA@gsDOMAIN_VIS@@EAEXPAX@Z
+gs_vis	00522670	00537F30	exact	?ProcessMP_WRITE_SYNC_DATA@gsDOMAIN_VIS@@EAEXPAUgsMSG_MP_SAVELOAD@@@Z
+gs_vis	005227a0	00538060	exact	?ProcessMP_READ_SYNC_DATA@gsDOMAIN_VIS@@EAEXPAUgsMSG_MP_SAVELOAD@@@Z
+gs_vis	00522910			?_SetVisInfo@gsDOMAIN_VIS@@QAEXPAVscnSCENE@@H@Z
+gs_vis	00522990	00538250	vtslot	?Init@gsVIS_SYSTEM@@UAEHXZ
+gs_vis	005229b0	00538280	vtslot	?IsAddObj@gsVIS_SYSTEM@@EAEHPAVobjOBJ@@@Z
+gs_vis	005229d0	005382A0	vtslot	?SetViewPos@gsVIS_SYSTEM@@UAEXPAUm3dV@@@Z
+gs_vis	00522c20	00538500	vtslot	?SetVisInfo@gsVIS_SYSTEM@@UAEXPAVscnSCENE@@@Z
+gs_vis	00523000	00538930	vtslot	?IsVisible@gsVIS_SYSTEM@@UAEHPAVobjOBJ@@@Z
+gs_vis	00523180	00538AB0	vtslot	?IsVisible@gsVIS_SYSTEM@@UAEHPAUm3dV@@@Z
+gs_vis	00523240	00538B70	vtslot	?IsVisible@gsVIS_SYSTEM@@UAEHPAVm3dBOX@@@Z
+gs_vis	00523300	00538C30	vtslot	?IsVisible@gsVIS_SYSTEM@@UAEHPAUm3dV@@0@Z
+gs_vis	00523670	00539030	exact	?FindEnabler@gsVIS_ENABLER@@AAEHPAVentENTITY@@@Z
+gs_vis	005236b0	00539070	exact	?SetNEnable@gsVIS_ENABLER@@QAEXPAVentENTITY@@H@Z
+gs_vis	00523700			?CalcNEnable@gsVIS_ENABLER@@QAEHXZ
+gs_demo	00529400	0053F050	callgraph	?Init@gsDEMO@@QAEHXZ
+gs_demo	00529450	0053F0A0	exact	?Term@gsDEMO@@QAEXXZ
+gs_demo	00529590			?Record_Start@gsDEMO@@QAEHXZ
+gs_demo	00529870	0053F4C0	vtslot	??_GgsDEMO_CLIENT@@UAEPAXI@Z
+gs_demo	00529870	0053F4C0	vtslot	??_EgsMP_CLIENT@@UAEPAXI@Z
+gs_demo	00529870	0053F4C0	vtslot	??_EgsDEMO_CLIENT@@UAEPAXI@Z
+gs_demo	00529870	0053F4C0	vtslot	??_GgsMP_CLIENT@@UAEPAXI@Z
+gs_demo	005298a0	0053F4F0	exact	?Record_SaveMsg@gsDEMO@@QAEXPAUgsMSG_MP_WRAP@@@Z
+gs_demo	00529910	0053F560	callgraph	?Play_Start@gsDEMO@@QAEHPAD@Z
+gs_demo	00529ad0	0053F6F0	vtslot	??_EgsDEMO_SERVER@@UAEPAXI@Z
+gs_demo	00529ad0	0053F6F0	vtslot	??_GgsDEMO_SERVER@@UAEPAXI@Z
+gs_demo	00529af0	0053F710	prologue?	?Play_DispatchFrame@gsDEMO@@QAEXXZ
+gs_demo	00529cc0	0053F8E0	vtslot	?ProcessMsg@gsDEMO_CLIENT@@UAEHHPAXPAVmsgADDR@@PAH@Z
+gs_demo	00529de0	0053FA00	vtslot	?SendMsgClient@gsDEMO_SERVER@@UAEXKPAVentENTITY@@HPAUmsgDATA@@H@Z
+gs_demo	00529df0	0053FA10	vtslot	?ProcessMsg@gsDEMO_SERVER@@UAEHHPAXPAVmsgADDR@@PAH@Z
+gs_level_prel	0052d0d0	00542B60	exact	?PreloadInit@gsLVL_SYSTEM@@AAEHXZ
+gs_level_prel	0052d2c0	00542D50	exact	?PreloadTerm@gsLVL_SYSTEM@@AAEXXZ
+gs_level_prel	0052d320	00542DB0	exact	?PreloadInitLevel@gsLVL_SYSTEM@@AAEHPAD@Z
+gs_level_prel	0052d6d0	00543160	exact	?PreloadTermLevel@gsLVL_SYSTEM@@AAEXXZ
+gs_level_prel	0052d750	005431E0	exact	?PreloadLoadScene@gsLVL_SYSTEM@@AAEHPAD@Z
+gs_level_prel	0052d990	00543420	exact	?PreloadUnloadData@gsLVL_SYSTEM@@AAEXXZ
+gs_level_prel	0052dc50			?PreloadDumpInfo@gsLVL_SYSTEM@@AAEXXZ
+gs_level_prel	0052de40	005438F0	exact	?PreloadList@gsLVL_SYSTEM@@AAEXPAVpsSHEET@@@Z
+cinema	005414f0	00544100	manual	?cinInit@@YIHXZ
+cinema	00541550	00544160	callgraph	?cinTerm@@YIXXZ
+cinema	00541570	00544180	vtable	?ProcessMsg@cinDATA_ENTITY@@UAEHHPAXPAVmsgADDR@@PAH@Z
+cinema	005415b0	005441F0	prologue?	??0cinSYSTEM@@QAE@XZ
+cinema	00541690	005442D0	vtslot	??_GcinSYSTEM@@UAEPAXI@Z
+cinema	00541690	005442D0	vtslot	??_EcinSYSTEM@@UAEPAXI@Z
+cinema	005416c0	00544300	vtslot	?ProcessMsg@cinSYSTEM@@MAEHHPAXPAVmsgADDR@@PAH@Z
+cinema	00541790	005443D0	vtslot	?ProcessINIT_LEVEL@cinSYSTEM@@MAEHXZ
+cinema	00541810	00544450	vtslot	?ProcessFRAME@cinSYSTEM@@MAEXXZ
+cinema	00541c20			?CreateData@cinSYSTEM@@AAEXPAVcinDATA_ENTITY@@@Z
+cinema	00541ed0			?ResetData@cinSYSTEM@@AAEXXZ
+cinema	00541fd0	00544D80	callgraph	?FindActor@cinSYSTEM@@QAEPAVcinACTOR@@PAD@Z
+cinema	00542110	00544EC0	exact	?Animate@cinACTOR@@QAEHPAD@Z
+cinema	00542200	00544FB0	exact	?PlaySound@cinACTOR@@QAEHPADPAVgsSOUND_DESCR@@@Z
+cinema	00542370			?Term@cinACTOR@@QAEXXZ
+cinema	00542420	005451D0	prologue?	?UpdateFrame@cinACTOR@@QAEXXZ
+cinema	005425a0	00545350	exact	?Init@cinFRAME@@QAEHMPAVpsSHEET@@PAD@Z
+cinema	00542ab0	00545860	exact	?Init@cinACN_CREATE_ENT@@UAEHPAVpsSHEET@@PAD1@Z
+cinema	00542b90	00545940	exact	?UpdateFrame@cinACN_CREATE_ENT@@UAEXH@Z
+cinema	00542be0	00545990	exact	?Init@cinACN_DESTROY_ENT@@UAEHPAVpsSHEET@@PAD1@Z
+cinema	00542c50	00545A00	exact	?UpdateFrame@cinACN_DESTROY_ENT@@UAEXH@Z
+cinema	00542c90	00545A40	exact	?Init@cinACN_ANIMATE@@UAEHPAVpsSHEET@@PAD1@Z
+cinema	00542d40	00545AF0	exact	?UpdateFrame@cinACN_ANIMATE@@UAEXH@Z
+cinema	00542d70	00545B20	exact	?Init@cinACN_CONTRAINT@@UAEHPAVpsSHEET@@PAD1@Z
+cinema	00542e50	00545C00	exact	?UpdateFrame@cinACN_CONTRAINT@@UAEXH@Z
+cinema	00542ee0	00545C90	vtable	?Init@cinACN_COMMAND@@UAEHPAVpsSHEET@@PAD1@Z
+cinema	00542f00	00545CB0	vtable	?UpdateFrame@cinACN_COMMAND@@UAEXH@Z
+cinema	00542f10	00545CC0	exact	?Init@cinACN_FADE@@UAEHPAVpsSHEET@@PAD1@Z
+cinema	00542fb0	00545D60	vtable	?UpdateFrame@cinACN_FADE@@UAEXH@Z
+cinema	00543260	00546010	exact	?Init@cinACN_SOUND@@UAEHPAVpsSHEET@@PAD1@Z
+cinema	005432f0	005460A0	exact	?UpdateFrame@cinACN_SOUND@@UAEXH@Z
+cinema	00543350	00546100	exact	?Init@cinACN_MUSIC@@UAEHPAVpsSHEET@@PAD1@Z
+cinema	005433c0	00546170	manual	?Create@cinDATA_ENTITY@@SIPAVentENTITY@@PAVanimINST@@@Z
+dom_misc	00544b60	0055C130	manual	?domMiscInit@@YIHXZ
+dom_misc	00544c70	0055C240	exact	?domMiscTerm@@YIXXZ
+dom_misc	00544cd0	0055C2A0	vtslot	?IsAddObj@domACT_DOMAIN_LIST@@MAEHPAVobjOBJ@@@Z
+dom_misc	00544cf0	0055C2C0	vtslot	?Init@domACT_DOMAIN@@MAEHXZ
+dom_misc	00544d20	0055C2F0	vtslot	?Enter@domACT_DOMAIN@@MAEXXZ
+dom_misc	00544d60	0055C330	vtslot	?Leave@domACT_DOMAIN@@MAEXXZ
+dom_misc	00544da0	0055C370	vtslot	?ProcessUNLOCK@domACT_DOMAIN@@MAEXXZ
+dom_misc	00544db0	0055C380	vtslot	?ProcessMsg@domACT_DOMAIN@@MAEHHPAXPAVmsgADDR@@PAH@Z
+dom_misc	00544ee0	0055C4B0	vtslot	?ProcessMP_NOTIFY@domACT_DOMAIN@@MAEXPAUgsEVENT@@@Z
+dom_misc	00544f00	0055C4D0	vtslot	?ProcessMP_GET_SYNC_DATA@domACT_DOMAIN@@MAEXPAX@Z
+dom_misc	00544f70	0055C5C0	vtslot	?ProcessMP_READ_SYNC_DATA@domACT_DOMAIN@@MAEXPAUgsMSG_MP_SAVELOAD@@@Z
+dom_misc	00545070	0055C6C0	vtslot	?IsAddObj@domCLN_DOMAIN_LIST@@MAEHPAVobjOBJ@@@Z
+dom_misc	00545090	0055C6E0	vtslot	?ProcessMsg@domCLN_DOMAIN@@MAEHHPAXPAVmsgADDR@@PAH@Z
+dom_misc	00545130	0055C780	vtslot	?IsAddObj@domTPT_DOMAIN_LIST@@MAEHPAVobjOBJ@@@Z
+dom_misc	00545150	0055C7A0	vtslot	?Init@domTPT_DOMAIN@@UAEHXZ
+dom_misc	00545280	0055C8D0	vtslot	?ProcessMsg@domTPT_DOMAIN@@UAEHHPAXPAVmsgADDR@@PAH@Z
+dom_misc	00545290	0055C920	vtslot	?Update@domTPT_DOMAIN@@UAEXPAUm3dV@@@Z
+dom_misc	005454e0	0055CB80	vtslot	?IsAddObj@domKILL_DOMAIN_LIST@@MAEHPAVobjOBJ@@@Z
+dom_misc	00545500	0055CBA0	exact	?Init@domKILL_DOMAIN@@MAEHXZ
+dom_misc	00545590	0055CC30	vtslot	?ProcessMsg@domKILL_DOMAIN@@MAEHHPAXPAVmsgADDR@@PAH@Z
+dom_misc	005457e0	0055CE90	vtslot	?MakeDomain@domACT_DOMAIN_LIST@@MAEPAVgsDOMAIN@@XZ
+dom_misc	00545820	0055CED0	vtslot	?MakeDomain@domCLN_DOMAIN_LIST@@MAEPAVgsDOMAIN@@XZ
+dom_misc	00545860	0055CF10	vtslot	?MakeDomain@domKILL_DOMAIN_LIST@@MAEPAVgsDOMAIN@@XZ
+dom_misc	005458a0	0055CF50	vtslot	?MakeDomain@domTPT_DOMAIN_LIST@@MAEPAVgsDOMAIN@@XZ
+dom_misc	005458f0	0055CFC0	vtable	??_EdomCLN_DOMAIN@@WJE@AEPAXI@Z
+dom_misc	005458f0	0055CFC0	vtable	??_EdomKILL_DOMAIN@@WJE@AEPAXI@Z
+dom_misc	005458f0	0055CFC0	vtable	??_EgsDOMAIN_SND@@WJE@AEPAXI@Z
+dom_misc	005458f0	0055CFC0	vtable	??_EwrDOMAIN_SECRET@@WJE@AEPAXI@Z
+dom_misc	005458f0	0055CFC0	vtable	??_EwrDOMAIN_MSG@@WJE@AEPAXI@Z
+dom_misc	005458f0	0055CFC0	vtable	??_EgsDOMAIN_MUS@@WJE@AEPAXI@Z
+dom_misc	005458f0	0055CFC0	vtable	??_EgsDOMAIN_VIS@@WJE@AEPAXI@Z
+dom_misc	005458f0	0055CFC0	vtable	??_EdomTPT_DOMAIN@@WJE@AEPAXI@Z
+dom_misc	005458f0	0055CFC0	vtable	??_EdomACT_DOMAIN@@WJE@AEPAXI@Z
+gs_init	005dc594			??_7gsAPP_SYSTEM@@6B@
+gs_sound	005dc654			??_7gsSND_SYSTEM@@6B@
+gs_sound	005dc664			??_7gsCHANNEL_LIST@@6B@
+gs_sound	005dc680			??_7gsDOMAIN_LIST_MUS@@6B@
+gs_sound	005dc700			??_7gsDOMAIN_LIST_SND@@6B@
+gs_sound	005dc774			??_7gsSOUND_DESCR@@6B@
+gs_sound	005dc778			??_7gsDOMAIN_SND@@6BscnDOMAIN@@@
+gs_sound	005dc7a8			??_7gsDOMAIN_SND@@6BentIACTIVE_OBJ@@@
+gs_sound	005dc7f0			??_7gsDOMAIN_MUS@@6BscnDOMAIN@@@
+gs_sound	005dc820			??_7gsDOMAIN_MUS@@6BentIACTIVE_OBJ@@@
+gs_rend	005dca7c			??_7gsRENDER_EMITTER_VIS@@6B@
+gs_strings	005dca9c			__real@29e12e13
+gs_domain	005dcca8			??_7gsDOMAIN@@6BscnDOMAIN@@@
+gs_domain	005dccd8			??_7gsDOMAIN@@6BentIACTIVE_OBJ@@@
+gs_domain	005dcd20			??_7gsDOMAIN_LIST@@6B@
+gs_input	005dcdb0			??_7gsINP_SYSTEM@@6B@
+gs_input	005dcde0			??_7gsiCONTEXT_CINEMATIC@@6B@
+gs_saveload	005dcebc			??_7fioFILE_MEM@@6B@
+gs_level_init	005dcf4c			??_7objFILTER_FIND_CDT_OBJ@@6B@
+gs_level	005dcf58			??_7gsLVL_SYSTEM@@6B@
+gs_level	005dcfa0			??_7cdtCOLL_SCN@@6B@
+gs_demo	005dd068			??_7gsDEMO_CLIENT@@6B@
+gs_demo	005dd0ac			??_7gsDEMO_SERVER@@6B@
+cinema	005ddb48			??_7cinSYSTEM@@6B@
+cinema	005ddb60			??_7cinACN_FADE@@6B@
+cinema	005ddb68			??_7cinACN_CAMERA_CUT@@6B@
+cinema	005ddb70			??_7cinACN_MUSIC@@6B@
+cinema	005ddb78			??_7cinACN_SOUND@@6B@
+cinema	005ddb80			??_7cinACN_CONTRAINT@@6B@
+cinema	005ddb88			??_7cinACN_COMMAND@@6B@
+cinema	005ddb90			??_7cinACTION@@6B@
+cinema	005ddb98			??_7cinACN_ANIMATE@@6B@
+cinema	005ddba0			??_7cinACN_DESTROY_ENT@@6B@
+cinema	005ddba8			??_7cinACN_CREATE_ENT@@6B@
+cinema	005ddbb0			??_7cinDATA_ENTITY@@6B@
+dom_misc	005ddd10			??_7domKILL_DOMAIN_LIST@@6B@
+dom_misc	005ddd88			??_7domCLN_DOMAIN_LIST@@6B@
+dom_misc	005dde00			??_7domACT_DOMAIN_LIST@@6B@
+dom_misc	005dde78			??_7domTPT_DOMAIN_LIST@@6B@
+dom_misc	005ddeec			??_7domACT_DOMAIN@@6BscnDOMAIN@@@
+dom_misc	005ddf20			??_7domACT_DOMAIN@@6BentIACTIVE_OBJ@@@
+dom_misc	005ddf6c			??_7domCLN_DOMAIN@@6BscnDOMAIN@@@
+dom_misc	005ddfa0			??_7domCLN_DOMAIN@@6BentIACTIVE_OBJ@@@
+dom_misc	005ddfe8			??_7domKILL_DOMAIN@@6BscnDOMAIN@@@
+dom_misc	005de018			??_7domKILL_DOMAIN@@6BentIACTIVE_OBJ@@@
+dom_misc	005de060			??_7domTPT_DOMAIN@@6BscnDOMAIN@@@
+dom_misc	005de090			??_7domTPT_DOMAIN@@6BentIACTIVE_OBJ@@@
+gs_init	00948118	0098E718	data-map	?gsSceneFullName@@3PADA
+gs_init	0094821c	0098E81C	data-map	?gsScenePtr@@3PAVscnSCENE@@A
+gs_init	00948220	0098E820	data-map	?gsSysMirror@@3PAVmrrMIRROR_SYSTEM@@A
+gs_init	00948224	0098E824	data-map	?gsAppState@@3HA
+gs_init	00948228	0098E828	data-map	?gsCameraPtr@@3PAVcamCAMERA@@A
+gs_init	00948230	0098E830	data-map	?gsSysSound@@3PAVgsSND_SYSTEM@@A
+gs_init	00948234	0098E834	data-map	?gsSysIFace@@3PAVgsIFACE_SYSTEM@@A
+gs_init	00948238	0098E838	data-map	?gsSysInput@@3PAVgsINP_SYSTEM@@A
+gs_init	0094823c	0098E83C	data-map	?gsSysVis@@3PAVgsVIS_SYSTEM@@A
+gs_init	00948240	0098E840	data-map	?gsSysCinema@@3PAVcinSYSTEM@@A
+gs_init	00948244	0098E844	data-map	?gsSysRender@@3PAVgsRENDER_SYSTEM@@A
+gs_init	00948248	0098E848	data-map	?gsAppSystem@@3PAVgsAPP_SYSTEM@@A
+gs_init	0094824c	0098E84C	data-map	?gsSysLevel@@3PAVgsLVL_SYSTEM@@A
+gs_msg	009482dc	0098E9F4	data-map	?gsElapsedTime@@3MA
+gs_msg	009482f4	0098EA0C	data-map	?_eioIsUpdSuspend@@3HA
+gs_msg	009482fc	0098EA14	data-map	?gsTime@@3KA
+gs_msg	00948304	0098EA1C	data-map	?gsElapsedTimeLevel@@3MA
+gs_strings	0094de5c	009946DC	data-map	?gsStrings@@3PAVgsSTRINGS@@A
+gs_saveload	00956fa8	0099D828	data-map	?gslSaveLoad@@3VgslSL@@A
+gs_cutscene	0095cc3c	009A57CC	data-map	?gspCutscene@@3PAVgsCUTSCENE@@A
+gs_demo	0095d090			?gsDemo@@3VgsDEMO@@A
+gs_demo	0095d5b8	009A8460	data-map	?gsDemoClient@@3PAVgsDEMO_CLIENT@@A
+gs_demo	0095d5bc	009A8464	data-map	?gsDemoServer@@3PAVgsDEMO_SERVER@@A
+dom_misc	00963450	009AE7A4	data-map	?domClnList@@3PAVdomCLN_DOMAIN_LIST@@A
+dom_misc	00963468	009AE7B8	data-map	?domActList@@3PAVdomACT_DOMAIN_LIST@@A
+dom_misc	00963470	009AE7BC	data-map	?domTptList@@3PAVdomTPT_DOMAIN_LIST@@A
+dom_misc	009635dc	009AE924	data-map	?domKillList@@3PAVdomKILL_DOMAIN_LIST@@A
+gs_level_prel	0052d970			_$E2
+gs_level_prel	0052e060	00543B10	exact	?_gsLvlPreloadListFind@@YIHPAVpsSHEET@@PAD@Z
+gs_demo	005293f0	0053F040	prologue?	_$E10
+gs_demo	00529ee0	0053FB00	prologue?	_$E4
+gs_vis	00522070	00537930	prologue?	_$E11
+gs_vis	00522fe0	00538910	prologue?	_$E4
+gs_vis	005235f0	00538FB0	exact	?_gsVisPropagateVisInfo@@YIHPAVobjOBJ@@@Z
+gs_level	005216c0	00536EC0	prologue?	_$E2
+gs_level	005216e0	00536EE0	prologue?	?_gsLvlLoadTexErrorCB@@YIHPAVtxmTEXTURE@@@Z
+gs_level	00521e50	00537930	prologue?	_$E14
+gs_level	00521fb0	00537870	callgraph	?_gsLvlCalcCDT2@@YIXPAVscnSCENE@@@Z
+gs_level_init	00520790			_$E4
+gs_saveload	0051ae50			_$E2
+gs_input	00516620	0052BAB0	prologue?	_$E2
+gs_domain	00512f60	00528400	prologue?	_$E4
+gs_rend	00506c50	0051C0B0	prologue?	_$E4
+gs_sound	004fe770	005115F0	prologue?	_$E2
+gs_sound	004ffce0	00512D20	prologue?	_$E10
+gs_msg	004fc900	00510CB0	exact	?_gsMsgProcessFrame@@YIXXZ
+gs_msg	004fc900	00510CB0	exact	?_gsMsgProcessFrameProfile@@YIXXZ
+gs_msg	004fc9f0	00510DC0	prologue?	_$E4
+gs_init	004fa890	0050D5D0	prologue?	_$E4
+dom_misc	00545060	0055C6B0	prologue?	_$E12
+dom_misc	005454b0	0055CB50	prologue?	_$E4
+dom_misc	005454d0	0055CB62	prologue?	_$E14
+dom_misc	005457d0	0055CE80	prologue?	_$E16
+cinema	00541eb0			_$E2
