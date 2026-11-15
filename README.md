@@ -15,6 +15,12 @@ data**, so you need your own copy of the game to be able to run it.
 Not rebuilt yet: medusa, the statues (sphinx, atlas, diskobolus, perseus), Zeus' bolt, the crossbow, acid gun, medusa gun and atomic gun,
 multiplayer play, saving/loading. About 240 functions are still stubs: a stub stops the game and names itself.
 
+# Running
+
+1. Copy `WillRock_Decomp.exe` (from Releases, or `build/rel/` after building) into the `bin` folder of your
+   Will Rock 1.2 install, next to `willrock.exe`.
+2. Double-click it: it finds the install itself and opens the real main menu.
+
 ## When it crashes
 
 Three files appear next to the exe, attach them to an issue:
