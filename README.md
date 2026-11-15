@@ -15,19 +15,6 @@ data**, so you need your own copy of the game to be able to run it.
 Not rebuilt yet: medusa, the statues (sphinx, atlas, diskobolus, perseus), Zeus' bolt, the crossbow, acid gun, medusa gun and atomic gun,
 multiplayer play, saving/loading. About 240 functions are still stubs: a stub stops the game and names itself.
 
-## Running
-
-Copy `WillRock_Decomp.exe` (from Releases) into the game's `bin` folder, next to `willrock.exe`, and start it.
-
-| option | what it does |
-|---|---|
-| `--level ../scenes/lev_2_5_coliseum.lg` | start a level directly |
-| `--nomenu` | skip the menu |
-| `--windowed` | run in a window |
-| `WR_GOD=1` (environment variable) | god mode |
-
-More options: [RUN.md](RUN.md).
-
 ## When it crashes
 
 Three files appear next to the exe, attach them to an issue:
